@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeetSci Examprep</title>
+  <style>
+    :root {
+      --bg-color: #f0f4f8;
+      --card-bg: #ffffff;
+      --text-color: #1e293b;
+      --border-color: #e2e8f0;
+      --opt-bg: #ffffff;
+      --opt-border: #cbd5e1;
+      --primary-purple: #6366f1;
+      --primary-purple-dark: #4f46e5;
+      --exp-bg: #f0fdf4;
+      --exp-border: #86efac;
+      --exp-text: #166534;
+      --stat-bg: #f8fafc;
+      --nav-bar-bg: #ffffff;
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #0b0f17;
+      --card-bg: #151c28;
+      --text-color: #f1f5f9;
+      --border-color: #1e293b;
+      --opt-bg: #0f172a;
+      --opt-border: #334155;
+      --primary-purple: #818cf8;
+      --primary-purple-dark: #6366f1;
+      --exp-bg: #062c19;
+      --exp-border: #15803d;
+      --exp-text: #86efac;
+      --stat-bg: #0f172a;
+      --nav-bar-bg: #151c28;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .app-container {
+      width: 100%;
+      max-width: 480px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 12px;
+      padding-bottom: 70px;
+    }
+
+    /* Top Header */
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 8px;
+    }
+    .brand-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary-purple);
+      margin: 0;
+    }
+    .brand-sub {
+      font-size: 11px;
+      color: #64748b;
+      margin: 0;
+    }
+    .header-actions {
+      display: flex;
+      gap: 8px;
+    }
+    .icon-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      border-radius: 20px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Subject Header */
+    .subject-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .subject-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .chapter-title {
+      font-size: 12px;
+      color: #64748b;
+      margin: 0;
+    }
+
+    /* Meta Badges */
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .q-badge {
+      background: #e0e7ff;
+      color: #3730a3;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    [data-theme="dark"] .q-badge {
+      background: #312e81;
+      color: #c7d2fe;
+    }
+    .marks-badge {
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .pos-marks { color: #16a34a; margin-right: 6px; }
+    .neg-marks { color: #dc2626; }
+
+    /* Question Box */
+    .question-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 16px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      margin-bottom: 12px;
+    }
+    .question-text {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+
+    /* Options */
+    .option-btn {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      background: var(--opt-bg);
+      color: var(--text-color);
+      border: 1.5px solid var(--opt-border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-align: left;
+      cursor: pointer;
+      box-sizing: border-box;
+      transition: all 0.2s;
+    }
+    .opt-prefix {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--bg-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 12px;
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+    .option-btn.correct {
+      border-color: #22c55e !important;
+      background: #f0fdf4 !important;
+      color: #15803d !important;
+      font-weight: 600;
+    }
+    [data-theme="dark"] .option-btn.correct {
+      background: #052e16 !important;
+      color: #86efac !important;
+    }
+    .option-btn.wrong {
+      border-color: #ef4444 !important;
+      background: #fef2f2 !important;
+      color: #b91c1c !important;
+    }
+    [data-theme="dark"] .option-btn.wrong {
+      background: #450a0a !important;
+      color: #fca5a5 !important;
+    }
+
+    /* Explanation Box */
+    .explanation-box {
+      display: none;
+      background: var(--exp-bg);
+      border: 1px solid var(--exp-border);
+      color: var(--exp-text);
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.4;
+      margin-top: 10px;
+      white-space: pre-line;
+    }
+
+    /* Stats Row */
+    .stats-card {
+      background: var(--stat-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    .stat-val { font-size: 16px; font-weight: 800; color: var(--primary-purple); }
+    .stat-lbl { font-size: 10px; color: #64748b; margin-top: 2px; }
+
+    /* Actions Row */
+    .action-row {
+      display: flex;
+      gap: 8px;
+    }
+    .act-btn {
+      flex: 1;
+      padding: 10px 0;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+    }
+    .act-btn.prev { background: var(--card-bg); border: 1px solid var(--border-color); color: var(--text-color); }
+    .act-btn.review { background: transparent; border: 1.5px solid var(--primary-purple); color: var(--primary-purple); }
+    .act-btn.next { background: var(--primary-purple); color: white; }
+
+    /* Bottom Navigation Bar */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 480px;
+      background: var(--nav-bar-bg);
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-around;
+      padding: 8px 0;
+      box-sizing: border-box;
+    }
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+      color: #64748b;
+      cursor: pointer;
+    }
+    .nav-item.active {
+      color: var(--primary-purple);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-container">
+
+  <!-- Top Header -->
+  <div class="top-header">
+    <div>
+      <h1 class="brand-title">NeetSci-Examprep</h1>
+      <p class="brand-sub">AIIMS Dream, Our Mission</p>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-btn" onclick="toggleTheme()">☀️ Day</button>
+      <button class="icon-btn" id="lang-btn" onclick="toggleLanguage()">🌐 EN</button>
+    </div>
+  </div>
+
+  <!-- Subject Row -->
+  <div class="subject-row">
+    <div>
+      <h2 class="subject-title">🌿 Biology</h2>
+      <p class="chapter-title">Human Physiology</p>
+    </div>
+    <button class="icon-btn" onclick="bookmarkQuestion()">🔖 Bookmark</button>
+  </div>
+
+  <!-- Meta Badges -->
+  <div class="meta-row">
+    <span class="q-badge" id="progress-text">Question 1 / 3</span>
+    <span class="marks-badge">
+      <span class="pos-marks">Marks: +4</span>
+      <span class="neg-marks">-1</span>
+    </span>
+  </div>
+
+  <!-- Main Question Card -->
+  <div class="question-card">
+    <div class="question-text" id="question-text">Loading question...</div>
+    <div id="options-container"></div>
+    <div class="explanation-box" id="explanation-box"></div>
+  </div>
+
+  <!-- Stats Card -->
+  <div class="stats-card">
+    <div>
+      <div class="stat-val" id="stat-answered">0</div>
+      <div class="stat-lbl">Answered</div>
+    </div>
+    <div>
+      <div class="stat-val" id="stat-progress">0%</div>
+      <div class="stat-lbl">Progress</div>
+    </div>
+    <div>
+      <div class="stat-val" id="stat-remaining">3</div>
+      <div class="stat-lbl">Remaining</div>
+    </div>
+  </div>
+
+  <!-- Bottom Action Buttons -->
+  <div class="action-row">
+    <button class="act-btn prev" id="prev-btn" onclick="prevQuestion()" disabled>← Prev</button>
+    <button class="act-btn review" onclick="markReview()">Review</button>
+    <button class="act-btn next" id="next-btn" onclick="nextQuestion()">Next →</button>
+  </div>
+
+</div>
+
+<!-- Fixed Bottom Tab Bar -->
+<div class="bottom-nav">
+  <div class="nav-item">🏠<span>Home</span></div>
+  <div class="nav-item active">🎯<span>Practice</span></div>
+  <div class="nav-item">📝<span>Test</span></div>
+  <div class="nav-item">📊<span>Analysis</span></div>
+  <div class="nav-item">👤<span>Profile</span></div>
+</div>
+
+<script>
+  let currentLang = 'en';
+  let isDarkMode = false;
+  let currentQIndex = 0;
+  let userAnswers = {};
+
+  const quizData = [
+    {
+      question: {
+        en: "The hormone which stimulates secretion of pancreatic enzymes is:",
+        hi: "अग्नाशयी एंजाइनों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?"
+      },
+      options: [
+        { en: "Secretin", hi: "सीक्रेटिन" },
+        { en: "Gastrin", hi: "गैस्ट्रिन" },
+        { en: "Cholecystokinin-Pancreozymin", hi: "कोलेसिस्टोकाइनिन-पैन्क्रियाओजाइमिन" },
+        { en: "Enterogastrone", hi: "एंटेरोगैस्ट्रोन" }
+      ],
+      answer: 2,
+      explanation: {
+        en: "Explanation:\nCholecystokinin-Pancreozymin (CCK-PZ) stimulates the secretion of pancreatic digestive enzymes. It is secreted by I-cells of the duodenum in response to fats and proteins.",
+        hi: "स्पष्टीकरण:\nकोलेसिस्टोकाइनिन-पैन्क्रियाओजाइमिन (CCK-PZ) अग्नाशयी पाचक एंजाइनों के स्राव को उत्तेजित करता है। यह वसा और प्रोटीन के जवाब में ग्रहणी (duodenum) की I-कोशिकाओं द्वारा स्रावित होता है।"
+      }
+    },
+    {
+      question: {
+        en: "Which organelle is known as the powerhouse of the cell?",
+        hi: "किस कोशिकांग को कोशिका का पावरहाउस कहा जाता है?"
+      },
+      options: [
+        { en: "Ribosome", hi: "राइबोसोम" },
+        { en: "Mitochondria", hi: "माइटोकॉन्ड्रिया" },
+        { en: "Lysosome", hi: "लाइसोसोम" },
+        { en: "Golgi apparatus", hi: "गोल्गी उपकरण" }
+      ],
+      answer: 1,
+      explanation: {
+        en: "Explanation:\nMitochondria generate ATP through cellular respiration, supplying energy for cellular processes.",
+        hi: "स्पष्टीकरण:\nमाइटोकॉन्ड्रिया कोशिकीय श्वसन के माध्यम से ATP का निर्माण करते हैं, जो कोशिकीय प्रक्रियाओं के लिए ऊर्जा प्रदान करता है।"
+      }
+    },
+    {
+      question: {
+        en: "What is the site of photosynthesis in plant cells?",
+        hi: "पादप कोशिकाओं में प्रकाश संश्लेषण का स्थान कौन सा है?"
+      },
+      options: [
+        { en: "Chloroplast", hi: "क्लोरोप्लास्ट" },
+        { en: "Nucleus", hi: "केंद्रक" },
+        { en: "Endoplasmic Reticulum", hi: "अंतर्द्रव्यी जालिका" },
+        { en: "Vacuole", hi: "रसधानी" }
+      ],
+      answer: 0,
+      explanation: {
+        en: "Explanation:\nChloroplasts contain chlorophyll pigment which captures sunlight to drive photosynthesis.",
+        hi: "स्पष्टीकरण:\nक्लोरोप्लास्ट में क्लोरोफिल वर्णक होता है जो प्रकाश संश्लेषण के लिए सूर्य के प्रकाश को अवशोषित करता है।"
+      }
+    }
+  ];
+
+  function renderQuestion() {
+    const qData = quizData[currentQIndex];
+
+    document.getElementById("progress-text").innerText = `Question ${currentQIndex + 1} / ${quizData.length}`;
+    document.getElementById("question-text").innerText = qData.question[currentLang] || qData.question.en;
+
+    const optionsContainer = document.getElementById("options-container");
+    optionsContainer.innerHTML = "";
+
+    const savedSelection = userAnswers[currentQIndex];
+
+    qData.options.forEach((opt, index) => {
+      const labelText = typeof opt === 'object' ? (opt[currentLang] || opt.en) : opt;
+      const prefix = String.fromCharCode(65 + index);
+
+      const btn = document.createElement("button");
+      btn.className = "option-btn";
+      btn.innerHTML = `<span class="opt-prefix">${prefix}</span><span>${labelText}</span>`;
+
+      if (savedSelection !== undefined) {
+        btn.disabled = true;
+        if (index === qData.answer) {
+          btn.classList.add("correct");
+        } else if (index === savedSelection) {
+          btn.classList.add("wrong");
+        }
+      } else {
+        btn.onclick = () => selectOption(index);
+      }
+
+      optionsContainer.appendChild(btn);
+    });
+
+    const expBox = document.getElementById("explanation-box");
+    if (savedSelection !== undefined) {
+      expBox.style.display = "block";
+      expBox.innerText = qData.explanation[currentLang] || qData.explanation.en;
+    } else {
+      expBox.style.display = "none";
+    }
+
+    document.getElementById("prev-btn").disabled = currentQIndex === 0;
+    document.getElementById("next-btn").innerText = currentQIndex === quizData.length - 1 ? "Finish" : "Next →";
+
+    updateStats();
+  }
+
+  function selectOption(index) {
+    userAnswers[currentQIndex] = index;
+    renderQuestion();
+  }
+
+  function updateStats() {
+    const answeredCount = Object.keys(userAnswers).length;
+    const totalCount = quizData.length;
+    const progressPct = Math.round((answeredCount / totalCount) * 100);
+
+    document.getElementById("stat-answered").innerText = answeredCount;
+    document.getElementById("stat-progress").innerText = `${progressPct}%`;
+    document.getElementById("stat-remaining").innerText = totalCount - answeredCount;
+  }
+
+  function nextQuestion() {
+    if (currentQIndex < quizData.length - 1) {
+      currentQIndex++;
+      renderQuestion();
+    } else {
+      alert("Quiz Finished!");
+    }
+  }
+
+  function prevQuestion() {
+    if (currentQIndex > 0) {
+      currentQIndex--;
+      renderQuestion();
+    }
+  }
+
+  function toggleLanguage() {
+    currentLang = currentLang === 'en' ? 'hi' : 'en';
+    document.getElementById("lang-btn").innerText = currentLang === 'en' ? "🌐 EN" : "🌐 हिंदी";
+    renderQuestion();
+  }
+
+  function toggleTheme() {
+    isDarkMode = !isDarkMode;
+    if (isDarkMode) {
+      document.documentElement.setAttribute("data-theme", "dark");
+      document.getElementById("theme-btn").innerText = "🌙 Night";
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+      document.getElementById("theme-btn").innerText = "☀️ Day";
+    }
+  }
+
+  function bookmarkQuestion() {
+    alert("Question bookmarked for later review!");
+  }
+
+  function markReview() {
+    alert("Question marked for review.");
+  }
+
+  renderQuestion();
+</script>
+
+</body>
+</html>
+
+  
