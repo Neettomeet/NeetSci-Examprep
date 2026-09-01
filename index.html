@@ -1,527 +1,675 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NeetSci Examprep</title>
-  <style>
-    :root {
-      --bg-color: #f0f4f8;
-      --card-bg: #ffffff;
-      --text-color: #1e293b;
-      --border-color: #e2e8f0;
-      --opt-bg: #ffffff;
-      --opt-border: #cbd5e1;
-      --primary-purple: #6366f1;
-      --primary-purple-dark: #4f46e5;
-      --exp-bg: #f0fdf4;
-      --exp-border: #86efac;
-      --exp-text: #166534;
-      --stat-bg: #f8fafc;
-      --nav-bar-bg: #ffffff;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeetSci-Examprep</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-page: #F4F7FB;
+            --bg-card: #FFFFFF;
+            --text-main: #0F172A;
+            --text-sub: #475569;
+            --accent-green: #10B981;
+            --accent-green-bg: #ECFDF5;
+            --accent-green-border: #059669;
+            --border-color: #E2E8F0;
+            --header-bg: #FFFFFF;
+            --pill-bg: #F1F5F9;
+            --negative-red: #EF4444;
+            --negative-bg: #FEF2F2;
+            --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+            --font-main: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        }
 
-    [data-theme="dark"] {
-      --bg-color: #0b0f17;
-      --card-bg: #151c28;
-      --text-color: #f1f5f9;
-      --border-color: #1e293b;
-      --opt-bg: #0f172a;
-      --opt-border: #334155;
-      --primary-purple: #818cf8;
-      --primary-purple-dark: #6366f1;
-      --exp-bg: #062c19;
-      --exp-border: #15803d;
-      --exp-text: #86efac;
-      --stat-bg: #0f172a;
-      --nav-bar-bg: #151c28;
-    }
+        [data-theme="dark"] {
+            --bg-page: #031428;
+            --bg-card: #081E36;
+            --text-main: #FFFFFF;
+            --text-sub: #94A3B8;
+            --accent-green: #22C55E;
+            --accent-green-bg: #064E3B;
+            --accent-green-border: #10B981;
+            --border-color: #1E293B;
+            --header-bg: #031428;
+            --pill-bg: #0F2942;
+            --negative-red: #F87171;
+            --negative-bg: #450A0A;
+            --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+        }
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      transition: background-color 0.3s, color 0.3s;
-    }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-main);
+            transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+        }
 
-    .app-container {
-      width: 100%;
-      max-width: 480px;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      box-sizing: border-box;
-      padding: 12px;
-      padding-bottom: 70px;
-    }
+        body {
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding-bottom: 75px;
+        }
 
-    /* Top Header */
-    .top-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 8px;
-    }
-    .brand-title {
-      font-size: 18px;
-      font-weight: 800;
-      color: var(--primary-purple);
-      margin: 0;
-    }
-    .brand-sub {
-      font-size: 11px;
-      color: #64748b;
-      margin: 0;
-    }
-    .header-actions {
-      display: flex;
-      gap: 8px;
-    }
-    .icon-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      color: var(--text-color);
-      border-radius: 20px;
-      padding: 6px 12px;
-      font-size: 12px;
-      font-weight: 600;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
+        .app-container {
+            width: 100%;
+            max-width: 480px;
+            background-color: var(--bg-page);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
 
-    /* Subject Header */
-    .subject-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 10px 0;
-    }
-    .subject-title {
-      font-size: 15px;
-      font-weight: 700;
-      margin: 0;
-    }
-    .chapter-title {
-      font-size: 12px;
-      color: #64748b;
-      margin: 0;
-    }
+        /* Top Bar Header */
+        header {
+            background-color: var(--header-bg);
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
 
-    /* Meta Badges */
-    .meta-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-    }
-    .q-badge {
-      background: #e0e7ff;
-      color: #3730a3;
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 12px;
-      font-weight: 700;
-    }
-    [data-theme="dark"] .q-badge {
-      background: #312e81;
-      color: #c7d2fe;
-    }
-    .marks-badge {
-      font-size: 11px;
-      font-weight: 700;
-    }
-    .pos-marks { color: #16a34a; margin-right: 6px; }
-    .neg-marks { color: #dc2626; }
+        .brand-title {
+            font-size: 1.35rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
 
-    /* Question Box */
-    .question-card {
-      background: var(--card-bg);
-      border-radius: 14px;
-      padding: 16px;
-      border: 1px solid var(--border-color);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      margin-bottom: 12px;
-    }
-    .question-text {
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 1.4;
-      margin-bottom: 16px;
-    }
+        .brand-title span {
+            color: var(--accent-green);
+        }
 
-    /* Options */
-    .option-btn {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      background: var(--opt-bg);
-      color: var(--text-color);
-      border: 1.5px solid var(--opt-border);
-      border-radius: 10px;
-      padding: 12px 14px;
-      margin-bottom: 10px;
-      font-size: 14px;
-      text-align: left;
-      cursor: pointer;
-      box-sizing: border-box;
-      transition: all 0.2s;
-    }
-    .opt-prefix {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background: var(--bg-color);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 12px;
-      margin-right: 12px;
-      flex-shrink: 0;
-    }
-    .option-btn.correct {
-      border-color: #22c55e !important;
-      background: #f0fdf4 !important;
-      color: #15803d !important;
-      font-weight: 600;
-    }
-    [data-theme="dark"] .option-btn.correct {
-      background: #052e16 !important;
-      color: #86efac !important;
-    }
-    .option-btn.wrong {
-      border-color: #ef4444 !important;
-      background: #fef2f2 !important;
-      color: #b91c1c !important;
-    }
-    [data-theme="dark"] .option-btn.wrong {
-      background: #450a0a !important;
-      color: #fca5a5 !important;
-    }
+        .brand-subtitle {
+            font-size: 0.78rem;
+            color: var(--text-sub);
+            font-weight: 500;
+        }
 
-    /* Explanation Box */
-    .explanation-box {
-      display: none;
-      background: var(--exp-bg);
-      border: 1px solid var(--exp-border);
-      color: var(--exp-text);
-      border-radius: 10px;
-      padding: 12px 14px;
-      font-size: 13px;
-      line-height: 1.4;
-      margin-top: 10px;
-      white-space: pre-line;
-    }
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-    /* Stats Row */
-    .stats-card {
-      background: var(--stat-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      display: flex;
-      justify-content: space-around;
-      padding: 10px;
-      margin-bottom: 14px;
-      text-align: center;
-    }
-    .stat-val { font-size: 16px; font-weight: 800; color: var(--primary-purple); }
-    .stat-lbl { font-size: 10px; color: #64748b; margin-top: 2px; }
+        .select-lang {
+            background-color: var(--pill-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
 
-    /* Actions Row */
-    .action-row {
-      display: flex;
-      gap: 8px;
-    }
-    .act-btn {
-      flex: 1;
-      padding: 10px 0;
-      border-radius: 10px;
-      font-size: 13px;
-      font-weight: 700;
-      border: none;
-      cursor: pointer;
-    }
-    .act-btn.prev { background: var(--card-bg); border: 1px solid var(--border-color); color: var(--text-color); }
-    .act-btn.review { background: transparent; border: 1.5px solid var(--primary-purple); color: var(--primary-purple); }
-    .act-btn.next { background: var(--primary-purple); color: white; }
+        .theme-toggle-btn {
+            background: var(--pill-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
 
-    /* Bottom Navigation Bar */
-    .bottom-nav {
-      position: fixed;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%;
-      max-width: 480px;
-      background: var(--nav-bar-bg);
-      border-top: 1px solid var(--border-color);
-      display: flex;
-      justify-content: space-around;
-      padding: 8px 0;
-      box-sizing: border-box;
-    }
-    .nav-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 10px;
-      color: #64748b;
-      cursor: pointer;
-    }
-    .nav-item.active {
-      color: var(--primary-purple);
-      font-weight: 700;
-    }
-  </style>
+        /* Subject Navigation */
+        .subject-nav {
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .subject-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .back-icon {
+            font-size: 1.3rem;
+            cursor: pointer;
+            color: var(--text-main);
+        }
+
+        .subject-name {
+            font-size: 1.25rem;
+            font-weight: 800;
+        }
+
+        .subject-topic {
+            font-size: 0.82rem;
+            color: var(--text-sub);
+            font-weight: 600;
+        }
+
+        .icon-actions {
+            display: flex;
+            gap: 16px;
+            font-size: 1.2rem;
+            color: var(--text-main);
+            cursor: pointer;
+        }
+
+        /* Status Banner */
+        .status-banner {
+            padding: 4px 20px 14px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .badge-pill {
+            background-color: var(--pill-bg);
+            color: var(--accent-green);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .marks-group {
+            display: flex;
+            gap: 8px;
+        }
+
+        .mark-badge {
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .mark-plus {
+            background-color: var(--accent-green-bg);
+            color: var(--accent-green);
+            border: 1px solid var(--accent-green);
+        }
+
+        .mark-minus {
+            background-color: var(--negative-bg);
+            color: var(--negative-red);
+            border: 1px solid var(--negative-red);
+        }
+
+        /* Main Content Container - Prioritized Space */
+        .main-content {
+            padding: 0 16px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Question Card */
+        .question-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 22px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .question-text {
+            font-size: 1.25rem; /* Larger font size */
+            font-weight: 700;
+            line-height: 1.5;
+            color: var(--text-main);
+            margin-bottom: 20px;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option-item {
+            background-color: var(--bg-card);
+            border: 1.5px solid var(--border-color);
+            border-radius: 16px;
+            padding: 16px 18px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            cursor: pointer;
+            font-size: 1.1rem; /* Larger font size */
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .option-letter {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background-color: var(--pill-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1rem;
+            flex-shrink: 0;
+            color: var(--text-main);
+        }
+
+        /* Selected State Styling */
+        .option-item.selected {
+            background-color: var(--accent-green-bg);
+            border-color: var(--accent-green-border);
+            color: var(--accent-green);
+        }
+
+        .option-item.selected .option-letter {
+            background-color: var(--accent-green);
+            color: #FFFFFF;
+        }
+
+        .check-icon {
+            margin-left: auto;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid var(--accent-green);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-green);
+            font-weight: 800;
+            font-size: 0.85rem;
+        }
+
+        /* Explanation Box */
+        .explanation-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .explanation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .explanation-title {
+            color: var(--accent-green);
+            font-size: 1.1rem;
+            font-weight: 800;
+        }
+
+        .bulb-icon {
+            font-size: 1.4rem;
+        }
+
+        .explanation-body {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--text-sub);
+            font-weight: 500;
+        }
+
+        /* Stats Component */
+        .stats-grid {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 16px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+        }
+
+        .stat-value {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--accent-green);
+        }
+
+        .stat-label {
+            font-size: 0.78rem;
+            color: var(--text-sub);
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .progress-circle-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle-progress {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: conic-gradient(var(--accent-green) 72%, var(--pill-bg) 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4px;
+        }
+
+        .circle-inner {
+            width: 48px;
+            height: 48px;
+            background-color: var(--bg-card);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.85rem;
+        }
+
+        /* Navigation Buttons */
+        .nav-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 4px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex: 1;
+        }
+
+        .btn-outline {
+            background-color: var(--bg-card);
+            color: var(--text-main);
+        }
+
+        .btn-primary {
+            background-color: var(--accent-green);
+            color: #FFFFFF;
+            border: none;
+        }
+
+        /* Fixed Bottom Tab Bar */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 480px;
+            background-color: var(--header-bg);
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            z-index: 100;
+        }
+
+        .tab-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: var(--text-sub);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .tab-item.active {
+            color: var(--accent-green);
+        }
+
+        .tab-icon {
+            font-size: 1.25rem;
+        }
+    </style>
 </head>
-<body>
+<body data-theme="dark">
 
 <div class="app-container">
+    <!-- Header -->
+    <header>
+        <div>
+            <div class="brand-title"><span>NeetSci</span>-Examprep</div>
+            <div class="brand-subtitle">Your Dream. Our Mission.</div>
+        </div>
+        <div class="header-controls">
+            <select class="select-lang" id="langSelect" onchange="toggleLanguage()">
+                <option value="EN">🌐 EN</option>
+                <option value="HI">🌐 HI</option>
+            </select>
+            <button class="theme-toggle-btn" id="themeBtn" onclick="toggleTheme()">🌙</button>
+        </div>
+    </header>
 
-  <!-- Top Header -->
-  <div class="top-header">
-    <div>
-      <h1 class="brand-title">NeetSci-Examprep</h1>
-      <p class="brand-sub">AIIMS Dream, Our Mission</p>
+    <!-- Subject Banner -->
+    <div class="subject-nav">
+        <div class="subject-info">
+            <span class="back-icon">←</span>
+            <div>
+                <div class="subject-name">🧪 Biology</div>
+                <div class="subject-topic" id="topicText">Human Physiology</div>
+            </div>
+        </div>
+        <div class="icon-actions">
+            <span>🔖</span>
+            <span>⋮</span>
+        </div>
     </div>
-    <div class="header-actions">
-      <button class="icon-btn" id="theme-btn" onclick="toggleTheme()">☀️ Day</button>
-      <button class="icon-btn" id="lang-btn" onclick="toggleLanguage()">🌐 EN</button>
+
+    <!-- Question Counter Banner -->
+    <div class="status-banner">
+        <div class="badge-pill" id="qNumText">Question 12 / 180</div>
+        <div class="marks-group">
+            <div class="mark-badge mark-plus">Marks: +4</div>
+            <div class="mark-badge mark-minus">-1 ⊕</div>
+        </div>
     </div>
-  </div>
 
-  <!-- Subject Row -->
-  <div class="subject-row">
-    <div>
-      <h2 class="subject-title">🌿 Biology</h2>
-      <p class="chapter-title">Human Physiology</p>
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Question Card (Prioritized Size & Typography) -->
+        <div class="question-card">
+            <div class="question-text" id="questionText">
+                The hormone which stimulates secretion of pancreatic enzymes is:
+            </div>
+            <div class="options-list" id="optionsContainer">
+                <div class="option-item" onclick="selectOption(this)">
+                    <div class="option-letter">A</div>
+                    <div>Secretin</div>
+                </div>
+                <div class="option-item" onclick="selectOption(this)">
+                    <div class="option-letter">B</div>
+                    <div>Gastrin</div>
+                </div>
+                <div class="option-item selected" onclick="selectOption(this)">
+                    <div class="option-letter">C</div>
+                    <div>Cholecystokinin-Pancreozymin</div>
+                    <div class="check-icon">✓</div>
+                </div>
+                <div class="option-item" onclick="selectOption(this)">
+                    <div class="option-letter">D</div>
+                    <div>Enterogastrone</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Explanation Card -->
+        <div class="explanation-card">
+            <div class="explanation-header">
+                <div class="explanation-title" id="expTitle">Explanation</div>
+                <div class="bulb-icon">💡</div>
+            </div>
+            <div class="explanation-body" id="expBody">
+                Cholecystokinin-Pancreozymin (CCK-PZ) stimulates the secretion of pancreatic enzymes. It is secreted by I-cells of the duodenum in response to fats and proteins.
+            </div>
+        </div>
+
+        <!-- Performance Stats -->
+        <div class="stats-grid">
+            <div>
+                <div class="stat-value">12</div>
+                <div class="stat-label" id="lblAnswered">Answered</div>
+            </div>
+            <div class="progress-circle-container">
+                <div class="circle-progress">
+                    <div class="circle-inner">72%</div>
+                </div>
+                <div class="stat-label" id="lblProgress">Progress</div>
+            </div>
+            <div>
+                <div class="stat-value">08</div>
+                <div class="stat-label" id="lblRemaining">Remaining</div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="nav-actions">
+            <button class="btn btn-outline" id="btnPrev">← Previous</button>
+            <button class="btn btn-outline" id="btnReview">🔖 Mark for Review</button>
+            <button class="btn btn-primary" id="btnNext">Next →</button>
+        </div>
     </div>
-    <button class="icon-btn" onclick="bookmarkQuestion()">🔖 Bookmark</button>
-  </div>
 
-  <!-- Meta Badges -->
-  <div class="meta-row">
-    <span class="q-badge" id="progress-text">Question 1 / 3</span>
-    <span class="marks-badge">
-      <span class="pos-marks">Marks: +4</span>
-      <span class="neg-marks">-1</span>
-    </span>
-  </div>
-
-  <!-- Main Question Card -->
-  <div class="question-card">
-    <div class="question-text" id="question-text">Loading question...</div>
-    <div id="options-container"></div>
-    <div class="explanation-box" id="explanation-box"></div>
-  </div>
-
-  <!-- Stats Card -->
-  <div class="stats-card">
-    <div>
-      <div class="stat-val" id="stat-answered">0</div>
-      <div class="stat-lbl">Answered</div>
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-nav">
+        <div class="tab-item">
+            <span class="tab-icon">🏠</span>
+            <span id="tabHome">Home</span>
+        </div>
+        <div class="tab-item active">
+            <span class="tab-icon">🎯</span>
+            <span id="tabPractice">Practice</span>
+        </div>
+        <div class="tab-item">
+            <span class="tab-icon">📝</span>
+            <span id="tabTest">Test</span>
+        </div>
+        <div class="tab-item">
+            <span class="tab-icon">📊</span>
+            <span id="tabAnalysis">Analysis</span>
+        </div>
+        <div class="tab-item">
+            <span class="tab-icon">👤</span>
+            <span id="tabProfile">Profile</span>
+        </div>
     </div>
-    <div>
-      <div class="stat-val" id="stat-progress">0%</div>
-      <div class="stat-lbl">Progress</div>
-    </div>
-    <div>
-      <div class="stat-val" id="stat-remaining">3</div>
-      <div class="stat-lbl">Remaining</div>
-    </div>
-  </div>
-
-  <!-- Bottom Action Buttons -->
-  <div class="action-row">
-    <button class="act-btn prev" id="prev-btn" onclick="prevQuestion()" disabled>← Prev</button>
-    <button class="act-btn review" onclick="markReview()">Review</button>
-    <button class="act-btn next" id="next-btn" onclick="nextQuestion()">Next →</button>
-  </div>
-
-</div>
-
-<!-- Fixed Bottom Tab Bar -->
-<div class="bottom-nav">
-  <div class="nav-item">🏠<span>Home</span></div>
-  <div class="nav-item active">🎯<span>Practice</span></div>
-  <div class="nav-item">📝<span>Test</span></div>
-  <div class="nav-item">📊<span>Analysis</span></div>
-  <div class="nav-item">👤<span>Profile</span></div>
 </div>
 
 <script>
-  let currentLang = 'en';
-  let isDarkMode = false;
-  let currentQIndex = 0;
-  let userAnswers = {};
-
-  const quizData = [
-    {
-      question: {
-        en: "The hormone which stimulates secretion of pancreatic enzymes is:",
-        hi: "अग्नाशयी एंजाइनों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?"
-      },
-      options: [
-        { en: "Secretin", hi: "सीक्रेटिन" },
-        { en: "Gastrin", hi: "गैस्ट्रिन" },
-        { en: "Cholecystokinin-Pancreozymin", hi: "कोलेसिस्टोकाइनिन-पैन्क्रियाओजाइमिन" },
-        { en: "Enterogastrone", hi: "एंटेरोगैस्ट्रोन" }
-      ],
-      answer: 2,
-      explanation: {
-        en: "Explanation:\nCholecystokinin-Pancreozymin (CCK-PZ) stimulates the secretion of pancreatic digestive enzymes. It is secreted by I-cells of the duodenum in response to fats and proteins.",
-        hi: "स्पष्टीकरण:\nकोलेसिस्टोकाइनिन-पैन्क्रियाओजाइमिन (CCK-PZ) अग्नाशयी पाचक एंजाइनों के स्राव को उत्तेजित करता है। यह वसा और प्रोटीन के जवाब में ग्रहणी (duodenum) की I-कोशिकाओं द्वारा स्रावित होता है।"
-      }
-    },
-    {
-      question: {
-        en: "Which organelle is known as the powerhouse of the cell?",
-        hi: "किस कोशिकांग को कोशिका का पावरहाउस कहा जाता है?"
-      },
-      options: [
-        { en: "Ribosome", hi: "राइबोसोम" },
-        { en: "Mitochondria", hi: "माइटोकॉन्ड्रिया" },
-        { en: "Lysosome", hi: "लाइसोसोम" },
-        { en: "Golgi apparatus", hi: "गोल्गी उपकरण" }
-      ],
-      answer: 1,
-      explanation: {
-        en: "Explanation:\nMitochondria generate ATP through cellular respiration, supplying energy for cellular processes.",
-        hi: "स्पष्टीकरण:\nमाइटोकॉन्ड्रिया कोशिकीय श्वसन के माध्यम से ATP का निर्माण करते हैं, जो कोशिकीय प्रक्रियाओं के लिए ऊर्जा प्रदान करता है।"
-      }
-    },
-    {
-      question: {
-        en: "What is the site of photosynthesis in plant cells?",
-        hi: "पादप कोशिकाओं में प्रकाश संश्लेषण का स्थान कौन सा है?"
-      },
-      options: [
-        { en: "Chloroplast", hi: "क्लोरोप्लास्ट" },
-        { en: "Nucleus", hi: "केंद्रक" },
-        { en: "Endoplasmic Reticulum", hi: "अंतर्द्रव्यी जालिका" },
-        { en: "Vacuole", hi: "रसधानी" }
-      ],
-      answer: 0,
-      explanation: {
-        en: "Explanation:\nChloroplasts contain chlorophyll pigment which captures sunlight to drive photosynthesis.",
-        hi: "स्पष्टीकरण:\nक्लोरोप्लास्ट में क्लोरोफिल वर्णक होता है जो प्रकाश संश्लेषण के लिए सूर्य के प्रकाश को अवशोषित करता है।"
-      }
-    }
-  ];
-
-  function renderQuestion() {
-    const qData = quizData[currentQIndex];
-
-    document.getElementById("progress-text").innerText = `Question ${currentQIndex + 1} / ${quizData.length}`;
-    document.getElementById("question-text").innerText = qData.question[currentLang] || qData.question.en;
-
-    const optionsContainer = document.getElementById("options-container");
-    optionsContainer.innerHTML = "";
-
-    const savedSelection = userAnswers[currentQIndex];
-
-    qData.options.forEach((opt, index) => {
-      const labelText = typeof opt === 'object' ? (opt[currentLang] || opt.en) : opt;
-      const prefix = String.fromCharCode(65 + index);
-
-      const btn = document.createElement("button");
-      btn.className = "option-btn";
-      btn.innerHTML = `<span class="opt-prefix">${prefix}</span><span>${labelText}</span>`;
-
-      if (savedSelection !== undefined) {
-        btn.disabled = true;
-        if (index === qData.answer) {
-          btn.classList.add("correct");
-        } else if (index === savedSelection) {
-          btn.classList.add("wrong");
+    // Theme Switcher (Day / Night Mode)
+    function toggleTheme() {
+        const body = document.body;
+        const themeBtn = document.getElementById('themeBtn');
+        if (body.getAttribute('data-theme') === 'dark') {
+            body.setAttribute('data-theme', 'light');
+            themeBtn.textContent = '☀️';
+        } else {
+            body.setAttribute('data-theme', 'dark');
+            themeBtn.textContent = '🌙';
         }
-      } else {
-        btn.onclick = () => selectOption(index);
-      }
-
-      optionsContainer.appendChild(btn);
-    });
-
-    const expBox = document.getElementById("explanation-box");
-    if (savedSelection !== undefined) {
-      expBox.style.display = "block";
-      expBox.innerText = qData.explanation[currentLang] || qData.explanation.en;
-    } else {
-      expBox.style.display = "none";
     }
 
-    document.getElementById("prev-btn").disabled = currentQIndex === 0;
-    document.getElementById("next-btn").innerText = currentQIndex === quizData.length - 1 ? "Finish" : "Next →";
-
-    updateStats();
-  }
-
-  function selectOption(index) {
-    userAnswers[currentQIndex] = index;
-    renderQuestion();
-  }
-
-  function updateStats() {
-    const answeredCount = Object.keys(userAnswers).length;
-    const totalCount = quizData.length;
-    const progressPct = Math.round((answeredCount / totalCount) * 100);
-
-    document.getElementById("stat-answered").innerText = answeredCount;
-    document.getElementById("stat-progress").innerText = `${progressPct}%`;
-    document.getElementById("stat-remaining").innerText = totalCount - answeredCount;
-  }
-
-  function nextQuestion() {
-    if (currentQIndex < quizData.length - 1) {
-      currentQIndex++;
-      renderQuestion();
-    } else {
-      alert("Quiz Finished!");
+    // Option Selection Logic
+    function selectOption(element) {
+        const options = document.querySelectorAll('.option-item');
+        options.forEach(opt => {
+            opt.classList.remove('selected');
+            const check = opt.querySelector('.check-icon');
+            if(check) check.remove();
+        });
+        
+        element.classList.add('selected');
+        const checkMark = document.createElement('div');
+        checkMark.className = 'check-icon';
+        checkMark.textContent = '✓';
+        element.appendChild(checkMark);
     }
-  }
 
-  function prevQuestion() {
-    if (currentQIndex > 0) {
-      currentQIndex--;
-      renderQuestion();
+    // Bilingual Toggle Logic
+    const translations = {
+        EN: {
+            topic: "Human Physiology",
+            qNum: "Question 12 / 180",
+            question: "The hormone which stimulates secretion of pancreatic enzymes is:",
+            optA: "Secretin", optB: "Gastrin", optC: "Cholecystokinin-Pancreozymin", optD: "Enterogastrone",
+            expTitle: "Explanation",
+            expBody: "Cholecystokinin-Pancreozymin (CCK-PZ) stimulates the secretion of pancreatic enzymes. It is secreted by I-cells of the duodenum in response to fats and proteins.",
+            lblAnswered: "Answered", lblProgress: "Progress", lblRemaining: "Remaining",
+            btnPrev: "← Previous", btnReview: "🔖 Mark for Review", btnNext: "Next →",
+            tabHome: "Home", tabPractice: "Practice", tabTest: "Test", tabAnalysis: "Analysis", tabProfile: "Profile"
+        },
+        HI: {
+            topic: "मानव शरीर क्रिया विज्ञान",
+            qNum: "प्रश्न 12 / 180",
+            question: "अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?",
+            optA: "सीक्रेटिन", optB: "गास्ट्रिन", optC: "कोलीसिस्टोकाइनिन-पैनक्रियोजाइमिन", optD: "एंटेरोगैस्ट्रोन",
+            expTitle: "व्याख्या",
+            expBody: "कोलीसिस्टोकाइनिन-पैनक्रियोजाइमिन (CCK-PZ) अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करता है। यह वसा और प्रोटीन के जवाब में ग्रहणी (duodenum) की I-कोशिकाओं द्वारा स्रावित होता है।",
+            lblAnswered: "उत्तर दिए", lblProgress: "प्रगति", lblRemaining: "शेष",
+            btnPrev: "← पिछला", btnReview: "🔖 समीक्षा के लिए सहेजें", btnNext: "अगला →",
+            tabHome: "मुख्य", tabPractice: "अभ्यास", tabTest: "परीक्षण", tabAnalysis: "विश्लेषण", tabProfile: "प्रोफ़ाइल"
+        }
+    };
+
+    function toggleLanguage() {
+        const lang = document.getElementById('langSelect').value;
+        const t = translations[lang];
+
+        document.getElementById('topicText').textContent = t.topic;
+        document.getElementById('qNumText').textContent = t.qNum;
+        document.getElementById('questionText').textContent = t.question;
+        
+        const options = document.querySelectorAll('.option-item');
+        options[0].childNodes[2].textContent = t.optA;
+        options[1].childNodes[2].textContent = t.optB;
+        options[2].childNodes[2].textContent = t.optC;
+        options[3].childNodes[2].textContent = t.optD;
+
+        document.getElementById('expTitle').textContent = t.expTitle;
+        document.getElementById('expBody').textContent = t.expBody;
+
+        document.getElementById('lblAnswered').textContent = t.lblAnswered;
+        document.getElementById('lblProgress').textContent = t.lblProgress;
+        document.getElementById('lblRemaining').textContent = t.lblRemaining;
+
+        document.getElementById('btnPrev').textContent = t.btnPrev;
+        document.getElementById('btnReview').textContent = t.btnReview;
+        document.getElementById('btnNext').textContent = t.btnNext;
+
+        document.getElementById('tabHome').textContent = t.tabHome;
+        document.getElementById('tabPractice').textContent = t.tabPractice;
+        document.getElementById('tabTest').textContent = t.tabTest;
+        document.getElementById('tabAnalysis').textContent = t.tabAnalysis;
+        document.getElementById('tabProfile').textContent = t.tabProfile;
     }
-  }
-
-  function toggleLanguage() {
-    currentLang = currentLang === 'en' ? 'hi' : 'en';
-    document.getElementById("lang-btn").innerText = currentLang === 'en' ? "🌐 EN" : "🌐 हिंदी";
-    renderQuestion();
-  }
-
-  function toggleTheme() {
-    isDarkMode = !isDarkMode;
-    if (isDarkMode) {
-      document.documentElement.setAttribute("data-theme", "dark");
-      document.getElementById("theme-btn").innerText = "🌙 Night";
-    } else {
-      document.documentElement.removeAttribute("data-theme");
-      document.getElementById("theme-btn").innerText = "☀️ Day";
-    }
-  }
-
-  function bookmarkQuestion() {
-    alert("Question bookmarked for later review!");
-  }
-
-  function markReview() {
-    alert("Question marked for review.");
-  }
-
-  renderQuestion();
 </script>
-
 </body>
 </html>
-
-  
