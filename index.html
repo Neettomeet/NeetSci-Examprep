@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>NeetSci-Examprep</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -44,7 +44,8 @@
             margin: 0;
             padding: 0;
             font-family: var(--font-main);
-            transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+            -webkit-tap-highlight-color: transparent;
+            transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
         }
 
         body {
@@ -53,7 +54,7 @@
             display: flex;
             justify-content: center;
             min-height: 100vh;
-            padding-bottom: 75px;
+            padding-bottom: 80px;
         }
 
         .app-container {
@@ -76,6 +77,7 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .brand-title {
@@ -109,14 +111,15 @@
             font-weight: 700;
             font-size: 0.85rem;
             cursor: pointer;
+            outline: none;
         }
 
         .theme-toggle-btn {
             background: var(--pill-bg);
             border: 1px solid var(--border-color);
             color: var(--text-main);
-            width: 36px;
-            height: 36px;
+            width: 38px;
+            height: 38px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -127,7 +130,7 @@
 
         /* Subject Navigation */
         .subject-nav {
-            padding: 12px 20px;
+            padding: 14px 20px 8px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -136,7 +139,7 @@
         .subject-info {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
         }
 
         .back-icon {
@@ -156,17 +159,9 @@
             font-weight: 600;
         }
 
-        .icon-actions {
-            display: flex;
-            gap: 16px;
-            font-size: 1.2rem;
-            color: var(--text-main);
-            cursor: pointer;
-        }
-
         /* Status Banner */
         .status-banner {
-            padding: 4px 20px 14px 20px;
+            padding: 8px 20px 14px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -178,7 +173,7 @@
             padding: 8px 16px;
             border-radius: 20px;
             font-weight: 700;
-            font-size: 0.95rem;
+            font-size: 0.92rem;
             border: 1px solid var(--border-color);
         }
 
@@ -188,10 +183,10 @@
         }
 
         .mark-badge {
-            padding: 8px 14px;
+            padding: 6px 12px;
             border-radius: 20px;
             font-weight: 700;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .mark-plus {
@@ -206,7 +201,7 @@
             border: 1px solid var(--negative-red);
         }
 
-        /* Main Content Container */
+        /* Main Content Container - Prioritized Space */
         .main-content {
             padding: 0 16px;
             flex: 1;
@@ -247,9 +242,10 @@
             align-items: center;
             gap: 14px;
             cursor: pointer;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             font-weight: 600;
             color: var(--text-main);
+            user-select: none;
         }
 
         .option-letter {
@@ -266,7 +262,6 @@
             color: var(--text-main);
         }
 
-        /* Selected State Styling */
         .option-item.selected {
             background-color: var(--accent-green-bg);
             border-color: var(--accent-green-border);
@@ -292,13 +287,24 @@
             font-size: 0.85rem;
         }
 
-        /* Explanation Box */
+        /* Explanation Box - Dynamic Reveal */
         .explanation-card {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: 20px;
             padding: 20px;
             box-shadow: var(--card-shadow);
+            display: none; /* Hidden until option clicked or answered */
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .explanation-card.visible {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .explanation-header {
@@ -319,7 +325,7 @@
         }
 
         .explanation-body {
-            font-size: 1rem;
+            font-size: 0.98rem;
             line-height: 1.6;
             color: var(--text-sub);
             font-weight: 500;
@@ -359,8 +365,8 @@
         }
 
         .circle-progress {
-            width: 60px;
-            height: 60px;
+            width: 58px;
+            height: 58px;
             border-radius: 50%;
             background: conic-gradient(var(--accent-green) 0%, var(--pill-bg) 0);
             display: flex;
@@ -370,8 +376,8 @@
         }
 
         .circle-inner {
-            width: 48px;
-            height: 48px;
+            width: 46px;
+            height: 46px;
             background-color: var(--bg-card);
             border-radius: 50%;
             display: flex;
@@ -386,11 +392,11 @@
             display: flex;
             gap: 10px;
             margin-top: 4px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
 
         .btn {
-            padding: 14px;
+            padding: 15px 12px;
             border-radius: 14px;
             font-weight: 700;
             font-size: 0.95rem;
@@ -399,8 +405,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
+            gap: 6px;
             flex: 1;
+            outline: none;
         }
 
         .btn-outline {
@@ -421,7 +428,7 @@
         }
 
         .btn:disabled {
-            opacity: 0.5;
+            opacity: 0.4;
             cursor: not-allowed;
         }
 
@@ -465,22 +472,22 @@
 <body data-theme="dark">
 
 <div class="app-container">
-    <!-- Header -->
+    <!-- Top Header -->
     <header>
         <div>
             <div class="brand-title"><span>NeetSci</span>-Examprep</div>
             <div class="brand-subtitle">Your Dream. Our Mission.</div>
         </div>
         <div class="header-controls">
-            <select class="select-lang" id="langSelect" onchange="toggleLanguage()">
+            <select class="select-lang" id="langSelect">
                 <option value="EN">🌐 EN</option>
                 <option value="HI">🌐 HI</option>
             </select>
-            <button class="theme-toggle-btn" id="themeBtn" onclick="toggleTheme()">🌙</button>
+            <button class="theme-toggle-btn" id="themeBtn">🌙</button>
         </div>
     </header>
 
-    <!-- Subject Banner -->
+    <!-- Subject Title -->
     <div class="subject-nav">
         <div class="subject-info">
             <span class="back-icon">←</span>
@@ -489,13 +496,10 @@
                 <div class="subject-topic" id="topicText">Human Physiology</div>
             </div>
         </div>
-        <div class="icon-actions">
-            <span id="bookmarkBtn" onclick="toggleReview()">🔖</span>
-            <span>⋮</span>
-        </div>
+        <div style="font-size: 1.2rem; cursor: pointer;">⋮</div>
     </div>
 
-    <!-- Question Counter Banner -->
+    <!-- Question Counter -->
     <div class="status-banner">
         <div class="badge-pill" id="qNumText">Question 1 / 3</div>
         <div class="marks-group">
@@ -504,21 +508,21 @@
         </div>
     </div>
 
-    <!-- Main Content Area -->
+    <!-- Main Question Area -->
     <div class="main-content">
         <!-- Question Card -->
         <div class="question-card">
-            <div class="question-text" id="questionText">Loading question...</div>
+            <div class="question-text" id="questionText">Loading...</div>
             <div class="options-list" id="optionsContainer"></div>
         </div>
 
-        <!-- Explanation Card -->
-        <div class="explanation-card">
+        <!-- Explanation Card (Pops Up on Answer) -->
+        <div class="explanation-card" id="explanationCard">
             <div class="explanation-header">
                 <div class="explanation-title" id="expTitle">Explanation</div>
                 <div class="bulb-icon">💡</div>
             </div>
-            <div class="explanation-body" id="expBody">Select an option to view explanation details.</div>
+            <div class="explanation-body" id="expBody"></div>
         </div>
 
         <!-- Performance Stats -->
@@ -539,15 +543,15 @@
             </div>
         </div>
 
-        <!-- Navigation Buttons -->
+        <!-- Action Buttons -->
         <div class="nav-actions">
-            <button class="btn btn-outline" id="btnPrev" onclick="prevQuestion()">← Previous</button>
-            <button class="btn btn-outline" id="btnReview" onclick="toggleReview()">🔖 Review</button>
-            <button class="btn btn-primary" id="btnNext" onclick="nextQuestion()">Next →</button>
+            <button class="btn btn-outline" id="btnPrev">← Previous</button>
+            <button class="btn btn-outline" id="btnReview">🔖 Mark for Review</button>
+            <button class="btn btn-primary" id="btnNext">Next →</button>
         </div>
     </div>
 
-    <!-- Bottom Navigation Bar -->
+    <!-- Bottom Navigation -->
     <div class="bottom-nav">
         <div class="tab-item">
             <span class="tab-icon">🏠</span>
@@ -573,13 +577,12 @@
 </div>
 
 <script>
-    // Sample Question Data (Expandable via Firestore in the future)
     const questions = [
         {
             topic: { EN: "Human Physiology", HI: "मानव शरीर क्रिया विज्ञान" },
             question: { 
-                EN: "1. The hormone which stimulates secretion of pancreatic enzymes is:",
-                HI: "1. अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?"
+                EN: "The hormone which stimulates secretion of pancreatic enzymes is:",
+                HI: "अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?"
             },
             options: {
                 EN: ["Secretin", "Gastrin", "Cholecystokinin-Pancreozymin", "Enterogastrone"],
@@ -594,8 +597,8 @@
         {
             topic: { EN: "Plant Physiology", HI: "पादप कार्यिकी" },
             question: {
-                EN: "2. The primary acceptor of CO2 in C4 plants is:",
-                HI: "2. C4 पौधों में CO2 का प्राथमिक प्रहणकर्ता कौन सा है?"
+                EN: "The primary acceptor of CO2 in C4 plants is:",
+                HI: "C4 पौधों में CO2 का प्राथमिक प्रहणकर्ता कौन सा है?"
             },
             options: {
                 EN: ["RuBP", "PEP (Phosphoenolpyruvate)", "OAA (Oxaloacetic acid)", "PGA"],
@@ -610,8 +613,8 @@
         {
             topic: { EN: "Genetics & Evolution", HI: "आनुवंशिकी और विकास" },
             question: {
-                EN: "3. Which of the following nitrogenous bases is NOT present in DNA?",
-                HI: "3. निम्नलिखित में से कौन सा नाइट्रोजन युक्त क्षार DNA में मौजूद नहीं होता है?"
+                EN: "Which of the following nitrogenous bases is NOT present in DNA?",
+                HI: "निम्नलिखित में से कौन सा नाइट्रोजन युक्त क्षार DNA में मौजूद नहीं होता है?"
             },
             options: {
                 EN: ["Adenine", "Guanine", "Uracil", "Thymine"],
@@ -626,14 +629,9 @@
     ];
 
     let currentIndex = 0;
-    let userAnswers = {}; // Stores selected index per question
-    let reviewStatus = {}; // Stores review toggle per question
+    let userAnswers = {};
+    let reviewStatus = {};
     let currentLang = 'EN';
-
-    function initApp() {
-        renderQuestion();
-        updateStats();
-    }
 
     function renderQuestion() {
         const q = questions[currentIndex];
@@ -643,8 +641,8 @@
 
         const container = document.getElementById('optionsContainer');
         container.innerHTML = '';
-
         const letters = ['A', 'B', 'C', 'D'];
+
         q.options[currentLang].forEach((opt, index) => {
             const item = document.createElement('div');
             item.className = 'option-item';
@@ -652,66 +650,48 @@
                 item.classList.add('selected');
             }
 
-            item.onclick = () => selectOption(index);
+            item.onclick = function() {
+                userAnswers[currentIndex] = index;
+                renderQuestion();
+                updateStats();
+            };
 
             item.innerHTML = `
                 <div class="option-letter">${letters[index]}</div>
-                <div>${opt}</div>
+                <div style="flex:1;">${opt}</div>
                 ${userAnswers[currentIndex] === index ? '<div class="check-icon">✓</div>' : ''}
             `;
             container.appendChild(item);
         });
 
-        // Explanation rendering
+        // Explanation dynamic pop-up
+        const expCard = document.getElementById('explanationCard');
         const expBody = document.getElementById('expBody');
         if (userAnswers[currentIndex] !== undefined) {
             expBody.textContent = q.explanation[currentLang];
+            expCard.classList.add('visible');
         } else {
-            expBody.textContent = currentLang === 'EN' 
-                ? "Select an option to view explanation details." 
-                : "व्याख्या विवरण देखने के लिए एक विकल्प चुनें।";
+            expCard.classList.remove('visible');
         }
 
-        // Navigation state
+        // Navigation state updates
         document.getElementById('btnPrev').disabled = (currentIndex === 0);
-        document.getElementById('btnNext').textContent = (currentIndex === questions.length - 1) 
-            ? (currentLang === 'EN' ? "Finish" : "समाप्त") 
-            : (currentLang === 'EN' ? "Next →" : "अगला →");
+        
+        const nextBtn = document.getElementById('btnNext');
+        if (currentIndex === questions.length - 1) {
+            nextBtn.textContent = currentLang === 'EN' ? "Finish" : "समाप्त";
+        } else {
+            nextBtn.textContent = currentLang === 'EN' ? "Next →" : "अगला →";
+        }
 
-        // Review button state
         const reviewBtn = document.getElementById('btnReview');
         if (reviewStatus[currentIndex]) {
             reviewBtn.classList.add('reviewed');
+            reviewBtn.textContent = currentLang === 'EN' ? "✓ Reviewed" : "✓ समीक्षित";
         } else {
             reviewBtn.classList.remove('reviewed');
+            reviewBtn.textContent = currentLang === 'EN' ? "🔖 Mark for Review" : "🔖 समीक्षा के लिए सहेजें";
         }
-    }
-
-    function selectOption(index) {
-        userAnswers[currentIndex] = index;
-        renderQuestion();
-        updateStats();
-    }
-
-    function prevQuestion() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            renderQuestion();
-        }
-    }
-
-    function nextQuestion() {
-        if (currentIndex < questions.length - 1) {
-            currentIndex++;
-            renderQuestion();
-        } else {
-            alert(currentLang === 'EN' ? "Practice session completed!" : "अभ्यास सत्र पूरा हो गया!");
-        }
-    }
-
-    function toggleReview() {
-        reviewStatus[currentIndex] = !reviewStatus[currentIndex];
-        renderQuestion();
     }
 
     function updateStats() {
@@ -728,32 +708,51 @@
         circle.style.background = `conic-gradient(var(--accent-green) ${progressPct}%, var(--pill-bg) 0)`;
     }
 
-    // Theme Switcher
-    function toggleTheme() {
+    // Attach Event Handlers
+    document.getElementById('btnNext').onclick = function() {
+        if (currentIndex < questions.length - 1) {
+            currentIndex++;
+            renderQuestion();
+        } else {
+            alert(currentLang === 'EN' ? "Exam completed!" : "परीक्षा पूरी हुई!");
+        }
+    };
+
+    document.getElementById('btnPrev').onclick = function() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            renderQuestion();
+        }
+    };
+
+    document.getElementById('btnReview').onclick = function() {
+        reviewStatus[currentIndex] = !reviewStatus[currentIndex];
+        renderQuestion();
+    };
+
+    document.getElementById('themeBtn').onclick = function() {
         const body = document.body;
-        const themeBtn = document.getElementById('themeBtn');
         if (body.getAttribute('data-theme') === 'dark') {
             body.setAttribute('data-theme', 'light');
-            themeBtn.textContent = '☀️';
+            this.textContent = '☀️';
         } else {
             body.setAttribute('data-theme', 'dark');
-            themeBtn.textContent = '🌙';
+            this.textContent = '🌙';
         }
-    }
+    };
 
-    // Language Switcher
-    function toggleLanguage() {
-        currentLang = document.getElementById('langSelect').value;
+    document.getElementById('langSelect').onchange = function() {
+        currentLang = this.value;
         const uiText = {
             EN: {
                 expTitle: "Explanation", lblAnswered: "Answered", lblProgress: "Progress", 
-                lblRemaining: "Remaining", btnPrev: "← Previous", btnReview: "🔖 Review",
-                tabHome: "Home", tabPractice: "Practice", tabTest: "Test", tabAnalysis: "Analysis", tabProfile: "Profile"
+                lblRemaining: "Remaining", tabHome: "Home", tabPractice: "Practice", 
+                tabTest: "Test", tabAnalysis: "Analysis", tabProfile: "Profile"
             },
             HI: {
                 expTitle: "व्याख्या", lblAnswered: "उत्तर दिए", lblProgress: "प्रगति", 
-                lblRemaining: "शेष", btnPrev: "← पिछला", btnReview: "🔖 समीक्षा",
-                tabHome: "मुख्य", tabPractice: "अभ्यास", tabTest: "परीक्षण", tabAnalysis: "विश्लेषण", tabProfile: "प्रोफ़ाइल"
+                lblRemaining: "शेष", tabHome: "मुख्य", tabPractice: "अभ्यास", 
+                tabTest: "परीक्षण", tabAnalysis: "विश्लेषण", tabProfile: "प्रोफ़ाइल"
             }
         };
 
@@ -762,7 +761,6 @@
         document.getElementById('lblAnswered').textContent = t.lblAnswered;
         document.getElementById('lblProgress').textContent = t.lblProgress;
         document.getElementById('lblRemaining').textContent = t.lblRemaining;
-        document.getElementById('btnReview').textContent = t.btnReview;
 
         document.getElementById('tabHome').textContent = t.tabHome;
         document.getElementById('tabPractice').textContent = t.tabPractice;
@@ -771,10 +769,11 @@
         document.getElementById('tabProfile').textContent = t.tabProfile;
 
         renderQuestion();
-    }
+    };
 
-    // Initialize on page load
-    window.onload = initApp;
+    // Run on startup
+    renderQuestion();
+    updateStats();
 </script>
 </body>
 </html>
