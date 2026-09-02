@@ -201,7 +201,7 @@
             border: 1px solid var(--negative-red);
         }
 
-        /* Main Content Container - Prioritized Space */
+        /* Main Content Container */
         .main-content {
             padding: 0 16px;
             flex: 1;
@@ -262,14 +262,26 @@
             color: var(--text-main);
         }
 
-        .option-item.selected {
+        /* Correct / Wrong Highlight Styles */
+        .option-item.correct {
             background-color: var(--accent-green-bg);
             border-color: var(--accent-green-border);
             color: var(--accent-green);
         }
 
-        .option-item.selected .option-letter {
+        .option-item.correct .option-letter {
             background-color: var(--accent-green);
+            color: #FFFFFF;
+        }
+
+        .option-item.wrong {
+            background-color: var(--negative-bg);
+            border-color: var(--negative-red);
+            color: var(--negative-red);
+        }
+
+        .option-item.wrong .option-letter {
+            background-color: var(--negative-red);
             color: #FFFFFF;
         }
 
@@ -287,14 +299,28 @@
             font-size: 0.85rem;
         }
 
-        /* Explanation Box - Dynamic Reveal */
+        .cross-icon {
+            margin-left: auto;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid var(--negative-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--negative-red);
+            font-weight: 800;
+            font-size: 0.85rem;
+        }
+
+        /* Explanation Box */
         .explanation-card {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: 20px;
             padding: 20px;
             box-shadow: var(--card-shadow);
-            display: none; /* Hidden until option clicked or answered */
+            display: none;
             animation: fadeIn 0.3s ease-in-out;
         }
 
@@ -387,7 +413,7 @@
             font-size: 0.85rem;
         }
 
-        /* Navigation Buttons */
+        /* Action Buttons */
         .nav-actions {
             display: flex;
             gap: 10px;
@@ -432,7 +458,7 @@
             cursor: not-allowed;
         }
 
-        /* Fixed Bottom Tab Bar */
+        /* Bottom Tab Bar */
         .bottom-nav {
             position: fixed;
             bottom: 0;
@@ -516,7 +542,7 @@
             <div class="options-list" id="optionsContainer"></div>
         </div>
 
-        <!-- Explanation Card (Pops Up on Answer) -->
+        <!-- Explanation Card (Pops Up on Answer Selection) -->
         <div class="explanation-card" id="explanationCard">
             <div class="explanation-header">
                 <div class="explanation-title" id="expTitle">Explanation</div>
@@ -642,12 +668,23 @@
         const container = document.getElementById('optionsContainer');
         container.innerHTML = '';
         const letters = ['A', 'B', 'C', 'D'];
+        const selectedIndex = userAnswers[currentIndex];
 
         q.options[currentLang].forEach((opt, index) => {
             const item = document.createElement('div');
             item.className = 'option-item';
-            if (userAnswers[currentIndex] === index) {
-                item.classList.add('selected');
+            
+            let statusIcon = '';
+
+            // Answer validation logic: Correct (Green) vs Wrong (Red)
+            if (selectedIndex !== undefined) {
+                if (index === q.correct) {
+                    item.classList.add('correct');
+                    statusIcon = '<div class="check-icon">✓</div>';
+                } else if (index === selectedIndex && selectedIndex !== q.correct) {
+                    item.classList.add('wrong');
+                    statusIcon = '<div class="cross-icon">✕</div>';
+                }
             }
 
             item.onclick = function() {
@@ -659,12 +696,12 @@
             item.innerHTML = `
                 <div class="option-letter">${letters[index]}</div>
                 <div style="flex:1;">${opt}</div>
-                ${userAnswers[currentIndex] === index ? '<div class="check-icon">✓</div>' : ''}
+                ${statusIcon}
             `;
             container.appendChild(item);
         });
 
-        // Explanation dynamic pop-up
+        // Explanation display control
         const expCard = document.getElementById('explanationCard');
         const expBody = document.getElementById('expBody');
         if (userAnswers[currentIndex] !== undefined) {
