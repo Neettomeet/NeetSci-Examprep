@@ -7,19 +7,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-page: #F4F7FB;
+            --bg-page: #F8FAFC;
             --bg-card: #FFFFFF;
             --text-main: #0F172A;
-            --text-sub: #475569;
-            --accent-green: #10B981;
-            --accent-green-bg: #ECFDF5;
-            --accent-green-border: #059669;
+            --text-sub: #64748B;
             --border-color: #E2E8F0;
             --header-bg: #FFFFFF;
             --pill-bg: #F1F5F9;
+
+            --bio-color: #16A34A;
+            --bio-bg: linear-gradient(135deg, #F0FDF4 0%, #DCFCE7 100%);
+            --bio-border: #22C55E;
+            --bio-pill-bg: #DCFCE7;
+            --bio-pill-text: #15803D;
+
+            --phy-color: #2563EB;
+            --phy-bg: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+            --phy-border: #3B82F6;
+            --phy-pill-bg: #DBEAFE;
+            --phy-pill-text: #1D4ED8;
+
+            --che-color: #9333EA;
+            --che-bg: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%);
+            --che-border: #A855F7;
+            --che-pill-bg: #F3E8FF;
+            --che-pill-text: #7E22CE;
+
             --negative-red: #EF4444;
             --negative-bg: #FEF2F2;
-            --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+            --card-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
             --font-main: 'Plus Jakarta Sans', -apple-system, sans-serif;
         }
 
@@ -28,15 +44,25 @@
             --bg-card: #081E36;
             --text-main: #FFFFFF;
             --text-sub: #94A3B8;
-            --accent-green: #22C55E;
-            --accent-green-bg: #064E3B;
-            --accent-green-border: #10B981;
             --border-color: #1E293B;
             --header-bg: #031428;
             --pill-bg: #0F2942;
+
+            --bio-bg: linear-gradient(135deg, #064E3B 0%, #022C22 100%);
+            --bio-pill-bg: rgba(6, 78, 59, 0.6);
+            --bio-pill-text: #4ADE80;
+
+            --phy-bg: linear-gradient(135deg, #1E3A8A 0%, #172554 100%);
+            --phy-pill-bg: rgba(30, 58, 138, 0.6);
+            --phy-pill-text: #60A5FA;
+
+            --che-bg: linear-gradient(135deg, #581C87 0%, #3B0764 100%);
+            --che-pill-bg: rgba(88, 28, 135, 0.6);
+            --che-pill-text: #C084FC;
+
             --negative-red: #F87171;
             --negative-bg: #450A0A;
-            --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+            --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
         }
 
         * {
@@ -48,13 +74,20 @@
             transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
         }
 
-        body {
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            min-height: 100vh;
             background-color: var(--bg-page);
+            overflow-x: hidden;
+        }
+
+        body {
             color: var(--text-main);
             display: flex;
             justify-content: center;
-            min-height: 100vh;
-            padding-bottom: 80px;
+            padding-bottom: 80px !important;
         }
 
         .app-container {
@@ -65,12 +98,13 @@
             display: flex;
             flex-direction: column;
             position: relative;
+            margin: 0 auto;
         }
 
-        /* Top Header */
+        /* Header */
         header {
             background-color: var(--header-bg);
-            padding: 14px 20px;
+            padding: 16px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -81,19 +115,20 @@
         }
 
         .brand-title {
-            font-size: 1.35rem;
+            font-size: 1.4rem;
             font-weight: 800;
             letter-spacing: -0.5px;
         }
 
         .brand-title span {
-            color: var(--accent-green);
+            color: var(--bio-color);
         }
 
         .brand-subtitle {
-            font-size: 0.78rem;
+            font-size: 0.8rem;
             color: var(--text-sub);
             font-weight: 500;
+            margin-top: 2px;
         }
 
         .header-controls {
@@ -106,7 +141,7 @@
             background-color: var(--pill-bg);
             border: 1px solid var(--border-color);
             color: var(--text-main);
-            padding: 6px 12px;
+            padding: 6px 14px;
             border-radius: 20px;
             font-weight: 700;
             font-size: 0.85rem;
@@ -128,7 +163,191 @@
             cursor: pointer;
         }
 
-        /* Subject Navigation & Timer */
+        /* Subject Selection Screen */
+        .dashboard-container {
+            padding: 24px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .header-title-section {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 4px;
+        }
+
+        .header-icon-circle {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: #DCFCE7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            flex-shrink: 0;
+        }
+
+        [data-theme="dark"] .header-icon-circle {
+            background-color: #064E3B;
+        }
+
+        .page-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .page-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        .subject-card {
+            background: var(--bio-bg);
+            border: 1px solid var(--border-color);
+            border-left: 6px solid var(--bio-border);
+            border-radius: 22px;
+            padding: 20px;
+            box-shadow: var(--card-shadow);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .subject-card.physics-card {
+            background: var(--phy-bg);
+            border-left-color: var(--phy-border);
+        }
+
+        .subject-card.chemistry-card {
+            background: var(--che-bg);
+            border-left-color: var(--che-border);
+        }
+
+        .card-left-group {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            z-index: 2;
+        }
+
+        .subject-icon-box {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            flex-shrink: 0;
+        }
+
+        [data-theme="dark"] .subject-icon-box {
+            background-color: rgba(15, 41, 66, 0.85);
+        }
+
+        .card-content h3 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 2px;
+        }
+
+        .card-content .sub-desc {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--text-main);
+            opacity: 0.9;
+        }
+
+        .card-content .sub-detail {
+            font-size: 0.8rem;
+            color: var(--text-sub);
+            margin-top: 2px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .feature-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            width: fit-content;
+        }
+
+        .bio-pill { background-color: var(--bio-pill-bg); color: var(--bio-pill-text); }
+        .phy-pill { background-color: var(--phy-pill-bg); color: var(--phy-pill-text); }
+        .che-pill { background-color: var(--che-pill-bg); color: var(--che-pill-text); }
+
+        .action-arrow {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background-color: var(--bio-color);
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            font-weight: 800;
+            flex-shrink: 0;
+            z-index: 2;
+            box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+        }
+
+        .physics-card .action-arrow { background-color: var(--phy-color); box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25); }
+        .chemistry-card .action-arrow { background-color: var(--che-color); box-shadow: 0 4px 12px rgba(147, 51, 234, 0.25); }
+
+        .motivation-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: var(--card-shadow);
+            margin-top: 6px;
+        }
+
+        .motivation-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .star-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: #FEF3C7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        [data-theme="dark"] .star-icon { background-color: #78350F; }
+
+        .motivation-text h5 { font-size: 0.88rem; font-weight: 800; color: var(--text-main); }
+        .motivation-text p { font-size: 0.8rem; color: var(--text-sub); margin-top: 2px; font-weight: 500; }
+        .trophy-icon { font-size: 2.2rem; }
+
+        /* Practice Quiz Screen */
         .subject-nav {
             padding: 14px 20px 8px 20px;
             display: flex;
@@ -142,22 +361,9 @@
             gap: 12px;
         }
 
-        .back-icon {
-            font-size: 1.3rem;
-            cursor: pointer;
-            color: var(--text-main);
-        }
-
-        .subject-name {
-            font-size: 1.25rem;
-            font-weight: 800;
-        }
-
-        .subject-topic {
-            font-size: 0.82rem;
-            color: var(--text-sub);
-            font-weight: 600;
-        }
+        .back-icon { font-size: 1.3rem; cursor: pointer; color: var(--text-main); }
+        .subject-name { font-size: 1.25rem; font-weight: 800; }
+        .subject-topic { font-size: 0.82rem; color: var(--text-sub); font-weight: 600; }
 
         .timer-badge {
             background-color: var(--pill-bg);
@@ -166,12 +372,8 @@
             border-radius: 16px;
             font-weight: 700;
             font-size: 0.88rem;
-            display: flex;
-            align-items: center;
-            gap: 6px;
         }
 
-        /* Status Banner */
         .status-banner {
             padding: 8px 20px 14px 20px;
             display: flex;
@@ -181,7 +383,7 @@
 
         .badge-pill {
             background-color: var(--pill-bg);
-            color: var(--accent-green);
+            color: var(--bio-color);
             padding: 8px 16px;
             border-radius: 20px;
             font-weight: 700;
@@ -189,10 +391,7 @@
             border: 1px solid var(--border-color);
         }
 
-        .marks-group {
-            display: flex;
-            gap: 8px;
-        }
+        .marks-group { display: flex; gap: 8px; }
 
         .mark-badge {
             padding: 6px 12px;
@@ -201,19 +400,11 @@
             font-size: 0.85rem;
         }
 
-        .mark-plus {
-            background-color: var(--accent-green-bg);
-            color: var(--accent-green);
-            border: 1px solid var(--accent-green);
-        }
+        .mark-plus { background-color: #DCFCE7; color: var(--bio-color); border: 1px solid var(--bio-color); }
+        [data-theme="dark"] .mark-plus { background-color: #064E3B; }
 
-        .mark-minus {
-            background-color: var(--negative-bg);
-            color: var(--negative-red);
-            border: 1px solid var(--negative-red);
-        }
+        .mark-minus { background-color: var(--negative-bg); color: var(--negative-red); border: 1px solid var(--negative-red); }
 
-        /* Main Content Container */
         .main-content {
             padding: 0 16px;
             flex: 1;
@@ -222,7 +413,6 @@
             gap: 16px;
         }
 
-        /* Question Card */
         .question-card {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -274,15 +464,16 @@
             color: var(--text-main);
         }
 
-        /* Correct / Wrong Highlight Styles */
         .option-item.correct {
-            background-color: var(--accent-green-bg);
-            border-color: var(--accent-green-border);
-            color: var(--accent-green);
+            background-color: #DCFCE7;
+            border-color: var(--bio-color);
+            color: var(--bio-color);
         }
 
+        [data-theme="dark"] .option-item.correct { background-color: #064E3B; }
+
         .option-item.correct .option-letter {
-            background-color: var(--accent-green);
+            background-color: var(--bio-color);
             color: #FFFFFF;
         }
 
@@ -297,35 +488,21 @@
             color: #FFFFFF;
         }
 
-        .check-icon {
+        .check-icon, .cross-icon {
             margin-left: auto;
             width: 24px;
             height: 24px;
             border-radius: 50%;
-            border: 2px solid var(--accent-green);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--accent-green);
             font-weight: 800;
             font-size: 0.85rem;
         }
 
-        .cross-icon {
-            margin-left: auto;
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            border: 2px solid var(--negative-red);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--negative-red);
-            font-weight: 800;
-            font-size: 0.85rem;
-        }
+        .check-icon { border: 2px solid var(--bio-color); color: var(--bio-color); }
+        .cross-icon { border: 2px solid var(--negative-red); color: var(--negative-red); }
 
-        /* Explanation Box */
         .explanation-card {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -333,33 +510,15 @@
             padding: 20px;
             box-shadow: var(--card-shadow);
             display: none;
-            animation: fadeIn 0.3s ease-in-out;
         }
 
-        .explanation-card.visible {
-            display: block;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(6px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .explanation-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
+        .explanation-card.visible { display: block; }
 
         .explanation-title {
-            color: var(--accent-green);
+            color: var(--bio-color);
             font-size: 1.1rem;
             font-weight: 800;
-        }
-
-        .bulb-icon {
-            font-size: 1.4rem;
+            margin-bottom: 8px;
         }
 
         .explanation-body {
@@ -369,7 +528,6 @@
             font-weight: 500;
         }
 
-        /* Stats Component */
         .stats-grid {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -382,31 +540,20 @@
             box-shadow: var(--card-shadow);
         }
 
-        .stat-value {
-            font-size: 1.35rem;
-            font-weight: 800;
-            color: var(--accent-green);
-        }
-
-        .stat-label {
-            font-size: 0.78rem;
-            color: var(--text-sub);
-            font-weight: 600;
-            margin-top: 2px;
-        }
+        .stat-value { font-size: 1.35rem; font-weight: 800; color: var(--bio-color); }
+        .stat-label { font-size: 0.78rem; color: var(--text-sub); font-weight: 600; margin-top: 2px; }
 
         .progress-circle-container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
         }
 
         .circle-progress {
             width: 58px;
             height: 58px;
             border-radius: 50%;
-            background: conic-gradient(var(--accent-green) 0%, var(--pill-bg) 0);
+            background: conic-gradient(var(--bio-color) 0%, var(--pill-bg) 0);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -425,55 +572,34 @@
             font-size: 0.85rem;
         }
 
-        /* Result Summary Modal Card */
         .result-card {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
             border-radius: 20px;
             padding: 24px;
             text-align: center;
-            display: none;
             box-shadow: var(--card-shadow);
+            width: 100%;
         }
 
-        .result-card.visible {
-            display: block;
-        }
-
-        .result-title {
-            font-size: 1.5rem;
-            font-weight: 800;
-            margin-bottom: 6px;
-        }
-
-        .result-score {
-            font-size: 2.2rem;
-            font-weight: 800;
-            color: var(--accent-green);
-            margin: 14px 0;
-        }
+        .result-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; }
 
         .result-stats-row {
             display: flex;
             justify-content: space-around;
-            margin: 20px 0;
+            margin: 18px 0;
             padding: 14px;
             background-color: var(--pill-bg);
             border-radius: 16px;
         }
 
-        .result-stat-item {
+        .result-actions-column {
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 10px;
+            margin-top: 15px;
         }
 
-        .result-num {
-            font-size: 1.2rem;
-            font-weight: 800;
-        }
-
-        /* Action Buttons */
         .nav-actions {
             display: flex;
             gap: 10px;
@@ -491,34 +617,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 6px;
             flex: 1;
             outline: none;
         }
 
-        .btn-outline {
-            background-color: var(--bg-card);
-            color: var(--text-main);
-        }
+        .btn-outline { background-color: var(--bg-card); color: var(--text-main); }
+        .btn-primary { background-color: var(--bio-color); color: #FFFFFF; border: none; }
+        .btn-secondary { background-color: var(--pill-bg); color: var(--text-main); border: 1px solid var(--border-color); }
 
-        .btn-outline.reviewed {
-            border-color: #F59E0B;
-            color: #F59E0B;
-            background-color: rgba(245, 158, 11, 0.1);
-        }
-
-        .btn-primary {
-            background-color: var(--accent-green);
-            color: #FFFFFF;
-            border: none;
-        }
-
-        .btn:disabled {
-            opacity: 0.4;
-            cursor: not-allowed;
-        }
-
-        /* Bottom Tab Bar */
+        /* Bottom Tab Nav Bar */
         .bottom-nav {
             position: fixed;
             bottom: 0;
@@ -530,7 +637,7 @@
             border-top: 1px solid var(--border-color);
             display: flex;
             justify-content: space-around;
-            padding: 10px 0;
+            padding: 12px 0;
             z-index: 100;
         }
 
@@ -546,139 +653,618 @@
             cursor: pointer;
         }
 
-        .tab-item.active {
-            color: var(--accent-green);
-        }
-
-        .tab-icon {
-            font-size: 1.25rem;
-        }
+        .tab-item.active { color: var(--bio-color); }
+        .tab-icon { font-size: 1.25rem; }
     </style>
 </head>
-<body data-theme="dark">
+<body data-theme="light">
 
 <div class="app-container">
-    <!-- Top Header -->
     <header>
         <div>
             <div class="brand-title"><span>NeetSci</span>-Examprep</div>
-            <div class="brand-subtitle">Your Dream. Our Mission.</div>
+            <div class="brand-subtitle" id="brandSubtitle">Your Dream. Our Mission.</div>
         </div>
         <div class="header-controls">
             <select class="select-lang" id="langSelect">
-                <option value="EN">🌐 EN</option>
-                <option value="HI">🌐 HI</option>
+                <option value="EN">EN</option>
+                <option value="HI">HI</option>
             </select>
-            <button class="theme-toggle-btn" id="themeBtn">🌙</button>
+            <button class="theme-toggle-btn" id="themeBtn">☀️</button>
         </div>
     </header>
 
-    <!-- Subject Title & Timer -->
-    <div class="subject-nav">
-        <div class="subject-info">
-            <span class="back-icon">←</span>
+    <!-- SCREEN 1: Subject Selector -->
+    <div id="dashboardScreen" class="dashboard-container">
+        <div class="header-title-section">
+            <div class="header-icon-circle">🎓</div>
             <div>
-                <div class="subject-name" id="subjectTitle">🧪 Biology</div>
-                <div class="subject-topic" id="topicText">Human Physiology</div>
+                <div class="page-title" id="pageTitle">Select Subject</div>
+                <div class="page-subtitle" id="pageSubtitle">Choose a subject to start your practice</div>
             </div>
         </div>
-        <div class="timer-badge">
-            <span>⏱️</span>
-            <span id="timerText">00:00</span>
-        </div>
-    </div>
 
-    <!-- Question Counter -->
-    <div class="status-banner" id="statusBanner">
-        <div class="badge-pill" id="qNumText">Question 1 / 5</div>
-        <div class="marks-group">
-            <div class="mark-badge mark-plus">Marks: +4</div>
-            <div class="mark-badge mark-minus">-1 ⊕</div>
-        </div>
-    </div>
-
-    <!-- Main Practice View -->
-    <div class="main-content" id="practiceContainer">
-        <!-- Question Card -->
-        <div class="question-card">
-            <div class="question-text" id="questionText">Loading...</div>
-            <div class="options-list" id="optionsContainer"></div>
-        </div>
-
-        <!-- Explanation Card -->
-        <div class="explanation-card" id="explanationCard">
-            <div class="explanation-header">
-                <div class="explanation-title" id="expTitle">Explanation</div>
-                <div class="bulb-icon">💡</div>
-            </div>
-            <div class="explanation-body" id="expBody"></div>
-        </div>
-
-        <!-- Performance Stats -->
-        <div class="stats-grid">
-            <div>
-                <div class="stat-value" id="valAnswered">0</div>
-                <div class="stat-label" id="lblAnswered">Answered</div>
-            </div>
-            <div class="progress-circle-container">
-                <div class="circle-progress" id="progressCircle">
-                    <div class="circle-inner" id="valProgress">0%</div>
+        <div class="subject-card" onclick="startPracticeMode('BIO')">
+            <div class="card-left-group">
+                <div class="subject-icon-box" style="color: var(--bio-color);">🔬</div>
+                <div class="card-content">
+                    <h3 style="color: var(--bio-color);" id="bioTitle">Biology</h3>
+                    <div class="sub-desc" id="bioSubDesc">Botany & Zoology</div>
+                    <div class="sub-detail" id="bioDetail">Complete NCERT based practice</div>
+                    <div class="feature-pill bio-pill" id="bioPill">📖 Chapters • NCERT • PYQs</div>
                 </div>
-                <div class="stat-label" id="lblProgress">Progress</div>
             </div>
-            <div>
-                <div class="stat-value" id="valRemaining">5</div>
-                <div class="stat-label" id="lblRemaining">Remaining</div>
-            </div>
+            <div class="action-arrow">›</div>
         </div>
 
-        <!-- Action Buttons -->
-        <div class="nav-actions">
-            <button class="btn btn-outline" id="btnPrev">← Previous</button>
-            <button class="btn btn-outline" id="btnReview">🔖 Mark for Review</button>
-            <button class="btn btn-primary" id="btnNext">Next →</button>
+        <div class="subject-card physics-card" onclick="startPracticeMode('PHY')">
+            <div class="card-left-group">
+                <div class="subject-icon-box" style="color: var(--phy-color);">⚛️</div>
+                <div class="card-content">
+                    <h3 style="color: var(--phy-color);" id="phyTitle">Physics</h3>
+                    <div class="sub-desc" id="phySubDesc">Mechanics, Electrostatics & Optics</div>
+                    <div class="sub-detail" id="phyDetail">Concepts • Formulas • Practice</div>
+                    <div class="feature-pill phy-pill" id="phyPill">📖 Chapters • NCERT • PYQs</div>
+                </div>
+            </div>
+            <div class="action-arrow">›</div>
+        </div>
+
+        <div class="subject-card chemistry-card" onclick="startPracticeMode('CHE')">
+            <div class="card-left-group">
+                <div class="subject-icon-box" style="color: var(--che-color);">🧪</div>
+                <div class="card-content">
+                    <h3 style="color: var(--che-color);" id="cheTitle">Chemistry</h3>
+                    <div class="sub-desc" id="cheSubDesc">Organic, Inorganic & Physical</div>
+                    <div class="sub-detail" id="cheDetail">Reactions • Concepts • Practice</div>
+                    <div class="feature-pill che-pill" id="chePill">📖 Chapters • NCERT • PYQs</div>
+                </div>
+            </div>
+            <div class="action-arrow">›</div>
+        </div>
+
+        <div class="motivation-card">
+            <div class="motivation-left">
+                <div class="star-icon">⭐</div>
+                <div class="motivation-text">
+                    <h5 id="motiveTitle">All India Rank starts with consistent practice.</h5>
+                    <p id="motiveSub">You've got this! Keep going!</p>
+                </div>
+            </div>
+            <div class="trophy-icon">🏆</div>
         </div>
     </div>
 
-    <!-- Result Summary View (Triggers on Quiz Completion) -->
-    <div class="main-content" id="resultContainer" style="display: none;">
-        <div class="result-card visible">
+    <!-- SCREEN 2: Practice Quiz View -->
+    <div id="practiceScreen" style="display: none; flex-direction: column; flex: 1;">
+        <div class="subject-nav">
+            <div class="subject-info">
+                <span class="back-icon" onclick="showDashboard()">←</span>
+                <div>
+                    <div class="subject-name" id="subjectTitle">Biology</div>
+                    <div class="subject-topic" id="topicText">Randomized Subject Questions</div>
+                </div>
+            </div>
+            <div class="timer-badge">
+                <span id="timerText">00:00</span>
+            </div>
+        </div>
+
+        <div class="status-banner">
+            <div class="badge-pill" id="qNumText">Question 1 / 4</div>
+            <div class="marks-group">
+                <div class="mark-badge mark-plus" id="lblMarkPlus">Marks: +4</div>
+                <div class="mark-badge mark-minus">-1</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="question-card">
+                <div class="question-text" id="questionText">Loading...</div>
+                <div class="options-list" id="optionsContainer"></div>
+            </div>
+
+            <div class="explanation-card" id="explanationCard">
+                <div class="explanation-title" id="expTitle">Explanation</div>
+                <div class="explanation-body" id="expBody"></div>
+            </div>
+
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-value" id="valAnswered">0</div>
+                    <div class="stat-label" id="lblAnswered">Answered</div>
+                </div>
+                <div class="progress-circle-container">
+                    <div class="circle-progress" id="progressCircle">
+                        <div class="circle-inner" id="valProgress">0%</div>
+                    </div>
+                    <div class="stat-label" id="lblProgress">Progress</div>
+                </div>
+                <div>
+                    <div class="stat-value" id="valRemaining">0</div>
+                    <div class="stat-label" id="lblRemaining">Remaining</div>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <button class="btn btn-outline" id="btnPrev">Previous</button>
+                <button class="btn btn-outline" id="btnReview">Mark for Review</button>
+                <button class="btn btn-primary" id="btnNext">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN 3: Result Summary View -->
+    <div class="main-content" id="resultContainer" style="display: none; margin-top: 20px;">
+        <div class="result-card">
             <div class="result-title" id="resTitle">Practice Summary</div>
             <div style="color: var(--text-sub); font-weight: 600;" id="resSub">Here is how you performed:</div>
 
-            <div class="result-score" id="resScore">0 / 20</div>
+            <!-- Accuracy Percentage Circle & Ratio Side-by-Side -->
+            <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin: 20px 0;">
+                <div class="circle-progress" id="resAccuracyCircle" style="width: 72px; height: 72px; flex-shrink: 0;">
+                    <div class="circle-inner" style="width: 58px; height: 58px;">
+                        <span id="resAccuracyVal" style="font-size: 0.95rem; font-weight: 800;">0%</span>
+                    </div>
+                </div>
+
+                <div style="text-align: left;">
+                    <div class="result-score" id="resScore" style="margin: 0; font-size: 1.8rem; text-align: left; color: var(--text-main);">0/0</div>
+                    <div style="font-size: 0.82rem; color: var(--text-sub); font-weight: 600;" id="resRatioSub">0 correct out of 0</div>
+                </div>
+            </div>
 
             <div class="result-stats-row">
                 <div class="result-stat-item">
-                    <div class="result-num" style="color: var(--accent-green);" id="resCorrect">0</div>
+                    <div class="result-num" style="color: var(--bio-color); font-weight: 800;" id="resCorrect">0</div>
                     <div class="stat-label" id="lblResCorrect">Correct</div>
                 </div>
                 <div class="result-stat-item">
-                    <div class="result-num" style="color: var(--negative-red);" id="resWrong">0</div>
+                    <div class="result-num" style="color: var(--negative-red); font-weight: 800;" id="resWrong">0</div>
                     <div class="stat-label" id="lblResWrong">Incorrect</div>
                 </div>
                 <div class="result-stat-item">
-                    <div class="result-num" style="color: var(--text-sub);" id="resUnanswered">0</div>
+                    <div class="result-num" style="color: var(--text-sub); font-weight: 800;" id="resUnanswered">0</div>
                     <div class="stat-label" id="lblResUnanswered">Skipped</div>
                 </div>
             </div>
 
-            <button class="btn btn-primary" style="width: 100%; margin-top: 10px;" id="btnRestart" onclick="restartPractice()">🔄 Restart Practice</button>
+            <div class="result-actions-column">
+                <button class="btn btn-primary" id="btnNextPractice" onclick="loadNextPracticeSet()">Move to Next Practice</button>
+                <button class="btn btn-secondary" id="btnRestartPractice" onclick="restartCurrentPractice()">Restart Practice</button>
+                <button class="btn btn-outline" id="btnDashboard" onclick="showDashboard()">Back to Subjects Menu</button>
+            </div>
         </div>
     </div>
 
-    <!-- Bottom Navigation -->
+    <!-- Bottom Tab Navigation -->
     <div class="bottom-nav">
-        <div class="tab-item">
+        <div class="tab-item active" onclick="showDashboard()">
             <span class="tab-icon">🏠</span>
             <span id="tabHome">Home</span>
         </div>
-        <div class="tab-item active">
+        <div class="tab-item">
             <span class="tab-icon">🎯</span>
             <span id="tabPractice">Practice</span>
         </div>
         <div class="tab-item">
-            <span class="tab-icon">📝</span>
+            <span class="tab-icon">📋</span>
             <span id="tabTest">Test</span>
         </div>
-        <div cla
+        <div class="tab-item">
+            <span class="tab-icon">📊</span>
+            <span id="tabAnalysis">Analysis</span>
+        </div>
+        <div class="tab-item">
+            <span class="tab-icon">👤</span>
+            <span id="tabProfile">Profile</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    const allQuestions = [
+        {
+            subject: { EN: "Biology", HI: "जीव विज्ञान" }, cat: "BIO",
+            topic: { EN: "Human Physiology", HI: "मानव शरीर क्रिया विज्ञान" },
+            question: { 
+                EN: "The hormone which stimulates secretion of pancreatic enzymes is:",
+                HI: "अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?"
+            },
+            options: {
+                EN: ["Secretin", "Gastrin", "Cholecystokinin-Pancreozymin", "Enterogastrone"],
+                HI: ["सीक्रेटिन", "गास्ट्रिन", "कोलीसिस्टोकाइनिन-पैनक्रियोजाइमिन", "एंटेरोगैस्ट्रोन"]
+            },
+            correct: 2,
+            explanation: {
+                EN: "Cholecystokinin-Pancreozymin (CCK-PZ) stimulates the secretion of pancreatic enzymes. It is secreted by I-cells of the duodenum.",
+                HI: "कोलीसिस्टोकाइनिन-पैनक्रियोजाइमिन (CCK-PZ) अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करता है।"
+            }
+        },
+        {
+            subject: { EN: "Biology", HI: "जीव विज्ञान" }, cat: "BIO",
+            topic: { EN: "Plant Physiology", HI: "पादप कार्यिकी" },
+            question: {
+                EN: "The primary acceptor of CO2 in C4 plants is:",
+                HI: "C4 पौधों में CO2 का प्राथमिक ग्रहणकर्ता कौन सा है?"
+            },
+            options: {
+                EN: ["RuBP", "PEP (Phosphoenolpyruvate)", "OAA (Oxaloacetic acid)", "PGA"],
+                HI: ["RuBP", "PEP (फास्फोएनोलपायरुवेट)", "OAA (ऑक्जालोएसिटिक एसिड)", "PGA"]
+            },
+            correct: 1,
+            explanation: {
+                EN: "Phosphoenolpyruvate (PEP) is the primary 3-carbon CO2 acceptor in C4 plants, catalyzed by PEP carboxylase.",
+                HI: "फास्फोएनोलपायरुवेट (PEP) C4 पौधों में प्राथमिक 3-कार्बन CO2 स्वीकर्ता है।"
+            }
+        },
+        {
+            subject: { EN: "Physics", HI: "भौतिक विज्ञान" }, cat: "PHY",
+            topic: { EN: "Electrostatics", HI: "स्थिरवैद्युतिकी" },
+            question: {
+                EN: "The SI unit of Electric Flux is:",
+                HI: "विद्युत प्रवाह (Electric Flux) की SI इकाई क्या है?"
+            },
+            options: {
+                EN: ["N/C", "V·m", "N/m²", "C/m"],
+                HI: ["N/C", "V·m", "N/m²", "C/m"]
+            },
+            correct: 1,
+            explanation: {
+                EN: "Electric flux φ = E·A. Its SI unit is Volt-meter (V·m) or Newton-meter squared per Coulomb (N·m²/C).",
+                HI: "विद्युत प्रवाह φ = E·A होता है। इसकी SI इकाई वोल्ट-मीटर (V·m) है।"
+            }
+        },
+        {
+            subject: { EN: "Chemistry", HI: "रसायन विज्ञान" }, cat: "CHE",
+            topic: { EN: "Chemical Bonding", HI: "रासायनिक आबंध" },
+            question: {
+                EN: "Which molecule has a linear geometry?",
+                HI: "किस अणु की ज्यामिति रेखीय (Linear) होती है?"
+            },
+            options: {
+                EN: ["H2O", "NH3", "CO2", "BF3"],
+                HI: ["H2O", "NH3", "CO2", "BF3"]
+            },
+            correct: 2,
+            explanation: {
+                EN: "Carbon dioxide (CO2) has sp hybridization and a bond angle of 180°, giving it a linear geometry.",
+                HI: "कार्बन डाइऑक्साइड (CO2) में sp संकरण होता है और बंध कोण 180° होता है, जिससे इसकी ज्यामिति रेखीय होती है।"
+            }
+        }
+    ];
+
+    let currentCategory = 'BIO';
+    let activeQuestionBank = [];
+    let currentIndex = 0;
+    let userAnswers = {};
+    let reviewStatus = {};
+    let currentLang = 'EN';
+    let timerSeconds = 0;
+    let timerInterval = null;
+
+    function shuffleArray(array) {
+        let arr = [...array];
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        return arr;
+    }
+
+    function showDashboard() {
+        clearInterval(timerInterval);
+        document.getElementById('dashboardScreen').style.display = 'flex';
+        document.getElementById('practiceScreen').style.display = 'none';
+        document.getElementById('resultContainer').style.display = 'none';
+    }
+
+    function startPracticeMode(category) {
+        currentCategory = category;
+        const filtered = allQuestions.filter(q => q.cat === category);
+
+        if (filtered.length === 0) {
+            alert(currentLang === 'EN' ? "More practice questions coming soon for this subject!" : "इस विषय के लिए और अभ्यास प्रश्न जल्द ही आ रहे हैं!");
+            return;
+        }
+
+        activeQuestionBank = shuffleArray(filtered);
+        currentIndex = 0;
+        userAnswers = {};
+        reviewStatus = {};
+
+        document.getElementById('dashboardScreen').style.display = 'none';
+        document.getElementById('resultContainer').style.display = 'none';
+        document.getElementById('practiceScreen').style.display = 'flex';
+
+        startTimer();
+        renderQuestion();
+        updateStats();
+    }
+
+    function startTimer() {
+        if (timerInterval) clearInterval(timerInterval);
+        timerSeconds = 0;
+        timerInterval = setInterval(() => {
+            timerSeconds++;
+            const mins = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+            const secs = String(timerSeconds % 60).padStart(2, '0');
+            document.getElementById('timerText').textContent = `${mins}:${secs}`;
+        }, 1000);
+    }
+
+    function renderQuestion() {
+        const q = activeQuestionBank[currentIndex];
+        document.getElementById('subjectTitle').textContent = q.subject[currentLang];
+        document.getElementById('topicText').textContent = q.topic[currentLang];
+        document.getElementById('qNumText').textContent = currentLang === 'EN' ? `Question ${currentIndex + 1} / ${activeQuestionBank.length}` : `प्रश्न ${currentIndex + 1} / ${activeQuestionBank.length}`;
+        document.getElementById('questionText').textContent = q.question[currentLang];
+
+        const container = document.getElementById('optionsContainer');
+        container.innerHTML = '';
+        const letters = ['A', 'B', 'C', 'D'];
+        const selectedIndex = userAnswers[currentIndex];
+        const hasAnswered = (selectedIndex !== undefined);
+
+        q.options[currentLang].forEach((opt, index) => {
+            const isSelectedOption = (index === selectedIndex);
+            const isCorrectOption = (index === q.correct);
+
+            // Hide all unselected options after answering
+            if (hasAnswered && !isSelectedOption && !isCorrectOption) {
+                return;
+            }
+
+            const item = document.createElement('div');
+            item.className = 'option-item';
+            
+            let statusIcon = '';
+            if (hasAnswered) {
+                if (isCorrectOption) {
+                    item.classList.add('correct');
+                    statusIcon = '<div class="check-icon">✓</div>';
+                } else if (isSelectedOption && !isCorrectOption) {
+                    item.classList.add('wrong');
+                    statusIcon = '<div class="cross-icon">✕</div>';
+                }
+            }
+
+            item.onclick = function() {
+                if (!hasAnswered) {
+                    userAnswers[currentIndex] = index;
+                    renderQuestion();
+                    updateStats();
+                }
+            };
+
+            item.innerHTML = `
+                <div class="option-letter">${letters[index]}</div>
+                <div style="flex:1;">${opt}</div>
+                ${statusIcon}
+            `;
+            container.appendChild(item);
+        });
+
+        const expCard = document.getElementById('explanationCard');
+        const expBody = document.getElementById('expBody');
+        if (hasAnswered) {
+            expBody.textContent = q.explanation[currentLang];
+            expCard.classList.add('visible');
+        } else {
+            expCard.classList.remove('visible');
+        }
+
+        document.getElementById('btnPrev').disabled = (currentIndex === 0);
+        
+        const nextBtn = document.getElementById('btnNext');
+        if (currentIndex === activeQuestionBank.length - 1) {
+            nextBtn.textContent = currentLang === 'EN' ? "Finish Test" : "परीक्षण समाप्त करें";
+        } else {
+            nextBtn.textContent = currentLang === 'EN' ? "Next" : "अगला";
+        }
+
+        const reviewBtn = document.getElementById('btnReview');
+        if (reviewStatus[currentIndex]) {
+            reviewBtn.classList.add('reviewed');
+            reviewBtn.textContent = currentLang === 'EN' ? "Reviewed" : "समीक्षित";
+        } else {
+            reviewBtn.classList.remove('reviewed');
+            reviewBtn.textContent = currentLang === 'EN' ? "Mark for Review" : "समीक्षा के लिए सहेजें";
+        }
+    }
+
+    function updateStats() {
+        const answeredCount = Object.keys(userAnswers).length;
+        const total = activeQuestionBank.length;
+        const remaining = total - answeredCount;
+        const progressPct = Math.round((answeredCount / total) * 100);
+
+        document.getElementById('valAnswered').textContent = answeredCount;
+        document.getElementById('valRemaining').textContent = remaining;
+        document.getElementById('valProgress').textContent = `${progressPct}%`;
+
+        const circle = document.getElementById('progressCircle');
+        circle.style.background = `conic-gradient(var(--bio-color) ${progressPct}%, var(--pill-bg) 0)`;
+    }
+
+    function showResults() {
+        clearInterval(timerInterval);
+        document.getElementById('practiceScreen').style.display = 'none';
+        document.getElementById('resultContainer').style.display = 'flex';
+
+        let correctCount = 0;
+        let wrongCount = 0;
+        let unansweredCount = 0;
+
+        activeQuestionBank.forEach((q, index) => {
+            const ans = userAnswers[index];
+            if (ans === undefined) {
+                unansweredCount++;
+            } else if (ans === q.correct) {
+                correctCount++;
+            } else {
+                wrongCount++;
+            }
+        });
+
+        const totalAttempted = correctCount + wrongCount;
+        const totalQuestions = activeQuestionBank.length;
+        
+        // Calculate Accuracy Percentage
+        const accuracyPct = totalAttempted > 0 ? Math.round((correctCount / totalAttempted) * 100) : 0;
+
+        // Ratio & Sub-label Display
+        document.getElementById('resScore').textContent = `${correctCount}/${totalQuestions}`;
+        document.getElementById('resRatioSub').textContent = currentLang === 'EN' 
+            ? `${correctCount} correct out of ${totalQuestions}` 
+            : `${totalQuestions} में से ${correctCount} सही`;
+        
+        // Inner Percentage Text
+        document.getElementById('resAccuracyVal').textContent = `${accuracyPct}%`;
+
+        // Render Green (Correct) vs Red (Wrong) Dual Ring
+        const accuracyCircle = document.getElementById('resAccuracyCircle');
+        if (totalAttempted > 0) {
+            const greenPct = Math.round((correctCount / totalAttempted) * 100);
+            accuracyCircle.style.background = `conic-gradient(var(--bio-color) 0% ${greenPct}%, var(--negative-red) ${greenPct}% 100%)`;
+        } else {
+            accuracyCircle.style.background = `var(--pill-bg)`;
+        }
+
+        document.getElementById('resCorrect').textContent = correctCount;
+        document.getElementById('resWrong').textContent = wrongCount;
+        document.getElementById('resUnanswered').textContent = unansweredCount;
+    }
+
+    function restartCurrentPractice() {
+        currentIndex = 0;
+        userAnswers = {};
+        reviewStatus = {};
+        document.getElementById('resultContainer').style.display = 'none';
+        document.getElementById('practiceScreen').style.display = 'flex';
+        startTimer();
+        renderQuestion();
+        updateStats();
+    }
+
+    function loadNextPracticeSet() {
+        startPracticeMode(currentCategory);
+    }
+
+    document.getElementById('btnNext').onclick = function() {
+        if (currentIndex < activeQuestionBank.length - 1) {
+            currentIndex++;
+            renderQuestion();
+        } else {
+            showResults();
+        }
+    };
+
+    document.getElementById('btnPrev').onclick = function() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            renderQuestion();
+        }
+    };
+
+    document.getElementById('btnReview').onclick = function() {
+        reviewStatus[currentIndex] = !reviewStatus[currentIndex];
+        renderQuestion();
+    };
+
+    document.getElementById('themeBtn').onclick = function() {
+        const body = document.body;
+        if (body.getAttribute('data-theme') === 'dark') {
+            body.setAttribute('data-theme', 'light');
+            this.textContent = '☀️';
+        } else {
+            body.setAttribute('data-theme', 'dark');
+            this.textContent = '🌙';
+        }
+    };
+
+    document.getElementById('langSelect').onchange = function() {
+        currentLang = this.value;
+        const uiText = {
+            EN: {
+                brandSubtitle: "Your Dream. Our Mission.",
+                pageTitle: "Select Subject", 
+                pageSubtitle: "Choose a subject to start your practice",
+                bioTitle: "Biology", bioSubDesc: "Botany & Zoology", bioDetail: "Complete NCERT based practice", bioPill: "📖 Chapters • NCERT • PYQs",
+                phyTitle: "Physics", phySubDesc: "Mechanics, Electrostatics & Optics", phyDetail: "Concepts • Formulas • Practice", phyPill: "📖 Chapters • NCERT • PYQs",
+                cheTitle: "Chemistry", cheSubDesc: "Organic, Inorganic & Physical", cheDetail: "Reactions • Concepts • Practice", chePill: "📖 Chapters • NCERT • PYQs",
+                motiveTitle: "All India Rank starts with consistent practice.", motiveSub: "You've got this! Keep going!",
+                lblMarkPlus: "Marks: +4", expTitle: "Explanation", lblAnswered: "Answered", lblProgress: "Progress", lblRemaining: "Remaining",
+                tabHome: "Home", tabPractice: "Practice", tabTest: "Test", tabAnalysis: "Analysis", tabProfile: "Profile",
+                resTitle: "Practice Summary", resSub: "Here is how you performed:", lblResCorrect: "Correct", lblResWrong: "Incorrect", lblResUnanswered: "Skipped",
+                btnNextPractice: "Move to Next Practice", btnRestartPractice: "Restart Practice", btnDashboard: "Back to Subjects Menu",
+                btnPrev: "Previous", btnNext: "Next"
+            },
+            HI: {
+                brandSubtitle: "आपका सपना। हमारा मिशन।",
+                pageTitle: "विषय चुनें", pageSubtitle: "अपना अभ्यास शुरू करने के लिए एक विषय चुनें",
+                bioTitle: "जीव विज्ञान", bioSubDesc: "वनस्पति विज्ञान और प्राणीशास्त्र", bioDetail: "संपूर्ण NCERT आधारित अभ्यास", bioPill: "📖 अध्याय • NCERT • PYQs",
+                phyTitle: "भौतिक विज्ञान", phySubDesc: "यांत्रिकी, स्थिरवैद्युतिकी और प्रकाशिकी", phyDetail: "अवधारणाएं • सूत्र • अभ्यास", phyPill: "📖 अध्याय • NCERT • PYQs",
+                cheTitle: "रसायन विज्ञान", cheSubDesc: "कार्बनिक, अकार्बनिक और भौतिक", cheDetail: "अभिक्रियाएं • अवधारणाएं • अभ्यास", chePill: "📖 अध्याय • NCERT • PYQs",
+                motiveTitle: "ऑल इंडिया रैंक निरंतर अभ्यास से शुरू होती है।", motiveSub: "आप यह कर सकते हैं! आगे बढ़ते रहें!",
+                lblMarkPlus: "अंक: +4", expTitle: "व्याख्या", lblAnswered: "उत्तर दिए", lblProgress: "प्रगति", lblRemaining: "शेष",
+                tabHome: "मुख्य", tabPractice: "अभ्यास", tabTest: "परीक्षण", tabAnalysis: "विश्लेषण", tabProfile: "प्रोफ़ाइल",
+                resTitle: "अभ्यास सारणी", resSub: "आपका प्रदर्शन इस प्रकार रहा:", lblResCorrect: "सही", lblResWrong: "गलत", lblResUnanswered: "छोड़े गए",
+                btnNextPractice: "अगले अभ्यास पर जाएं", btnRestartPractice: "अभ्यास पुनः आरंभ करें", btnDashboard: "विषय मेनू पर लौटें",
+                btnPrev: "पिछला", btnNext: "अगला"
+            }
+        };
+
+        const t = uiText[currentLang];
+        document.getElementById('brandSubtitle').textContent = t.brandSubtitle;
+        document.getElementById('pageTitle').textContent = t.pageTitle;
+        document.getElementById('pageSubtitle').textContent = t.pageSubtitle;
+        
+        document.getElementById('bioTitle').textContent = t.bioTitle;
+        document.getElementById('bioSubDesc').textContent = t.bioSubDesc;
+        document.getElementById('bioDetail').textContent = t.bioDetail;
+        document.getElementById('bioPill').textContent = t.bioPill;
+        
+        document.getElementById('phyTitle').textContent = t.phyTitle;
+        document.getElementById('phySubDesc').textContent = t.phySubDesc;
+        document.getElementById('phyDetail').textContent = t.phyDetail;
+        document.getElementById('phyPill').textContent = t.phyPill;
+
+        document.getElementById('cheTitle').textContent = t.cheTitle;
+        document.getElementById('cheSubDesc').textContent = t.cheSubDesc;
+        document.getElementById('cheDetail').textContent = t.cheDetail;
+        document.getElementById('chePill').textContent = t.chePill;
+
+        document.getElementById('motiveTitle').textContent = t.motiveTitle;
+        document.getElementById('motiveSub').textContent = t.motiveSub;
+
+        document.getElementById('lblMarkPlus').textContent = t.lblMarkPlus;
+        document.getElementById('expTitle').textContent = t.expTitle;
+        document.getElementById('lblAnswered').textContent = t.lblAnswered;
+        document.getElementById('lblProgress').textContent = t.lblProgress;
+        document.getElementById('lblRemaining').textContent = t.lblRemaining;
+
+        document.getElementById('tabHome').textContent = t.tabHome;
+        document.getElementById('tabPractice').textContent = t.tabPractice;
+        document.getElementById('tabTest').textContent = t.tabTest;
+        document.getElementById('tabAnalysis').textContent = t.tabAnalysis;
+        document.getElementById('tabProfile').textContent = t.tabProfile;
+
+        document.getElementById('resTitle').textContent = t.resTitle;
+        document.getElementById('resSub').textContent = t.resSub;
+        document.getElementById('lblResCorrect').textContent = t.lblResCorrect;
+        document.getElementById('lblResWrong').textContent = t.lblResWrong;
+        document.getElementById('lblResUnanswered').textContent = t.lblResUnanswered;
+
+        document.getElementById('btnNextPractice').textContent = t.btnNextPractice;
+        document.getElementById('btnRestartPractice').textContent = t.btnRestartPractice;
+        document.getElementById('btnDashboard').textContent = t.btnDashboard;
+        document.getElementById('btnPrev').textContent = t.btnPrev;
+
+        if (document.getElementById('practiceScreen').style.display !== 'none') {
+            renderQuestion();
+        }
+    };
+</script>
+</body>
+</html>
