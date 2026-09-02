@@ -67,7 +67,7 @@
             position: relative;
         }
 
-        /* Top Bar Header */
+        /* Top Header */
         header {
             background-color: var(--header-bg);
             padding: 14px 20px;
@@ -128,7 +128,7 @@
             cursor: pointer;
         }
 
-        /* Subject Navigation */
+        /* Subject Navigation & Timer */
         .subject-nav {
             padding: 14px 20px 8px 20px;
             display: flex;
@@ -157,6 +157,18 @@
             font-size: 0.82rem;
             color: var(--text-sub);
             font-weight: 600;
+        }
+
+        .timer-badge {
+            background-color: var(--pill-bg);
+            border: 1px solid var(--border-color);
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         /* Status Banner */
@@ -413,6 +425,54 @@
             font-size: 0.85rem;
         }
 
+        /* Result Summary Modal Card */
+        .result-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: center;
+            display: none;
+            box-shadow: var(--card-shadow);
+        }
+
+        .result-card.visible {
+            display: block;
+        }
+
+        .result-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .result-score {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--accent-green);
+            margin: 14px 0;
+        }
+
+        .result-stats-row {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 14px;
+            background-color: var(--pill-bg);
+            border-radius: 16px;
+        }
+
+        .result-stat-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .result-num {
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+
         /* Action Buttons */
         .nav-actions {
             display: flex;
@@ -513,36 +573,39 @@
         </div>
     </header>
 
-    <!-- Subject Title -->
+    <!-- Subject Title & Timer -->
     <div class="subject-nav">
         <div class="subject-info">
             <span class="back-icon">←</span>
             <div>
-                <div class="subject-name">🧪 Biology</div>
+                <div class="subject-name" id="subjectTitle">🧪 Biology</div>
                 <div class="subject-topic" id="topicText">Human Physiology</div>
             </div>
         </div>
-        <div style="font-size: 1.2rem; cursor: pointer;">⋮</div>
+        <div class="timer-badge">
+            <span>⏱️</span>
+            <span id="timerText">00:00</span>
+        </div>
     </div>
 
     <!-- Question Counter -->
-    <div class="status-banner">
-        <div class="badge-pill" id="qNumText">Question 1 / 3</div>
+    <div class="status-banner" id="statusBanner">
+        <div class="badge-pill" id="qNumText">Question 1 / 5</div>
         <div class="marks-group">
             <div class="mark-badge mark-plus">Marks: +4</div>
             <div class="mark-badge mark-minus">-1 ⊕</div>
         </div>
     </div>
 
-    <!-- Main Question Area -->
-    <div class="main-content">
+    <!-- Main Practice View -->
+    <div class="main-content" id="practiceContainer">
         <!-- Question Card -->
         <div class="question-card">
             <div class="question-text" id="questionText">Loading...</div>
             <div class="options-list" id="optionsContainer"></div>
         </div>
 
-        <!-- Explanation Card (Pops Up on Answer Selection) -->
+        <!-- Explanation Card -->
         <div class="explanation-card" id="explanationCard">
             <div class="explanation-header">
                 <div class="explanation-title" id="expTitle">Explanation</div>
@@ -564,7 +627,7 @@
                 <div class="stat-label" id="lblProgress">Progress</div>
             </div>
             <div>
-                <div class="stat-value" id="valRemaining">3</div>
+                <div class="stat-value" id="valRemaining">5</div>
                 <div class="stat-label" id="lblRemaining">Remaining</div>
             </div>
         </div>
@@ -574,6 +637,33 @@
             <button class="btn btn-outline" id="btnPrev">← Previous</button>
             <button class="btn btn-outline" id="btnReview">🔖 Mark for Review</button>
             <button class="btn btn-primary" id="btnNext">Next →</button>
+        </div>
+    </div>
+
+    <!-- Result Summary View (Triggers on Quiz Completion) -->
+    <div class="main-content" id="resultContainer" style="display: none;">
+        <div class="result-card visible">
+            <div class="result-title" id="resTitle">Practice Summary</div>
+            <div style="color: var(--text-sub); font-weight: 600;" id="resSub">Here is how you performed:</div>
+
+            <div class="result-score" id="resScore">0 / 20</div>
+
+            <div class="result-stats-row">
+                <div class="result-stat-item">
+                    <div class="result-num" style="color: var(--accent-green);" id="resCorrect">0</div>
+                    <div class="stat-label" id="lblResCorrect">Correct</div>
+                </div>
+                <div class="result-stat-item">
+                    <div class="result-num" style="color: var(--negative-red);" id="resWrong">0</div>
+                    <div class="stat-label" id="lblResWrong">Incorrect</div>
+                </div>
+                <div class="result-stat-item">
+                    <div class="result-num" style="color: var(--text-sub);" id="resUnanswered">0</div>
+                    <div class="stat-label" id="lblResUnanswered">Skipped</div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" style="width: 100%; margin-top: 10px;" id="btnRestart" onclick="restartPractice()">🔄 Restart Practice</button>
         </div>
     </div>
 
@@ -591,226 +681,4 @@
             <span class="tab-icon">📝</span>
             <span id="tabTest">Test</span>
         </div>
-        <div class="tab-item">
-            <span class="tab-icon">📊</span>
-            <span id="tabAnalysis">Analysis</span>
-        </div>
-        <div class="tab-item">
-            <span class="tab-icon">👤</span>
-            <span id="tabProfile">Profile</span>
-        </div>
-    </div>
-</div>
-
-<script>
-    const questions = [
-        {
-            topic: { EN: "Human Physiology", HI: "मानव शरीर क्रिया विज्ञान" },
-            question: { 
-                EN: "The hormone which stimulates secretion of pancreatic enzymes is:",
-                HI: "अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करने वाला हार्मोन कौन सा है?"
-            },
-            options: {
-                EN: ["Secretin", "Gastrin", "Cholecystokinin-Pancreozymin", "Enterogastrone"],
-                HI: ["सीक्रेटिन", "गास्ट्रिन", "कोलीसिस्टोकाइनिन-पैनक्रियोजाइमिन", "एंटेरोगैस्ट्रोन"]
-            },
-            correct: 2,
-            explanation: {
-                EN: "Cholecystokinin-Pancreozymin (CCK-PZ) stimulates the secretion of pancreatic enzymes. It is secreted by I-cells of the duodenum in response to fats and proteins.",
-                HI: "कोलीसिस्टोकाइनिन-पैनक्रियोजाइमिन (CCK-PZ) अग्न्याशयी एंजाइमों के स्राव को उत्तेजित करता है। यह वसा और प्रोटीन के जवाब में ग्रहणी की I-कोशिकाओं द्वारा स्रावित होता है।"
-            }
-        },
-        {
-            topic: { EN: "Plant Physiology", HI: "पादप कार्यिकी" },
-            question: {
-                EN: "The primary acceptor of CO2 in C4 plants is:",
-                HI: "C4 पौधों में CO2 का प्राथमिक प्रहणकर्ता कौन सा है?"
-            },
-            options: {
-                EN: ["RuBP", "PEP (Phosphoenolpyruvate)", "OAA (Oxaloacetic acid)", "PGA"],
-                HI: ["RuBP", "PEP (फास्फोएनोलपायरुवेट)", "OAA (ऑक्जालोएसिटिक एसिड)", "PGA"]
-            },
-            correct: 1,
-            explanation: {
-                EN: "Phosphoenolpyruvate (PEP) is the primary 3-carbon CO2 acceptor in C4 plants, catalyzed by the enzyme PEP carboxylase.",
-                HI: "फास्फोएनोलपायरुवेट (PEP) C4 पौधों में प्राथमिक 3-कार्बन CO2 स्वीकर्ता है, जो PEP कार्बोक्सिलेज एंजाइम द्वारा उत्प्रेरित होता है।"
-            }
-        },
-        {
-            topic: { EN: "Genetics & Evolution", HI: "आनुवंशिकी और विकास" },
-            question: {
-                EN: "Which of the following nitrogenous bases is NOT present in DNA?",
-                HI: "निम्नलिखित में से कौन सा नाइट्रोजन युक्त क्षार DNA में मौजूद नहीं होता है?"
-            },
-            options: {
-                EN: ["Adenine", "Guanine", "Uracil", "Thymine"],
-                HI: ["एडेनिन", "गुआनिन", "युरेसिल", "थाइमिन"]
-            },
-            correct: 2,
-            explanation: {
-                EN: "Uracil is present only in RNA. DNA contains Thymine instead of Uracil alongside Adenine, Guanine, and Cytosine.",
-                HI: "युरेसिल केवल RNA में मौजूद होता है। DNA में एडेनिन, गुआनिन और साइटोसिन के साथ युरेसिल के स्थान पर थाइमिन होता है।"
-            }
-        }
-    ];
-
-    let currentIndex = 0;
-    let userAnswers = {};
-    let reviewStatus = {};
-    let currentLang = 'EN';
-
-    function renderQuestion() {
-        const q = questions[currentIndex];
-        document.getElementById('topicText').textContent = q.topic[currentLang];
-        document.getElementById('qNumText').textContent = `Question ${currentIndex + 1} / ${questions.length}`;
-        document.getElementById('questionText').textContent = q.question[currentLang];
-
-        const container = document.getElementById('optionsContainer');
-        container.innerHTML = '';
-        const letters = ['A', 'B', 'C', 'D'];
-        const selectedIndex = userAnswers[currentIndex];
-
-        q.options[currentLang].forEach((opt, index) => {
-            const item = document.createElement('div');
-            item.className = 'option-item';
-            
-            let statusIcon = '';
-
-            // Answer validation logic: Correct (Green) vs Wrong (Red)
-            if (selectedIndex !== undefined) {
-                if (index === q.correct) {
-                    item.classList.add('correct');
-                    statusIcon = '<div class="check-icon">✓</div>';
-                } else if (index === selectedIndex && selectedIndex !== q.correct) {
-                    item.classList.add('wrong');
-                    statusIcon = '<div class="cross-icon">✕</div>';
-                }
-            }
-
-            item.onclick = function() {
-                userAnswers[currentIndex] = index;
-                renderQuestion();
-                updateStats();
-            };
-
-            item.innerHTML = `
-                <div class="option-letter">${letters[index]}</div>
-                <div style="flex:1;">${opt}</div>
-                ${statusIcon}
-            `;
-            container.appendChild(item);
-        });
-
-        // Explanation display control
-        const expCard = document.getElementById('explanationCard');
-        const expBody = document.getElementById('expBody');
-        if (userAnswers[currentIndex] !== undefined) {
-            expBody.textContent = q.explanation[currentLang];
-            expCard.classList.add('visible');
-        } else {
-            expCard.classList.remove('visible');
-        }
-
-        // Navigation state updates
-        document.getElementById('btnPrev').disabled = (currentIndex === 0);
-        
-        const nextBtn = document.getElementById('btnNext');
-        if (currentIndex === questions.length - 1) {
-            nextBtn.textContent = currentLang === 'EN' ? "Finish" : "समाप्त";
-        } else {
-            nextBtn.textContent = currentLang === 'EN' ? "Next →" : "अगला →";
-        }
-
-        const reviewBtn = document.getElementById('btnReview');
-        if (reviewStatus[currentIndex]) {
-            reviewBtn.classList.add('reviewed');
-            reviewBtn.textContent = currentLang === 'EN' ? "✓ Reviewed" : "✓ समीक्षित";
-        } else {
-            reviewBtn.classList.remove('reviewed');
-            reviewBtn.textContent = currentLang === 'EN' ? "🔖 Mark for Review" : "🔖 समीक्षा के लिए सहेजें";
-        }
-    }
-
-    function updateStats() {
-        const answeredCount = Object.keys(userAnswers).length;
-        const total = questions.length;
-        const remaining = total - answeredCount;
-        const progressPct = Math.round((answeredCount / total) * 100);
-
-        document.getElementById('valAnswered').textContent = answeredCount;
-        document.getElementById('valRemaining').textContent = remaining;
-        document.getElementById('valProgress').textContent = `${progressPct}%`;
-
-        const circle = document.getElementById('progressCircle');
-        circle.style.background = `conic-gradient(var(--accent-green) ${progressPct}%, var(--pill-bg) 0)`;
-    }
-
-    // Attach Event Handlers
-    document.getElementById('btnNext').onclick = function() {
-        if (currentIndex < questions.length - 1) {
-            currentIndex++;
-            renderQuestion();
-        } else {
-            alert(currentLang === 'EN' ? "Exam completed!" : "परीक्षा पूरी हुई!");
-        }
-    };
-
-    document.getElementById('btnPrev').onclick = function() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            renderQuestion();
-        }
-    };
-
-    document.getElementById('btnReview').onclick = function() {
-        reviewStatus[currentIndex] = !reviewStatus[currentIndex];
-        renderQuestion();
-    };
-
-    document.getElementById('themeBtn').onclick = function() {
-        const body = document.body;
-        if (body.getAttribute('data-theme') === 'dark') {
-            body.setAttribute('data-theme', 'light');
-            this.textContent = '☀️';
-        } else {
-            body.setAttribute('data-theme', 'dark');
-            this.textContent = '🌙';
-        }
-    };
-
-    document.getElementById('langSelect').onchange = function() {
-        currentLang = this.value;
-        const uiText = {
-            EN: {
-                expTitle: "Explanation", lblAnswered: "Answered", lblProgress: "Progress", 
-                lblRemaining: "Remaining", tabHome: "Home", tabPractice: "Practice", 
-                tabTest: "Test", tabAnalysis: "Analysis", tabProfile: "Profile"
-            },
-            HI: {
-                expTitle: "व्याख्या", lblAnswered: "उत्तर दिए", lblProgress: "प्रगति", 
-                lblRemaining: "शेष", tabHome: "मुख्य", tabPractice: "अभ्यास", 
-                tabTest: "परीक्षण", tabAnalysis: "विश्लेषण", tabProfile: "प्रोफ़ाइल"
-            }
-        };
-
-        const t = uiText[currentLang];
-        document.getElementById('expTitle').textContent = t.expTitle;
-        document.getElementById('lblAnswered').textContent = t.lblAnswered;
-        document.getElementById('lblProgress').textContent = t.lblProgress;
-        document.getElementById('lblRemaining').textContent = t.lblRemaining;
-
-        document.getElementById('tabHome').textContent = t.tabHome;
-        document.getElementById('tabPractice').textContent = t.tabPractice;
-        document.getElementById('tabTest').textContent = t.tabTest;
-        document.getElementById('tabAnalysis').textContent = t.tabAnalysis;
-        document.getElementById('tabProfile').textContent = t.tabProfile;
-
-        renderQuestion();
-    };
-
-    // Run on startup
-    renderQuestion();
-    updateStats();
-</script>
-</body>
-</html>
+        <div cla
