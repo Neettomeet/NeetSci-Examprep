@@ -1,1 +1,36 @@
-"diagram_asset": "https://raw.githubusercontent.com/Neettomeet/NeetSci-Examprep/main/assets/pngs/diagram_name.png"
+{
+  "neet_questions": [
+    {
+      "questionId": "bio_ch1_001",
+      "subjectId": "Biology",
+      "chapterId": "Cell Structure",
+      "questionText": "Which of the following cell organelles is responsible for ATP synthesis?",
+      "diagramUrl": "/assets/pngs/mitochondria.png",
+      "options": [
+        "Ribosome",
+        "Mitochondria",
+        "Golgi apparatus",
+        "Endoplasmic reticulum"
+      ],
+      "correctAnswer": "Mitochondria",
+      "explanation": "Mitochondria are known as the powerhouse of the cell because they generate most of the chemical energy needed to power the cell's biochemical reactions through ATP synthesis.",
+      "difficultyLevel": "Medium"
+    },
+    {
+      "questionId": "phy_ch1_001",
+      "subjectId": "Physics",
+      "chapterId": "Kinematics",
+      "questionText": "A particle moves along a straight line with a constant acceleration. What represents the slope of the velocity-time graph?",
+      "diagramUrl": "",
+      "options": [
+        "Displacement",
+        "Velocity",
+        "Acceleration",
+        "Distance"
+      ],
+      "correctAnswer": "Acceleration",
+      "explanation": "The slope of a velocity-time graph at any point represents the acceleration of the object at that specific time.",
+      "difficultyLevel": "Easy"
+    }
+  ]
+}
