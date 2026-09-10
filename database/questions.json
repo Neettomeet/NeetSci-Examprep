@@ -1,17 +1,20 @@
-{
-  "questionId": "BOT_PHY_CH08_014",
-  "subject": "Botany",
-  "chapter": "Cell: The Unit of Life",
-  "difficulty": "Medium",
-  "questionText": "Identify the part labeled as 'Granum' in the given ultrastructure of a chloroplast, and select its primary function:",
-  "diagramUrl": "assets/svgs/chloroplast_ultrastructure.svg",
-  "options": {
-    "A": "Site of dark reaction (Calvin cycle) and starch storage",
-    "B": "Site of light-dependent reactions and trapping of light energy",
-    "C": "Synthesis of fatty acids and lipid droplet accumulation",
-    "D": "Packaging and transport of proteins to the cytoplasm"
-  },
-  "correctAnswer": "B",
-  "explanation": "Grana are stacks of thylakoids where the light-dependent reactions of photosynthesis, including photophosphorylation and oxygen evolution, take place. The stroma handles the dark reactions.",
-  "ncertReference": "Class 11 Biology, Chapter 8, Section 8.5.5 (Plastids)"
-}
+[
+  {
+    "questionId": "BOT_PHY_CH08_014",
+    "subject": "Botany",
+    "chapter": "Cell: The Unit of Life",
+    "difficulty": "Medium",
+    "isDiagramBased": true,
+    "diagramPath": "assets/svgs/chloroplast_ultrastructure.svg",
+    "questionText": "Identify the part labeled as 'Granum' in the given ultrastructure of a chloroplast, and select its primary function:",
+    "options": {
+      "A": "Site of dark reaction (Calvin cycle) and starch storage",
+      "B": "Site of light-dependent reactions and trapping of light energy",
+      "C": "Synthesis of fatty acids and lipid droplet accumulation",
+      "D": "Packaging and transport of proteins to the cytoplasm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Grana are stacks of thylakoids where the light-dependent reactions of photosynthesis take place.",
+    "ncertReference": "Class 11 Biology, Chapter 8, Section 8.5.5"
+  }
+]
