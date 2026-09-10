@@ -1,20 +1,40 @@
 [
   {
-    "questionId": "BOT_PHY_CH08_014",
-    "subject": "Botany",
-    "chapter": "Cell: The Unit of Life",
-    "difficulty": "Medium",
-    "isDiagramBased": true,
-    "diagramPath": "assets/svgs/chloroplast_ultrastructure.svg",
-    "questionText": "Identify the part labeled as 'Granum' in the given ultrastructure of a chloroplast, and select its primary function:",
-    "options": {
-      "A": "Site of dark reaction (Calvin cycle) and starch storage",
-      "B": "Site of light-dependent reactions and trapping of light energy",
-      "C": "Synthesis of fatty acids and lipid droplet accumulation",
-      "D": "Packaging and transport of proteins to the cytoplasm"
+    "questionId": "BIO_GEN_CH06_025",
+    "subject": "Biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "questionText": "Human Genome Project (HGP) was a mega project launched in the year 1990 with some important goals. (a) Enlist any four prime goals of HGP. (b) Name any one common non-human animal model organism which has also been sequenced thereafter.",
+    "questionType": "descriptive",
+    "subparts": {
+      "a": {
+        "prompt": "Enlist any four prime goals of HGP.",
+        "answer": [
+          "Identify all the approximately 25,000 to 30,000 genes present in human DNA.",
+          "Determine the sequence of 3 billion chemical base pairs that make up human DNA.",
+          "Store this information in databases.",
+          "Improve tools for data analysis and address ethical, legal, and social issues."
+        ]
+      },
+      "b": {
+        "prompt": "Name any one common non-human animal model organism which has also been sequenced thereafter.",
+        "answer": "Caenorhabditis elegans (free-living non-parasitic nematode)"
+      }
     },
-    "correctAnswer": "B",
-    "explanation": "Grana are stacks of thylakoids where the light-dependent reactions of photosynthesis take place.",
-    "ncertReference": "Class 11 Biology, Chapter 8, Section 8.5.5"
+    "ncertReference": "Class 12 Biology, Chapter 6, Section 6.4"
+  },
+  {
+    "questionId": "BIO_REP_CH02_026",
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "questionText": "One of the major approaches of the crop improvement program is Artificial Hybridization. Explain the steps involved in making sure that only the desired pollen grain pollinate the stigma of a bisexual flower by a plant breeder.",
+    "questionType": "descriptive",
+    "options": null,
+    "answerSteps": [
+      "Selection of parents: Pure lines of male and female plants with desired characters are selected.",
+      "Emasculation: Removal of anthers from the flower bud of a bisexual female parent before the anther dehisces (using forceps) to prevent self-pollination.",
+      "Bagging: Covering the emasculated flower with a bag of suitable size (usually made of butter paper) to prevent contamination of its stigma with unwanted pollen.",
+      "Re-pollination & Tagging: Collection of mature pollen from the male parent and dusting it onto the stigma of the bagged flower when receptive, followed by re-bagging and tagging."
+    ],
+    "ncertReference": "Class 12 Biology, Chapter 2, Section 2.4.3"
   }
 ]
