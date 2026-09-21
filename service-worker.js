@@ -1,0 +1,44 @@
+// Minimal offline app-shell cache for NEETEdge 2026.
+// Caches index.html itself so the app still opens without a network connection.
+// Question banks and diagrams are fetched fresh from the CDN each time they're
+// needed and are intentionally NOT cached here, so students always get the
+// latest question bank without needing an app update.
+
+const CACHE_NAME = 'neetedge2026-shell-v1';
+const APP_SHELL = ['./', './index.html', './manifest.json'];
+
+self.addEventListener('install', event => {
+    event.waitUntil(
+        caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
+    );
+    self.skipWaiting();
+});
+
+self.addEventListener('activate', event => {
+    event.waitUntil(
+        caches.keys().then(keys =>
+            Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))
+        )
+    );
+    self.clients.claim();
+});
+
+self.addEventListener('fetch', event => {
+    // Only handle same-origin app-shell requests; let CDN/API requests pass through untouched.
+    if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return;
+
+    event.respondWith(
+        caches.match(event.request).then(cached => {
+            const network = fetch(event.request)
+                .then(response => {
+                    if (response && response.ok) {
+                        const copy = response.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+                    }
+                    return response;
+                })
+                .catch(() => cached);
+            return cached || network;
+        })
+    );
+});
