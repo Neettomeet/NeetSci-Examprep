@@ -3,8 +3,12 @@
 // Question banks and diagrams are fetched fresh from the CDN each time they're
 // needed and are intentionally NOT cached here, so students always get the
 // latest question bank without needing an app update.
+//
+// Strategy: network-first. Always try to fetch the latest index.html/manifest
+// over the network first, so edits to the app show up immediately on the next
+// reload. Only falls back to the cached copy if there's no network at all.
 
-const CACHE_NAME = 'neetedge2026-shell-v1';
+const CACHE_NAME = 'neetedge2026-shell-v2';
 const APP_SHELL = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', event => {
@@ -28,17 +32,14 @@ self.addEventListener('fetch', event => {
     if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return;
 
     event.respondWith(
-        caches.match(event.request).then(cached => {
-            const network = fetch(event.request)
-                .then(response => {
-                    if (response && response.ok) {
-                        const copy = response.clone();
-                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
-                    }
-                    return response;
-                })
-                .catch(() => cached);
-            return cached || network;
-        })
+        fetch(event.request)
+            .then(response => {
+                if (response && response.ok) {
+                    const copy = response.clone();
+                    caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+                }
+                return response;
+            })
+            .catch(() => caches.match(event.request))
     );
 });
