@@ -1,0 +1,85 @@
+{
+  "subject": "CHE",
+  "chapters": {
+    "Some Basic Concepts in Chemistry": {
+      "file": "some-basic-concepts-in-chemistry.json",
+      "count": 0
+    },
+    "Atomic Structure": {
+      "file": "atomic-structure.json",
+      "count": 1
+    },
+    "Chemical Bonding and Molecular Structure": {
+      "file": "chemical-bonding-and-molecular-structure.json",
+      "count": 27
+    },
+    "Chemical Thermodynamics": {
+      "file": "chemical-thermodynamics.json",
+      "count": 0
+    },
+    "Solutions": {
+      "file": "solutions.json",
+      "count": 2
+    },
+    "Equilibrium": {
+      "file": "equilibrium.json",
+      "count": 1
+    },
+    "Redox Reactions and Electrochemistry": {
+      "file": "redox-reactions-and-electrochemistry.json",
+      "count": 1
+    },
+    "Chemical Kinetics": {
+      "file": "chemical-kinetics.json",
+      "count": 1
+    },
+    "Classification of Elements and Periodicity in Properties": {
+      "file": "classification-of-elements-and-periodicity-in-properties.json",
+      "count": 1
+    },
+    "P-Block Elements": {
+      "file": "p-block-elements.json",
+      "count": 0
+    },
+    "D- and F-Block Elements": {
+      "file": "d-and-f-block-elements.json",
+      "count": 2
+    },
+    "Coordination Compounds": {
+      "file": "coordination-compounds.json",
+      "count": 2
+    },
+    "Purification and Characterisation of Organic Compounds": {
+      "file": "purification-and-characterisation-of-organic-compounds.json",
+      "count": 0
+    },
+    "Some Basic Principles of Organic Chemistry": {
+      "file": "some-basic-principles-of-organic-chemistry.json",
+      "count": 1
+    },
+    "Hydrocarbons": {
+      "file": "hydrocarbons.json",
+      "count": 1
+    },
+    "Organic Compounds Containing Halogens": {
+      "file": "organic-compounds-containing-halogens.json",
+      "count": 0
+    },
+    "Organic Compounds Containing Oxygen": {
+      "file": "organic-compounds-containing-oxygen.json",
+      "count": 1
+    },
+    "Organic Compounds Containing Nitrogen": {
+      "file": "organic-compounds-containing-nitrogen.json",
+      "count": 0
+    },
+    "Biomolecules": {
+      "file": "biomolecules.json",
+      "count": 0
+    },
+    "Principles Related to Practical Chemistry": {
+      "file": "principles-related-to-practical-chemistry.json",
+      "count": 0
+    }
+  }
+}
