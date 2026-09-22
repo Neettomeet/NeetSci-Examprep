@@ -1,0 +1,85 @@
+{
+  "subject": "PHY",
+  "chapters": {
+    "Physics and Measurement": {
+      "file": "physics-and-measurement.json",
+      "count": 0
+    },
+    "Kinematics": {
+      "file": "kinematics.json",
+      "count": 7
+    },
+    "Laws of Motion": {
+      "file": "laws-of-motion.json",
+      "count": 2
+    },
+    "Work, Energy and Power": {
+      "file": "work-energy-and-power.json",
+      "count": 1
+    },
+    "Rotational Motion": {
+      "file": "rotational-motion.json",
+      "count": 0
+    },
+    "Gravitation": {
+      "file": "gravitation.json",
+      "count": 0
+    },
+    "Properties of Solids and Liquids": {
+      "file": "properties-of-solids-and-liquids.json",
+      "count": 0
+    },
+    "Thermodynamics": {
+      "file": "thermodynamics.json",
+      "count": 1
+    },
+    "Kinetic Theory of Gases": {
+      "file": "kinetic-theory-of-gases.json",
+      "count": 0
+    },
+    "Oscillations and Waves": {
+      "file": "oscillations-and-waves.json",
+      "count": 1
+    },
+    "Electrostatics": {
+      "file": "electrostatics.json",
+      "count": 1
+    },
+    "Current Electricity": {
+      "file": "current-electricity.json",
+      "count": 21
+    },
+    "Magnetic Effects of Current and Magnetism": {
+      "file": "magnetic-effects-of-current-and-magnetism.json",
+      "count": 2
+    },
+    "Electromagnetic Induction and Alternating Currents": {
+      "file": "electromagnetic-induction-and-alternating-currents.json",
+      "count": 1
+    },
+    "Electromagnetic Waves": {
+      "file": "electromagnetic-waves.json",
+      "count": 0
+    },
+    "Optics": {
+      "file": "optics.json",
+      "count": 1
+    },
+    "Dual Nature of Matter and Radiation": {
+      "file": "dual-nature-of-matter-and-radiation.json",
+      "count": 2
+    },
+    "Atoms and Nuclei": {
+      "file": "atoms-and-nuclei.json",
+      "count": 0
+    },
+    "Electronic Devices": {
+      "file": "electronic-devices.json",
+      "count": 1
+    },
+    "Experimental Skills": {
+      "file": "experimental-skills.json",
+      "count": 0
+    }
+  }
+}
