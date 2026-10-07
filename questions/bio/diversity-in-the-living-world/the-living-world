@@ -1,0 +1,537 @@
+[
+ {
+  "question": {
+   "EN": "A student calls a sand mound 'living' because it has become larger. Which observation best challenges this conclusion?",
+   "HI": "एक छात्र रेत के टीले को बड़ा होने के कारण 'जीवित' कहता है। कौन-सा अवलोकन इस निष्कर्ष को सबसे अच्छी तरह चुनौती देता है?"
+  },
+  "options": {
+   "EN": [
+    "It contains many particles",
+    "Its shape changes with time",
+    "It is exposed to sunlight",
+    "Its increase occurs by deposition on its surface"
+   ],
+   "HI": [
+    "इसमें अनेक कण होते हैं",
+    "समय के साथ इसका आकार बदलता है",
+    "इस पर सूर्य का प्रकाश पड़ता है",
+    "इसकी वृद्धि सतह पर पदार्थ जमा होने से होती है"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT contrasts growth by external accumulation in non-living objects with growth from within in living organisms.",
+   "HI": "NCERT निर्जीव वस्तुओं में बाहरी जमाव से होने वाली वृद्धि और जीवों में भीतर से होने वाली वृद्धि में अंतर बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A tissue in an adult animal replaces lost cells even though the animal no longer grows in overall size. Which conclusion agrees with NCERT?",
+   "HI": "एक वयस्क प्राणी के ऊतक में खोई हुई कोशिकाएँ पुनः बनती हैं, यद्यपि प्राणी का समग्र आकार अब नहीं बढ़ता। कौन-सा निष्कर्ष NCERT के अनुरूप है?"
+  },
+  "options": {
+   "EN": [
+    "Cell division can continue in certain tissues after body growth stops",
+    "All cell division stops after adulthood",
+    "Replacement of cells is reproduction of the animal",
+    "Only plants replace lost cells"
+   ],
+   "HI": [
+    "शरीर की वृद्धि रुकने के बाद भी कुछ ऊतकों में कोशिका विभाजन जारी रह सकता है",
+    "वयस्क होने पर सभी कोशिका विभाजन रुक जाते हैं",
+    "कोशिकाओं का प्रतिस्थापन प्राणी का प्रजनन है",
+    "केवल पादप खोई हुई कोशिकाएँ प्रतिस्थापित करते हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT states that animal growth occurs up to a certain age, while cell division in some tissues replaces lost cells.",
+   "HI": "NCERT के अनुसार प्राणियों की वृद्धि एक निश्चित आयु तक होती है, लेकिन कुछ ऊतकों में कोशिका विभाजन खोई हुई कोशिकाओं की पूर्ति करता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "An isolated enzyme reaction converts one biomolecule to another in a test tube. How should this reaction be described using NCERT's distinction?",
+   "HI": "एक परखनली में पृथक एंजाइम अभिक्रिया एक जैव-अणु को दूसरे में बदलती है। NCERT के भेद के अनुसार इस अभिक्रिया का वर्णन कैसे करेंगे?"
+  },
+  "options": {
+   "EN": [
+    "A process that cannot be metabolic",
+    "A living reaction occurring outside a living organism",
+    "A complete living organism",
+    "Proof that the test tube has cellular organisation"
+   ],
+   "HI": [
+    "ऐसी प्रक्रिया जो उपापचयी नहीं हो सकती",
+    "जीवित जीव के बाहर होने वाली जीवित अभिक्रिया",
+    "एक पूर्ण जीवित जीव",
+    "इस बात का प्रमाण कि परखनली में कोशिकीय संगठन है"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT calls isolated metabolic reactions in vitro living reactions, but does not call them living things.",
+   "HI": "NCERT जीव के शरीर के बाहर, कोशिका-मुक्त तंत्र में होने वाली पृथक उपापचयी अभिक्रियाओं को जीवित अभिक्रियाएँ कहती है; ऐसा पृथक तंत्र स्वयं जीवित जीव नहीं है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Why does finding a sterile worker bee not disprove that it is a living organism?",
+   "HI": "बाँझ श्रमिक मधुमक्खी मिलने से उसके जीवित होने का खंडन क्यों नहीं होता?"
+  },
+  "options": {
+   "EN": [
+    "Reproduction and growth are identical in every animal",
+    "Sterility prevents metabolism",
+    "Reproduction is not an all-inclusive criterion for life",
+    "Every worker bee reproduces eventually"
+   ],
+   "HI": [
+    "हर प्राणी में प्रजनन और वृद्धि एक ही हैं",
+    "बाँझपन उपापचय को रोकता है",
+    "प्रजनन जीवन की सर्वसमावेशी कसौटी नहीं है",
+    "प्रत्येक श्रमिक मधुमक्खी अंततः प्रजनन करती है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT gives sterile worker bees as an example showing that an individual can be living without reproducing.",
+   "HI": "NCERT बाँझ श्रमिक मधुमक्खियों को ऐसे उदाहरण के रूप में देती है जिनसे स्पष्ट है कि कोई जीव प्रजनन किए बिना भी जीवित हो सकता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A plant changes its response when the duration of light changes. Which broader property does this observation illustrate?",
+   "HI": "प्रकाश की अवधि बदलने पर एक पादप अपनी प्रतिक्रिया बदलता है। यह अवलोकन किस व्यापक गुण को दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "Self-consciousness identical to that of humans",
+    "Growth solely by surface deposition",
+    "Absence of cellular organisation",
+    "Ability to sense and respond to environmental cues"
+   ],
+   "HI": [
+    "मनुष्यों जैसी आत्म-चेतना",
+    "केवल सतही जमाव से वृद्धि",
+    "कोशिकीय संगठन का अभाव",
+    "पर्यावरणीय संकेतों को महसूस करने और उन पर प्रतिक्रिया करने की क्षमता"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT describes responses to light and photoperiod as examples of sensing environmental conditions.",
+   "HI": "NCERT प्रकाश और प्रकाश-अवधि के प्रति प्रतिक्रियाओं को पर्यावरणीय दशाओं को महसूस करने के उदाहरण के रूप में बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Two organisms share a family but belong to different genera. Which statement follows from their placement?",
+   "HI": "दो जीव एक ही कुल के हैं, पर अलग-अलग वंशों में रखे गए हैं। इस वर्गीकरण से कौन-सा कथन निकलता है?"
+  },
+  "options": {
+   "EN": [
+    "They share family-level characters but are not placed in the same genus",
+    "They must belong to different orders",
+    "They have identical specific epithets",
+    "They must be members of the same species"
+   ],
+   "HI": [
+    "उनमें कुल-स्तर के लक्षण समान हैं, पर वे एक ही वंश में नहीं रखे गए हैं",
+    "वे अनिवार्य रूप से अलग गणों में होंगे",
+    "उनके जाति-संकेतक अनिवार्य रूप से एक जैसे होंगे",
+    "वे अनिवार्य रूप से एक ही जाति के होंगे"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "A family groups related genera; sharing a family does not establish that two organisms share a genus or species.",
+   "HI": "एक कुल संबंधित वंशों को समाहित करता है; समान कुल होने से समान वंश या जाति सिद्ध नहीं होती।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "In a comparison of two species from the same genus and two species from different genera of one family, which pair should generally show more shared characters?",
+   "HI": "एक ही वंश की दो जातियों तथा एक कुल के अलग-अलग वंशों की दो जातियों की तुलना में सामान्यतः किस जोड़ी में अधिक समान लक्षण होंगे?"
+  },
+  "options": {
+   "EN": [
+    "No comparison is possible within a family",
+    "The pair from the same genus",
+    "The pair from different genera",
+    "Both pairs must share exactly the same number"
+   ],
+   "HI": [
+    "एक कुल के भीतर तुलना संभव नहीं है",
+    "एक ही वंश वाली जोड़ी में",
+    "अलग-अलग वंशों वाली जोड़ी में",
+    "दोनों जोड़ियों में समान लक्षणों की संख्या बिल्कुल बराबर होगी"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The genus is a lower rank than family, and lower taxa generally have more shared characteristics.",
+   "HI": "वंश कुल से निम्न श्रेणी है और निम्न वर्गकों के सदस्यों में सामान्यतः अधिक समान लक्षण होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A plant's vegetative characters are recorded, but its reproductive characters are ignored while assigning its family. What important NCERT criterion has been missed?",
+   "HI": "किसी पादप का कुल निर्धारित करते समय उसके वर्धी लक्षण दर्ज किए गए, लेकिन जनन लक्षण छोड़ दिए गए। NCERT का कौन-सा महत्त्वपूर्ण मानदंड छूट गया?"
+  },
+  "options": {
+   "EN": [
+    "A family always contains one genus",
+    "Only the common name determines family",
+    "Plant families are characterised using both vegetative and reproductive features",
+    "A family is identified only by habitat"
+   ],
+   "HI": [
+    "एक कुल में हमेशा एक ही वंश होता है",
+    "केवल सामान्य नाम कुल निर्धारित करता है",
+    "पादप कुलों का निर्धारण वर्धी और जनन, दोनों प्रकार के लक्षणों से होता है",
+    "कुल की पहचान केवल आवास से होती है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT explicitly uses both vegetative and reproductive features to characterise plant families.",
+   "HI": "NCERT पादप कुलों के निर्धारण के लिए वर्धी और जनन, दोनों लक्षणों का स्पष्ट उल्लेख करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A classifier groups Convolvulaceae and Solanaceae in one order. Which characters are mainly used in the NCERT example?",
+   "HI": "एक वर्गिकीविद् कॉन्वॉल्वुलेसी और सोलैनेसी को एक ही गण में रखता है। NCERT के उदाहरण में मुख्यतः कौन-से लक्षण उपयोग किए जाते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Food habits",
+    "Type of skeleton",
+    "Size of the organism",
+    "Floral characters"
+   ],
+   "HI": [
+    "आहार संबंधी आदतें",
+    "कंकाल का प्रकार",
+    "जीव का आकार",
+    "पुष्पीय लक्षण"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT places these families in the order Polymoniales mainly on floral characters.",
+   "HI": "NCERT इन कुलों को मुख्यतः पुष्पीय लक्षणों के आधार पर पॉलीमोनिएलीज़ गण में रखती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A newly collected plant specimen must remain available for future comparison, together with its collection locality and collector's name. What is the appropriate preparation?",
+   "HI": "एक नया संग्रहित पादप नमूना भविष्य की तुलना के लिए, संग्रह स्थान और संग्राहक के नाम सहित, सुरक्षित रखना है। उपयुक्त तैयारी क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Dry and press it on a labelled herbarium sheet",
+    "Keep only its common name in a notebook",
+    "Release it into a zoological park",
+    "Store only a photograph without specimen details"
+   ],
+   "HI": [
+    "उसे सुखाकर लेबलयुक्त हरबेरियम शीट पर दबाकर सुरक्षित रखें",
+    "केवल उसका सामान्य नाम कॉपी में लिखें",
+    "उसे प्राणि उद्यान में छोड़ दें",
+    "नमूने के विवरण के बिना केवल तस्वीर रखें"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Herbarium sheets preserve dried, pressed plant specimens and carry collection details.",
+   "HI": "हरबेरियम शीट पर सूखे, दबाए गए पादप नमूने तथा संग्रह से संबंधित विवरण सुरक्षित रहते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A museum needs to retain the body plan of a large bird for study. Which preservation method is described in NCERT?",
+   "HI": "एक संग्रहालय अध्ययन के लिए बड़े पक्षी की शारीरिक बनावट सुरक्षित रखना चाहता है। NCERT में संरक्षण की कौन-सी विधि बताई गई है?"
+  },
+  "options": {
+   "EN": [
+    "Pressing it on a herbarium sheet",
+    "Stuffing and preserving the specimen",
+    "Pinning it in an insect box",
+    "Planting it in a botanical garden"
+   ],
+   "HI": [
+    "उसे हरबेरियम शीट पर दबाना",
+    "नमूने में भराव करके उसे सुरक्षित रखना",
+    "उसे कीट-पेटिका में पिन लगाकर रखना",
+    "उसे वनस्पति उद्यान में रोपना"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT says larger animals such as birds and mammals are usually stuffed and preserved in museums.",
+   "HI": "NCERT के अनुसार पक्षियों और स्तनधारियों जैसे बड़े प्राणियों को संग्रहालयों में सामान्यतः भराव करके सुरक्षित रखा जाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "While using a taxonomic key, a specimen matches one member of a pair of contrasting characters. What should the user do next?",
+   "HI": "वर्गिकी कुंजी का उपयोग करते समय कोई नमूना विरोधी लक्षणों की एक जोड़ी में से एक विकल्प से मेल खाता है। आगे क्या करना चाहिए?"
+  },
+  "options": {
+   "EN": [
+    "Ignore the observed character",
+    "Assign the specimen directly to a kingdom without further identification",
+    "Accept the matching lead and reject the other",
+    "Accept both leads simultaneously"
+   ],
+   "HI": [
+    "देखे गए लक्षण को अनदेखा करें",
+    "आगे पहचान किए बिना नमूने को सीधे जगत में रख दें",
+    "मेल खाने वाले संकेत को स्वीकार और दूसरे को अस्वीकार करें",
+    "दोनों संकेत एक साथ स्वीकार करें"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "A key presents opposite alternatives in a couplet; identification proceeds by accepting one lead and rejecting the other.",
+   "HI": "वर्गिकी कुंजी में विपरीत लक्षणों के युग्म (couplets) होते हैं। पहचान के प्रत्येक चरण में एक कथन स्वीकार और दूसरा अस्वीकार किया जाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A field worker knows the genus of a specimen but needs to distinguish between closely related species. Which resource best fits this identification step?",
+   "HI": "एक क्षेत्रीय शोधकर्ता नमूने का वंश जानता है, पर निकट संबंधी जातियों में भेद करना चाहता है। पहचान के इस चरण के लिए कौन-सा साधन सबसे उपयुक्त है?"
+  },
+  "options": {
+   "EN": [
+    "A list of only kingdom names",
+    "A zoo photograph without characters",
+    "A record of rainfall alone",
+    "A key prepared for species identification"
+   ],
+   "HI": [
+    "केवल जगतों के नामों की सूची",
+    "लक्षणों के बिना चिड़ियाघर की तस्वीर",
+    "केवल वर्षा का अभिलेख",
+    "जाति की पहचान के लिए तैयार की गई वर्गिकी कुंजी"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT states that separate keys are required for taxonomic categories including species.",
+   "HI": "NCERT के अनुसार जाति सहित विभिन्न वर्गिकी श्रेणियों की पहचान के लिए अलग-अलग कुंजियाँ चाहिए।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A biologist studies both an organism's classification and its evolutionary relationship to others. Which term best names this broader study?",
+   "HI": "एक जीवविज्ञानी किसी जीव के वर्गीकरण के साथ अन्य जीवों से उसके विकासीय संबंध का भी अध्ययन करता है। इस व्यापक अध्ययन को क्या कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Systematics",
+    "Only nomenclature",
+    "Only preservation",
+    "Only specimen mounting"
+   ],
+   "HI": [
+    "वर्गीकरण पद्धति (सिस्टेमैटिक्स)",
+    "केवल नामकरण",
+    "केवल संरक्षण",
+    "केवल नमूना आरोपण"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT describes systematics as encompassing identification, nomenclature and classification while considering evolutionary relationships.",
+   "HI": "NCERT के अनुसार वर्गीकरण पद्धति (सिस्टेमैटिक्स) में पहचान, नाम-पद्धति और वर्गीकरण के साथ जीवों के विकासीय संबंधों का भी अध्ययन किया जाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A scientist has identified an organism correctly but finds that its local name varies between regions. What is the purpose of assigning a scientific name?",
+   "HI": "एक वैज्ञानिक ने जीव की सही पहचान कर ली है, लेकिन उसका स्थानीय नाम क्षेत्रों के अनुसार बदलता है। वैज्ञानिक नाम देने का उद्देश्य क्या है?"
+  },
+  "options": {
+   "EN": [
+    "To place all organisms in the same species",
+    "To provide a standard name understood across regions",
+    "To change the organism's characteristics",
+    "To eliminate the need to describe it"
+   ],
+   "HI": [
+    "सभी जीवों को एक ही जाति में रखना",
+    "विभिन्न क्षेत्रों में मान्य एक मानकीकृत नाम देना",
+    "जीव के लक्षण बदलना",
+    "उसके वर्णन की आवश्यकता समाप्त करना"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT explains that varying local names create confusion and scientific nomenclature standardises reference to organisms.",
+   "HI": "NCERT बताती है कि बदलते स्थानीय नाम भ्रम पैदा करते हैं और वैज्ञानिक नामकरण जीवों के संदर्भ को मानकीकृत करता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A taxonomist can study an organism's external structure, cell structure, development and ecology. What is the role of these observations in NCERT's account of taxonomy?",
+   "HI": "एक वर्गिकीविद् किसी जीव की बाह्य संरचना, कोशिका-संरचना, विकास और पारिस्थितिकी का अध्ययन करता है। NCERT के अनुसार वर्गिकी में इन अवलोकनों की क्या भूमिका है?"
+  },
+  "options": {
+   "EN": [
+    "Only external appearance is relevant",
+    "They replace the need for identification",
+    "Only ecological data can establish a scientific name",
+    "They form the basis of modern taxonomic studies"
+   ],
+   "HI": [
+    "केवल बाह्य रूप प्रासंगिक है",
+    "ये पहचान की आवश्यकता समाप्त कर देते हैं",
+    "केवल पारिस्थितिक जानकारी वैज्ञानिक नाम निर्धारित कर सकती है",
+    "ये आधुनिक वर्गिकी अध्ययन का आधार हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT lists external and internal structure, cell structure, development and ecological information as essential to modern taxonomy.",
+   "HI": "NCERT बाह्य और आंतरिक संरचना, कोशिका-संरचना, विकास तथा पारिस्थितिक जानकारी को आधुनिक वर्गिकी के लिए आवश्यक बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A collected specimen is difficult to identify because its characters were never recorded. Which fundamental requirement for placing it in a taxonomic category is missing?",
+   "HI": "किसी संग्रहित नमूने की पहचान कठिन है क्योंकि उसके लक्षण दर्ज नहीं किए गए। उसे वर्गिकी श्रेणी में रखने की कौन-सी मूल आवश्यकता अधूरी है?"
+  },
+  "options": {
+   "EN": [
+    "Knowledge of the characters of the organism",
+    "Knowledge of its market price",
+    "A photograph of an unrelated organism",
+    "Its local name alone"
+   ],
+   "HI": [
+    "जीव के लक्षणों का ज्ञान",
+    "उसका बाजार मूल्य",
+    "किसी असंबंधित जीव की तस्वीर",
+    "केवल उसका स्थानीय नाम"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT says placement in categories first requires knowledge of characters to identify similarities and differences.",
+   "HI": "NCERT के अनुसार श्रेणियों में स्थान निर्धारण के लिए पहले लक्षणों का ज्ञान चाहिए ताकि समानता और भिन्नता पहचानी जा सके।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A researcher wants to examine a preserved animal skeleton for comparison. Which taxonomical aid may contain such a specimen?",
+   "HI": "एक शोधकर्ता तुलना के लिए सुरक्षित प्राणी कंकाल देखना चाहता है। किस वर्गिकी साधन में ऐसा नमूना मिल सकता है?"
+  },
+  "options": {
+   "EN": [
+    "Living plant collection",
+    "Biological museum",
+    "Botanical garden",
+    "Herbarium sheet"
+   ],
+   "HI": [
+    "जीवित पादप संग्रह",
+    "जैविक संग्रहालय",
+    "वनस्पति उद्यान",
+    "हरबेरियम शीट"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT specifically notes that biological museums often include collections of animal skeletons.",
+   "HI": "NCERT विशेष रूप से बताती है कि जैविक संग्रहालयों में प्रायः प्राणियों के कंकालों के संग्रह होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which pair of places is named in NCERT as locations of botanical gardens in India?",
+   "HI": "NCERT में भारत के किन दो स्थानों को वनस्पति उद्यानों के स्थान के रूप में बताया गया है?"
+  },
+  "options": {
+   "EN": [
+    "Kew and Lucknow",
+    "Howrah and London",
+    "Howrah and Lucknow",
+    "Kew and Howrah"
+   ],
+   "HI": [
+    "क्यू और लखनऊ",
+    "हावड़ा और लंदन",
+    "हावड़ा और लखनऊ",
+    "क्यू और हावड़ा"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT names the Indian Botanical Garden at Howrah and the National Botanical Research Institute at Lucknow; Kew is in England.",
+   "HI": "NCERT हावड़ा के भारतीय वनस्पति उद्यान और लखनऊ के राष्ट्रीय वनस्पति अनुसंधान संस्थान का उल्लेख करती है; क्यू इंग्लैंड में है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A labelled museum jar contains an animal preserved in solution. Which conclusion is best supported by NCERT?",
+   "HI": "संग्रहालय के एक लेबलयुक्त पात्र में प्राणी को परिरक्षक विलयन में रखा गया है। NC
