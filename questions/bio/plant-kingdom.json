@@ -1,0 +1,4538 @@
+[
+ {
+  "question": {
+   "EN": "Which set of pigments is characteristic of Chlorophyceae?",
+   "HI": "कौन-सा वर्णक-समूह क्लोरोफाइसी का प्रमुख लक्षण है?"
+  },
+  "options": {
+   "EN": [
+    "Only fucoxanthin and phycoerythrin",
+    "Chlorophyll a and c with fucoxanthin",
+    "Chlorophyll a and b",
+    "Chlorophyll a and d with phycoerythrin"
+   ],
+   "HI": [
+    "केवल फ्यूकोजैंथिन और फाइकोएरिथ्रिन",
+    "क्लोरोफिल a और c तथा फ्यूकोजैंथिन",
+    "क्लोरोफिल a और b",
+    "क्लोरोफिल a और d तथा फाइकोएरिथ्रिन"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Green algae characteristically have chlorophyll a and b; brown and red algae have different accessory pigment combinations.",
+   "HI": "हरे शैवालों में प्रमुखतः क्लोरोफिल a और b होते हैं; भूरे और लाल शैवालों में सहायक वर्णकों के संयोजन अलग हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "An alga contains storage bodies within its chloroplasts. These bodies contain protein besides starch. What are they?",
+   "HI": "किसी शैवाल के हरितलवकों में संग्रह संरचनाएँ हैं जिनमें स्टार्च के साथ प्रोटीन भी है। ये क्या हैं?"
+  },
+  "options": {
+   "EN": [
+    "Oogonia",
+    "Zoosporangia",
+    "Holdfasts",
+    "Pyrenoids"
+   ],
+   "HI": [
+    "ऊगोनिया",
+    "चलबीजाणुधानियाँ",
+    "स्थापनांग",
+    "पाइरीनॉइड"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Pyrenoids in many green algae are chloroplast-associated storage bodies containing protein and starch.",
+   "HI": "अनेक हरे शैवालों के पाइरीनॉइड हरितलवक में स्थित संग्रह संरचनाएँ हैं जिनमें प्रोटीन और स्टार्च होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which arrangement describes the usual cell wall of green algae?",
+   "HI": "हरे शैवालों की सामान्य कोशिका भित्ति की कौन-सी व्यवस्था सही है?"
+  },
+  "options": {
+   "EN": [
+    "Inner chitin and outer algin",
+    "Inner cellulose and outer pectose",
+    "Inner pectose and outer cellulose",
+    "Inner silica and outer chitin"
+   ],
+   "HI": [
+    "भीतर काइटिन और बाहर एल्जिन",
+    "भीतर सेल्यूलोज और बाहर पेक्टोज",
+    "भीतर पेक्टोज और बाहर सेल्यूलोज",
+    "भीतर सिलिका और बाहर काइटिन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT describes an inner cellulose layer and an outer pectose layer in the usual green-algal wall.",
+   "HI": "NCERT हरे शैवाल की सामान्य भित्ति में भीतरी सेल्यूलोज और बाहरी पेक्टोज परत बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which alga is colonial rather than filamentous in the NCERT examples?",
+   "HI": "NCERT के उदाहरणों में कौन-सा शैवाल तंतुमय होने के बजाय निवही है?"
+  },
+  "options": {
+   "EN": [
+    "Ectocarpus",
+    "Volvox",
+    "Ulothrix",
+    "Spirogyra"
+   ],
+   "HI": [
+    "एक्टोकार्पस",
+    "वॉल्वॉक्स",
+    "यूलोथ्रिक्स",
+    "स्पाइरोगाइरा"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Volvox is colonial; Ulothrix and Spirogyra are filamentous, and Ectocarpus is a branched filamentous brown alga.",
+   "HI": "वॉल्वॉक्स निवही है; यूलोथ्रिक्स और स्पाइरोगाइरा तंतुमय तथा एक्टोकार्पस शाखित तंतुमय भूरा शैवाल है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Two gametes fuse that are similar in size but both non-motile. Which NCERT example shows this type of isogamy?",
+   "HI": "समान आकार के दो अचल युग्मक संलयित होते हैं। NCERT का कौन-सा उदाहरण इस प्रकार का समयुग्मन दिखाता है?"
+  },
+  "options": {
+   "EN": [
+    "Fucus",
+    "Eudorina",
+    "Volvox",
+    "Spirogyra"
+   ],
+   "HI": [
+    "फ्यूकस",
+    "यूडोराइना",
+    "वॉल्वॉक्स",
+    "स्पाइरोगाइरा"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Spirogyra has similar-sized non-flagellated gametes. Isogamy is based on similarity of gametes, not a requirement that they be motile.",
+   "HI": "स्पाइरोगाइरा के समान आकार वाले युग्मकों में कशाभिकाएँ नहीं होतीं। समयुग्मन का आधार युग्मकों की समानता है; उनका चल होना अनिवार्य नहीं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Fusion of gametes of unequal size in species of Eudorina is called:",
+   "HI": "यूडोराइना की जातियों में असमान आकार के युग्मकों के संलयन को क्या कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Isogamy",
+    "Fragmentation",
+    "Anisogamy",
+    "Sporulation"
+   ],
+   "HI": [
+    "समयुग्मन",
+    "खंडन",
+    "असमयुग्मन",
+    "बीजाणु निर्माण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Anisogamy involves fusion of dissimilar-sized gametes, as in Eudorina.",
+   "HI": "असमयुग्मन में असमान आकार के युग्मक संलयित होते हैं, जैसे यूडोराइना में।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which combination defines oogamy as described for Volvox and Fucus?",
+   "HI": "वॉल्वॉक्स और फ्यूकस के लिए वर्णित विषमयुग्मन (oogamy) की सही पहचान कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Large non-motile female gamete and small motile male gamete",
+    "Two equally sized motile gametes",
+    "Two spores germinating independently",
+    "Two equally sized non-motile gametes"
+   ],
+   "HI": [
+    "बड़ा अचल मादा युग्मक और छोटा चल नर युग्मक",
+    "समान आकार के दो चल युग्मक",
+    "स्वतंत्र रूप से अंकुरित होते दो बीजाणु",
+    "समान आकार के दो अचल युग्मक"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Oogamy involves a large non-motile egg and a smaller motile male gamete in these algal examples.",
+   "HI": "इन शैवालों के विषमयुग्मन में बड़ा अचल अंड और छोटा चल नर युग्मक भाग लेते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pigment chiefly explains the olive-green to brown colour of Phaeophyceae?",
+   "HI": "फियोफाइसी के जैतूनी हरे से भूरे रंग का मुख्य कारण कौन-सा वर्णक है?"
+  },
+  "options": {
+   "EN": [
+    "Fucoxanthin",
+    "Anthocyanin",
+    "Chlorophyll b",
+    "r-Phycoerythrin"
+   ],
+   "HI": [
+    "फ्यूकोजैंथिन",
+    "एंथोसायनिन",
+    "क्लोरोफिल b",
+    "r-फाइकोएरिथ्रिन"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The amount of the xanthophyll fucoxanthin determines the characteristic shades in brown algae.",
+   "HI": "जैंथोफिल फ्यूकोजैंथिन की मात्रा भूरे शैवालों के विशिष्ट रंग को निर्धारित करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "An alga stores laminarin and mannitol. Which class is indicated?",
+   "HI": "एक शैवाल लैमिनेरिन और मैनिटॉल संचित करता है। वह किस वर्ग का संकेत है?"
+  },
+  "options": {
+   "EN": [
+    "Chlorophyceae",
+    "All three classes equally",
+    "Phaeophyceae",
+    "Rhodophyceae"
+   ],
+   "HI": [
+    "क्लोरोफाइसी",
+    "तीनों वर्ग समान रूप से",
+    "फियोफाइसी",
+    "रोडोफाइसी"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Laminarin and mannitol are characteristic reserve foods of brown algae.",
+   "HI": "लैमिनेरिन और मैनिटॉल भूरे शैवालों के विशिष्ट संचित खाद्य पदार्थ हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which substance forms the gelatinous outer coating of the cellulosic wall in brown algae?",
+   "HI": "भूरे शैवालों की सेल्यूलोजयुक्त भित्ति पर जिलेटिनी बाहरी आवरण किस पदार्थ का होता है?"
+  },
+  "options": {
+   "EN": [
+    "Chitin",
+    "Silica",
+    "Pectose only",
+    "Algin"
+   ],
+   "HI": [
+    "काइटिन",
+    "सिलिका",
+    "केवल पेक्टोज",
+    "एल्जिन"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The cellulosic wall of brown algae is usually externally coated with algin.",
+   "HI": "भूरे शैवालों की सेल्यूलोजयुक्त भित्ति पर सामान्यतः बाहर एल्जिन का आवरण होता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which structure attaches the brown-algal thallus to its substratum?",
+   "HI": "भूरे शैवाल के थैलस को आधार से कौन-सी संरचना जोड़ती है?"
+  },
+  "options": {
+   "EN": [
+    "Oogonium",
+    "Stipe alone",
+    "Frond",
+    "Holdfast"
+   ],
+   "HI": [
+    "ऊगोनियम",
+    "केवल वृंत (स्टाइप)",
+    "फ्रॉन्ड",
+    "स्थापनांग (होल्डफास्ट)"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The holdfast anchors the thallus; the stipe is stalk-like and the frond is the leaf-like photosynthetic part.",
+   "HI": "स्थापनांग थैलस को आधार से जोड़ता है; स्टाइप वृंत जैसा और फ्रॉन्ड पत्ती जैसा प्रकाश-संश्लेषी भाग है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which description fits the zoospores of most brown algae?",
+   "HI": "अधिकांश भूरे शैवालों के चलबीजाणुओं का सही वर्णन कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Pear-shaped with two unequal lateral flagella",
+    "Non-motile and without flagella",
+    "Pear-shaped with two equal apical flagella",
+    "Spherical with eight equal apical flagella"
+   ],
+   "HI": [
+    "नाशपाती जैसे, दो असमान पार्श्व कशाभिकाओं सहित",
+    "अचल और कशाभिका-विहीन",
+    "नाशपाती जैसे, दो समान शीर्षस्थ कशाभिकाओं सहित",
+    "गोलाकार, आठ समान शीर्षस्थ कशाभिकाओं सहित"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Most brown-algal zoospores are pyriform and have two unequal, laterally inserted flagella.",
+   "HI": "अधिकांश भूरे शैवालों के चलबीजाणु नाशपाती जैसे होते हैं और उनमें दो असमान पार्श्वस्थ कशाभिकाएँ होती हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair consists only of brown algae?",
+   "HI": "किस जोड़ी के दोनों सदस्य भूरे शैवाल हैं?"
+  },
+  "options": {
+   "EN": [
+    "Gelidium and Gracilaria",
+    "Ectocarpus and Sargassum",
+    "Volvox and Chara",
+    "Ulothrix and Porphyra"
+   ],
+   "HI": [
+    "जेलिडियम और ग्रैसिलेरिया",
+    "एक्टोकार्पस और सारगैसम",
+    "वॉल्वॉक्स और कारा",
+    "यूलोथ्रिक्स और पॉरफाइरा"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Ectocarpus and Sargassum are brown algae; the other pairs contain green or red algae.",
+   "HI": "एक्टोकार्पस और सारगैसम भूरे शैवाल हैं; दूसरी जोड़ियों में हरे या लाल शैवाल हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pigment gives Rhodophyceae their characteristic red colour?",
+   "HI": "रोडोफाइसी को विशिष्ट लाल रंग कौन-सा वर्णक देता है?"
+  },
+  "options": {
+   "EN": [
+    "Fucoxanthin",
+    "Chlorophyll b",
+    "Only carotene",
+    "r-Phycoerythrin"
+   ],
+   "HI": [
+    "फ्यूकोजैंथिन",
+    "क्लोरोफिल b",
+    "केवल कैरोटीन",
+    "r-फाइकोएरिथ्रिन"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The red pigment r-phycoerythrin predominates in red algae.",
+   "HI": "लाल शैवालों में लाल वर्णक r-फाइकोएरिथ्रिन की प्रधानता होती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Floridean starch resembles which substances in structure?",
+   "HI": "फ्लोरीडियन स्टार्च की संरचना किन पदार्थों से मिलती है?"
+  },
+  "options": {
+   "EN": [
+    "Amylopectin and glycogen",
+    "Mannitol and laminarin",
+    "Algin and pectose",
+    "Cellulose and chitin"
+   ],
+   "HI": [
+    "एमाइलोपेक्टिन और ग्लाइकोजन",
+    "मैनिटॉल और लैमिनेरिन",
+    "एल्जिन और पेक्टोज",
+    "सेल्यूलोज और काइटिन"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT compares floridean starch, the red-algal reserve food, with amylopectin and glycogen.",
+   "HI": "NCERT लाल शैवालों के संचित भोजन फ्लोरीडियन स्टार्च की तुलना एमाइलोपेक्टिन और ग्लाइकोजन से करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which reproductive feature distinguishes red algae from the other two main algal classes?",
+   "HI": "प्रजनन का कौन-सा गुण लाल शैवालों को दूसरे दो मुख्य शैवाल वर्गों से अलग करता है?"
+  },
+  "options": {
+   "EN": [
+    "Every gamete has two unequal flagella",
+    "All spores have eight apical flagella",
+    "All sexual reproduction is isogamous",
+    "Both spores and gametes are non-motile"
+   ],
+   "HI": [
+    "हर युग्मक में दो असमान कशाभिकाएँ होती हैं",
+    "हर बीजाणु में आठ शीर्षस्थ कशाभिकाएँ होती हैं",
+    "सभी लैंगिक जनन समयुग्मनी हैं",
+    "बीजाणु और युग्मक दोनों अचल होते हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Red algae lack flagellated stages; their spores and gametes are non-motile.",
+   "HI": "लाल शैवालों में कशाभिकायुक्त अवस्थाएँ नहीं होतीं; उनके बीजाणु और युग्मक अचल होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which statement about red-algal habitats agrees with NCERT?",
+   "HI": "लाल शैवालों के आवास के बारे में कौन-सा कथन NCERT के अनुरूप है?"
+  },
+  "options": {
+   "EN": [
+    "Most are marine and can occur at considerable depths",
+    "None can live below the well-lit surface layer",
+    "All are terrestrial desert plants",
+    "All are restricted to freshwater ponds"
+   ],
+   "HI": [
+    "अधिकांश समुद्री हैं और काफी गहराई पर भी पाए जा सकते हैं",
+    "कोई भी प्रकाशयुक्त सतह के नीचे नहीं रह सकता",
+    "सभी स्थलीय मरुस्थलीय पादप हैं",
+    "सभी केवल मीठे जल के तालाबों में हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Red algae are mostly marine and occur near the surface as well as at depths with relatively little light.",
+   "HI": "लाल शैवाल अधिकांशतः समुद्री हैं और सतह के साथ अपेक्षाकृत कम प्रकाश वाली गहराइयों में भी पाए जाते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair supplies agar used in microbial culture media?",
+   "HI": "सूक्ष्मजीवी संवर्धन माध्यम के लिए उपयोगी अगर किस जोड़ी से मिलता है?"
+  },
+  "options": {
+   "EN": [
+    "Volvox and Chara",
+    "Gelidium and Gracilaria",
+    "Ulothrix and Spirogyra",
+    "Ectocarpus and Fucus"
+   ],
+   "HI": [
+    "वॉल्वॉक्स और कारा",
+    "जेलिडियम और ग्रैसिलेरिया",
+    "यूलोथ्रिक्स और स्पाइरोगाइरा",
+    "एक्टोकार्पस और फ्यूकस"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Agar is obtained from the red algae Gelidium and Gracilaria.",
+   "HI": "अगर लाल शैवाल जेलिडियम और ग्रैसिलेरिया से प्राप्त होता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which hydrocolloid–source pairing is correct?",
+   "HI": "कौन-सा हाइड्रोकोलॉइड–स्रोत युग्म सही है?"
+  },
+  "options": {
+   "EN": [
+    "Carrageen—red algae",
+    "Algin—green algae",
+    "Carrageen—brown algae",
+    "Algin—mosses"
+   ],
+   "HI": [
+    "कैरेगीन—लाल शैवाल",
+    "एल्जिन—हरे शैवाल",
+    "कैरेगीन—भूरे शैवाल",
+    "एल्जिन—मॉस"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Red algae supply carrageen, while brown algae supply algin.",
+   "HI": "लाल शैवाल कैरेगीन और भूरे शैवाल एल्जिन देते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which unicellular alga is used as a protein-rich food supplement, including by space travellers?",
+   "HI": "कौन-सा एककोशिकीय शैवाल अंतरिक्ष यात्रियों सहित लोगों के लिए प्रोटीन-समृद्ध खाद्य पूरक है?"
+  },
+  "options": {
+   "EN": [
+    "Laminaria",
+    "Fucus",
+    "Polysiphonia",
+    "Chlorella"
+   ],
+   "HI": [
+    "लैमिनेरिया",
+    "फ्यूकस",
+    "पॉलीसाइफोनिया",
+    "क्लोरेला"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT names Chlorella as a protein-rich unicellular food supplement.",
+   "HI": "NCERT क्लोरेला को प्रोटीन-समृद्ध एककोशिकीय खाद्य पूरक बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which set contains only marine algae mentioned as food sources?",
+   "HI": "किस समूह में केवल भोजन के रूप में उपयोग किए जाने वाले समुद्री शैवाल हैं?"
+  },
+  "options": {
+   "EN": [
+    "Chara, Marchantia and Fucus",
+    "Gelidium, Cycas and Ulothrix",
+    "Porphyra, Laminaria and Sargassum",
+    "Volvox, Funaria and Sargassum"
+   ],
+   "HI": [
+    "कारा, मार्केन्शिया और फ्यूकस",
+    "जेलिडियम, साइकस और यूलोथ्रिक्स",
+    "पॉरफाइरा, लैमिनेरिया और सारगैसम",
+    "वॉल्वॉक्स, फ्यूनेरिया और सारगैसम"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Porphyra, Laminaria and Sargassum are explicitly named among marine algae used as food.",
+   "HI": "पॉरफाइरा, लैमिनेरिया और सारगैसम का समुद्री खाद्य शैवालों में स्पष्ट उल्लेख है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A green-algal filament breaks into several pieces, and each grows into a new thallus without gamete fusion. What has occurred?",
+   "HI": "हरे शैवाल का तंतु कई टुकड़ों में टूटता है और हर टुकड़ा युग्मक संलयन के बिना नया थैलस बनाता है। कौन-सी प्रक्रिया हुई?"
+  },
+  "options": {
+   "EN": [
+    "Sexual reproduction by oogamy",
+    "Vegetative reproduction by fragmentation",
+    "Meiotic formation of a zygote",
+    "Sexual reproduction by isogamy"
+   ],
+   "HI": [
+    "विषमयुग्मन द्वारा लैंगिक जनन",
+    "खंडन द्वारा वर्धी जनन",
+    "अर्धसूत्री विभाजन से युग्मनज निर्माण",
+    "समयुग्मन द्वारा लैंगिक जनन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "In fragmentation, each separated thallus fragment develops into a new individual without fertilisation.",
+   "HI": "खंडन में थैलस का अलग हुआ प्रत्येक टुकड़ा निषेचन के बिना नया जीव बनाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which pigment is shared by all three major algal classes in NCERT Table 3.1?",
+   "HI": "NCERT तालिका 3.1 में तीनों मुख्य शैवाल वर्गों का साझा वर्णक कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Fucoxanthin",
+    "Chlorophyll a",
+    "Chlorophyll b",
+    "Phycoerythrin"
+   ],
+   "HI": [
+    "फ्यूकोजैंथिन",
+    "क्लोरोफिल a",
+    "क्लोरोफिल b",
+    "फाइकोएरिथ्रिन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Chlorophyll a occurs in green, brown and red algae; their accessory pigments differ.",
+   "HI": "क्लोरोफिल a हरे, भूरे और लाल, तीनों शैवालों में है; सहायक वर्णक अलग हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "An unknown alga has chlorophyll a and c, laminarin reserves and unequal lateral flagella. Which identification best fits the combined evidence?",
+   "HI": "एक अज्ञात शैवाल में क्लोरोफिल a और c, संचित लैमिनेरिन और असमान पार्श्व कशाभिकाएँ हैं। संयुक्त साक्ष्य के आधार पर सही पहचान क्या है?"
+  },
+  "options": {
+   "EN": [
+    "A green alga",
+    "A moss gametophyte",
+    "A brown alga",
+    "A red alga"
+   ],
+   "HI": [
+    "हरा शैवाल",
+    "मॉस का युग्मकोद्भिद",
+    "भूरा शैवाल",
+    "लाल शैवाल"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The pigment, reserve-food and flagellar characters all support Phaeophyceae.",
+   "HI": "वर्णक, संचित भोजन और कशाभिकाओं के तीनों लक्षण फियोफाइसी की पुष्टि करते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Why are bryophytes called amphibians of the plant kingdom?",
+   "HI": "ब्रायोफाइट को पादप जगत के उभयचर क्यों कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Their sporophytes live only in seawater",
+    "They possess both gills and lungs",
+    "They bear seeds only under water",
+    "They live on land but require water for sexual reproduction"
+   ],
+   "HI": [
+    "उनके बीजाणुद्भिद केवल समुद्री जल में रहते हैं",
+    "उनमें गलफड़े और फेफड़े दोनों हैं",
+    "वे केवल जल के भीतर बीज बनाते हैं",
+    "वे भूमि पर रहते हैं पर लैंगिक जनन के लिए जल चाहिए"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Water allows the male gametes to reach the female sex organs in bryophytes.",
+   "HI": "जल ब्रायोफाइट के नर युग्मकों को मादा जननांग तक पहुँचने में सहायता करता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which structure attaches the bryophyte plant body to its substratum?",
+   "HI": "ब्रायोफाइट के पादप शरीर को आधार से कौन-सी संरचना जोड़ती है?"
+  },
+  "options": {
+   "EN": [
+    "A seed radicle",
+    "Rhizoids",
+    "True tap roots",
+    "A vascular rhizome in every species"
+   ],
+   "HI": [
+    "बीज का मूलांकुर",
+    "मूलाभास",
+    "वास्तविक मूसला जड़ें",
+    "हर जाति में संवहनी प्रकंद"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Bryophytes have rhizoids and lack true roots, stems and leaves.",
+   "HI": "ब्रायोफाइट में मूलाभास होते हैं और वास्तविक जड़, तना तथा पत्तियाँ नहीं होतीं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What is the dominant, gamete-producing body of a bryophyte?",
+   "HI": "ब्रायोफाइट का प्रमुख युग्मक-उत्पादक शरीर क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Diploid gametophyte",
+    "Triploid endosperm",
+    "Diploid sporophyte",
+    "Haploid gametophyte"
+   ],
+   "HI": [
+    "द्विगुणित युग्मकोद्भिद",
+    "त्रिगुणित भ्रूणपोष",
+    "द्विगुणित बीजाणुद्भिद",
+    "अगुणित युग्मकोद्भिद"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The main bryophyte plant is the haploid gametophyte.",
+   "HI": "ब्रायोफाइट का मुख्य पादप अगुणित युग्मकोद्भिद है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "The male sex organ of a bryophyte produces which gametes?",
+   "HI": "ब्रायोफाइट का नर जननांग किस प्रकार के युग्मक बनाता है?"
+  },
+  "options": {
+   "EN": [
+    "Non-motile pollen grains",
+    "Unicellular gemma cups",
+    "Biflagellate antherozoids",
+    "Megaspores"
+   ],
+   "HI": [
+    "अचल परागकण",
+    "एककोशिकीय जेमा कप",
+    "द्विकशाभिक पुमणु",
+    "गुरुबीजाणु"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The antheridium produces biflagellate antherozoids; pollen grains and megaspores are not bryophyte male gametes.",
+   "HI": "पुंधानी द्विकशाभिक पुमणु बनाती है; परागकण और गुरुबीजाणु ब्रायोफाइट के नर युग्मक नहीं हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which description fits a bryophyte archegonium?",
+   "HI": "ब्रायोफाइट की स्त्रीधानी का सही वर्णन कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Flask-shaped and containing one egg",
+    "Leaf-like and producing gemmae",
+    "A capsule producing only spores",
+    "Spherical and containing pollen grains"
+   ],
+   "HI": [
+    "फ्लास्क जैसी और एक अंड वाली",
+    "पत्ती जैसी और जेमा बनाने वाली",
+    "केवल बीजाणु बनाने वाली संपुटिका",
+    "गोलाकार और परागकण वाली"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The archegonium is a flask-shaped female sex organ producing a single egg.",
+   "HI": "स्त्रीधानी फ्लास्क के आकार का मादा जननांग है जिसमें एक अंड बनता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What happens to a bryophyte zygote before haploid spores are produced?",
+   "HI": "अगुणित बीजाणु बनने से पहले ब्रायोफाइट के युग्मनज का क्या होता है?"
+  },
+  "options": {
+   "EN": [
+    "It develops into a multicellular sporophyte",
+    "It immediately forms gametes by meiosis",
+    "It directly forms a gemma cup",
+    "It becomes a pollen grain"
+   ],
+   "HI": [
+    "यह बहुकोशिकीय बीजाणुद्भिद बनता है",
+    "यह तुरंत अर्धसूत्री विभाजन से युग्मक बनाता है",
+    "यह सीधे जेमा कप बनाता है",
+    "यह परागकण बनता है"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The zygote does not undergo immediate reduction division; it first forms a multicellular sporophyte.",
+   "HI": "युग्मनज में तुरंत न्यूनकारी विभाजन नहीं होता; वह पहले बहुकोशिकीय बीजाणुद्भिद बनाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A bryophyte sporophyte remains attached to another plant body and receives nutrition from it. Identify that supporting body.",
+   "HI": "ब्रायोफाइट का बीजाणुद्भिद एक अन्य पादप शरीर से जुड़ा रहकर पोषण लेता है। वह सहायक शरीर कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "A fruit-bearing branch",
+    "A fungal basidiocarp",
+    "An independent pollen tube",
+    "The photosynthetic gametophyte"
+   ],
+   "HI": [
+    "फल वाली शाखा",
+    "कवकीय बेसिडियोकार्प",
+    "स्वतंत्र परागनलिका",
+    "प्रकाश-संश्लेषी युग्मकोद्भिद"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The sporophyte derives nourishment from the gametophyte on which it develops.",
+   "HI": "बीजाणुद्भिद उसी युग्मकोद्भिद से पोषण पाता है जिस पर वह विकसित होता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Where does reduction division produce spores in a moss?",
+   "HI": "मॉस में न्यूनकारी विभाजन द्वारा बीजाणु कहाँ बनते हैं?"
+  },
+  "options": {
+   "EN": [
+    "In the gemma cups of every moss",
+    "In the antherozoids",
+    "In the rhizoids of the leafy shoot",
+    "In the sporophyte capsule"
+   ],
+   "HI": [
+    "हर मॉस के जेमा कप में",
+    "पुमणुओं में",
+    "पर्णिल प्ररोह के मूलाभासों में",
+    "बीजाणुद्भिद की संपुटिका में"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The moss capsule contains cells that undergo meiosis and form haploid spores.",
+   "HI": "मॉस की संपुटिका में कोशिकाएँ अर्धसूत्री विभाजन करके अगुणित बीजाणु बनाती हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which bryophyte supplies peat used as fuel?",
+   "HI": "कौन-सा ब्रायोफाइट ईंधन के रूप में उपयोगी पीट देता है?"
+  },
+  "options": {
+   "EN": [
+    "Selaginella",
+    "Sphagnum",
+    "Chara",
+    "Marchantia"
+   ],
+   "HI": [
+    "सिलेजिनेला",
+    "स्फैग्नम",
+    "कारा",
+    "मार्केन्शिया"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Species of Sphagnum form peat, which has long been used as fuel.",
+   "HI": "स्फैग्नम की जातियाँ पीट देती हैं, जिसका लंबे समय से ईंधन के रूप में उपयोग होता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Why is Sphagnum useful for packing living material during transport?",
+   "HI": "जीवित सामग्री के परिवहन में पैकिंग के लिए स्फैग्नम क्यों उपयोगी है?"
+  },
+  "options": {
+   "EN": [
+    "Its production of dry naked seeds",
+    "Its high water-holding capacity",
+    "Its rigid woody cones",
+    "Its release of algin into seawater"
+   ],
+   "HI": [
+    "इसका सूखे नग्न बीज बनाना",
+    "इसकी अधिक जल-धारण क्षमता",
+    "इसके कठोर काष्ठीय शंकु",
+    "इसका समुद्री जल में एल्जिन छोड़ना"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Sphagnum retains water, helping packed living material remain moist.",
+   "HI": "स्फैग्नम जल बनाए रखता है, जिससे पैक की गई जीवित सामग्री नम रहती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Dense moss mats help conserve soil chiefly by:",
+   "HI": "मॉस के घने आवरण मुख्यतः किस प्रकार मिट्टी की रक्षा करते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Forming a permanent layer of silica",
+    "Reducing the impact of falling rain",
+    "Producing deep tap-root systems",
+    "Preventing all water from entering soil"
+   ],
+   "HI": [
+    "सिलिका की स्थायी परत बनाकर",
+    "गिरती वर्षा के आघात को कम करके",
+    "गहरी मूसला जड़ें बनाकर",
+    "मिट्टी में जल का प्रवेश पूरी तरह रोककर"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Moss mats soften the impact of rain and reduce soil erosion.",
+   "HI": "मॉस के आवरण वर्षा के आघात को कम करके मृदा अपरदन घटाते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which organism is a liverwort rather than a moss?",
+   "HI": "कौन-सा जीव मॉस के बजाय लिवरवर्ट है?"
+  },
+  "options": {
+   "EN": [
+    "Polytrichum",
+    "Sphagnum",
+    "Marchantia",
+    "Funaria"
+   ],
+   "HI": [
+    "पॉलीट्राइकम",
+    "स्फैग्नम",
+    "मार्केन्शिया",
+    "फ्यूनेरिया"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Marchantia is a thalloid liverwort; the other three are mosses.",
+   "HI": "मार्केन्शिया थैलस वाला लिवरवर्ट है; बाकी तीन मॉस हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which description applies to the thallus of Marchantia?",
+   "HI": "मार्केन्शिया के थैलस का कौन-सा वर्णन सही है?"
+  },
+  "options": {
+   "EN": [
+    "A tall woody stem with needles",
+    "Dorsiventral and closely appressed to the substratum",
+    "A floating hollow spherical colony",
+    "A vascular frond bearing seeds"
+   ],
+   "HI": [
+    "सूईनुमा पत्तियों वाला ऊँचा काष्ठीय तना",
+    "पृष्ठाधारी और आधार से सटा हुआ",
+    "तैरता हुआ खोखला गोल निवह",
+    "बीजधारी संवहनी फ्रॉन्ड"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The liverwort thallus is dorsiventral and lies closely against its substrate.",
+   "HI": "लिवरवर्ट का थैलस पृष्ठाधारी होता है और आधार से सटा रहता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What are gemmae in liverworts?",
+   "HI": "लिवरवर्ट में जेमा क्या होते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Green multicellular asexual buds",
+    "Unicellular male gametes",
+    "Diploid seeds enclosed in fruits",
+    "Cells produced only by fertilisation"
+   ],
+   "HI": [
+    "हरे बहुकोशिकीय अलैंगिक मुकुल",
+    "एककोशिकीय नर युग्मक",
+    "फल में बंद द्विगुणित बीज",
+    "केवल निषेचन से बनी कोशिकाएँ"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Gemmae are green, multicellular asexual buds formed in gemma cups.",
+   "HI": "जेमा हरे, बहुकोशिकीय अलैंगिक मुकुल हैं जो जेमा कप में बनते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A gemma detaches from a liverwort and establishes a new plant. Which event is unnecessary for this process?",
+   "HI": "लिवरवर्ट से जेमा अलग होकर नया पादप बनाता है। इस प्रक्रिया के लिए कौन-सी घटना अनावश्यक है?"
+  },
+  "options": {
+   "EN": [
+    "Detachment from the parental body",
+    "Growth of the detached bud",
+    "Fusion of male and female gametes",
+    "Cell division during development"
+   ],
+   "HI": [
+    "जनक शरीर से अलग होना",
+    "अलग हुए मुकुल की वृद्धि",
+    "नर और मादा युग्मकों का संलयन",
+    "विकास के दौरान कोशिका विभाजन"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Gemma formation is asexual, so a new individual can arise without fertilisation.",
+   "HI": "जेमा द्वारा जनन अलैंगिक है, इसलिए निषेचन के बिना नया जीव बन सकता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which moss stage develops directly from a spore?",
+   "HI": "मॉस की कौन-सी अवस्था सीधे बीजाणु से विकसित होती है?"
+  },
+  "options": {
+   "EN": [
+    "Embryo enclosed in a seed",
+    "Leafy shoot bearing mature sex organs",
+    "Protonema",
+    "Sporophyte capsule"
+   ],
+   "HI": [
+    "बीज में बंद भ्रूण",
+    "परिपक्व जननांग वाला पर्णिल प्ररोह",
+    "प्रोटोनीमा",
+    "बीजाणुद्भिद की संपुटिका"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The first moss gametophyte stage arising from a spore is the protonema.",
+   "HI": "बीजाणु से बनने वाली मॉस युग्मकोद्भिद की पहली अवस्था प्रोटोनीमा है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which characteristics describe a moss protonema?",
+   "HI": "मॉस के प्रोटोनीमा का सही लक्षण-समूह कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Creeping, green, branched and often filamentous",
+    "Woody, erect and seed-bearing",
+    "Colourless, unbranched and enclosed in an ovary",
+    "A single diploid cell without growth"
+   ],
+   "HI": [
+    "रेंगने वाला, हरा, शाखित और प्रायः तंतुमय",
+    "काष्ठीय, सीधा और बीजधारी",
+    "रंगहीन, अशाखित और अंडाशय में बंद",
+    "वृद्धि-विहीन एक द्विगुणित कोशिका"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT describes the protonema as a creeping, green, branched, frequently filamentous stage.",
+   "HI": "NCERT प्रोटोनीमा को रेंगने वाली, हरी, शाखित और प्रायः तंतुमय अवस्था बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "The leafy stage of a moss develops as:",
+   "HI": "मॉस की पर्णिल अवस्था किस प्रकार विकसित होती है?"
+  },
+  "options": {
+   "EN": [
+    "A megaspore within a cone",
+    "A lateral bud on the secondary protonema",
+    "A fruit from an ovary",
+    "A root from an algal holdfast"
+   ],
+   "HI": [
+    "शंकु में गुरुबीजाणु के रूप में",
+    "द्वितीयक प्रोटोनीमा पर पार्श्व मुकुल के रूप में",
+    "अंडाशय से फल के रूप में",
+    "शैवाल के स्थापनांग से जड़ के रूप में"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The leafy shoot develops from the secondary protonema as a lateral bud.",
+   "HI": "पर्णिल प्ररोह द्वितीयक प्रोटोनीमा से पार्श्व मुकुल के रूप में विकसित होता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which rhizoids attach the leafy moss stage to soil?",
+   "HI": "मॉस की पर्णिल अवस्था को मिट्टी से किस प्रकार के मूलाभास जोड़ते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Multicellular and branched",
+    "Seed-bearing and photosynthetic",
+    "Unicellular and always unbranched",
+    "Vascular and woody"
+   ],
+   "HI": [
+    "बहुकोशिकीय और शाखित",
+    "बीजधारी और प्रकाश-संश्लेषी",
+    "एककोशिकीय और हमेशा अशाखित",
+    "संवहनी और काष्ठीय"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT states that moss leafy shoots have multicellular branched rhizoids.",
+   "HI": "NCERT के अनुसार मॉस के पर्णिल प्ररोहों में बहुकोशिकीय शाखित मूलाभास होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Where are antheridia and archegonia borne in the leafy stage of mosses?",
+   "HI": "मॉस की पर्णिल अवस्था में पुंधानी और स्त्रीधानी कहाँ होती हैं?"
+  },
+  "options": {
+   "EN": [
+    "At the apex of leafy shoots",
+    "On the walls of pollen grains",
+    "Inside root caps",
+    "Within a fruit wall"
+   ],
+   "HI": [
+    "पर्णिल प्ररोहों के शीर्ष पर",
+    "परागकणों की भित्तियों पर",
+    "मूल गोपों के भीतर",
+    "फलभित्ति के भीतर"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The moss sex organs occur at the apices of leafy shoots.",
+   "HI": "मॉस के जननांग पर्णिल प्ररोहों के शीर्ष पर होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which innovation distinguishes pteridophytes from bryophytes?",
+   "HI": "कौन-सा विकासात्मक गुण टेरिडोफाइट को ब्रायोफाइट से अलग करता है?"
+  },
+  "options": {
+   "EN": [
+    "Presence of a zygote",
+    "Production of gametes",
+    "Well-developed xylem and phloem",
+    "Dependence on water for fertilisation"
+   ],
+   "HI": [
+    "युग्मनज की उपस्थिति",
+    "युग्मक बनना",
+    "विकसित जाइलम और फ्लोएम",
+    "निषेचन के लिए जल पर निर्भरता"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Pteridophytes possess vascular tissues, unlike bryophytes; both groups form gametes and zygotes.",
+   "HI": "टेरिडोफाइट में संवहनी ऊतक होते हैं, जबकि ब्रायोफाइट में नहीं; दोनों समूह युग्मक और युग्मनज बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "What is the dominant plant body in pteridophytes?",
+   "HI": "टेरिडोफाइट का प्रमुख पादप शरीर क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Seed enclosed in a fruit",
+    "Single haploid spore without further growth",
+    "Gametophyte with no sporophyte generation",
+    "Sporophyte with true roots, stem and leaves"
+   ],
+   "HI": [
+    "फल में बंद बीज",
+    "आगे वृद्धि न करने वाला एक अगुणित बीजाणु",
+    "बीजाणुद्भिद पीढ़ी के बिना युग्मकोद्भिद",
+    "वास्तविक जड़, तना और पत्तियों वाला बीजाणुद्भिद"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The pteridophyte sporophyte is the main vascular plant body.",
+   "HI": "टेरिडोफाइट का बीजाणुद्भिद मुख्य संवहनी पादप शरीर है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pairing of leaf type and plant is correct?",
+   "HI": "पत्ती के प्रकार और पादप की कौन-सी जोड़ी सही है?"
+  },
+  "options": {
+   "EN": [
+    "Macrophylls—Selaginella; microphylls—all ferns",
+    "Needles—Marchantia; microphylls—Volvox",
+    "Fronds—Funaria; needles—Ulothrix",
+    "Microphylls—Selaginella; macrophylls—ferns"
+   ],
+   "HI": [
+    "गुरुपर्ण—सिलेजिनेला; लघुपर्ण—सभी फर्न",
+    "सूईनुमा पत्ती—मार्केन्शिया; लघुपर्ण—वॉल्वॉक्स",
+    "फ्रॉन्ड—फ्यूनेरिया; सूईनुमा पत्ती—यूलोथ्रिक्स",
+    "लघुपर्ण—सिलेजिनेला; गुरुपर्ण—फर्न"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Selaginella has small microphylls, whereas ferns have large macrophylls.",
+   "HI": "सिलेजिनेला में छोटे लघुपर्ण और फर्न में बड़े गुरुपर्ण होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In pteridophytes, the leaf-like appendages associated with sporangia are called:",
+   "HI": "टेरिडोफाइट में बीजाणुधानियों से संबंधित पत्ती जैसे उपांग क्या कहलाते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Sporophylls",
+    "Gemmae",
+    "Cotyledons",
+    "Petals"
+   ],
+   "HI": [
+    "बीजाणुपर्ण",
+    "जेमा",
+    "बीजपत्र",
+    "पंखुड़ियाँ"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Sporangia are borne in association with sporophylls.",
+   "HI": "बीजाणुधानियाँ बीजाणुपर्णों से संबंधित होती हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which cell division produces spores from spore mother cells in pteridophytes?",
+   "HI": "टेरिडोफाइट में बीजाणु मातृकोशिकाओं से बीजाणु किस विभाजन द्वारा बनते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Binary fission of a bacterium",
+    "Meiosis",
+    "Mitosis without chromosome reduction",
+    "Fusion of two nuclei"
+   ],
+   "HI": [
+    "जीवाणु का द्विविखंडन",
+    "अर्धसूत्री विभाजन",
+    "गुणसूत्र संख्या घटे बिना समसूत्री विभाजन",
+    "दो केंद्रकों का संलयन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Meiosis in spore mother cells produces haploid spores.",
+   "HI": "बीजाणु मातृकोशिकाओं में अर्धसूत्री विभाजन से अगुणित बीजाणु बनते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What is the small, usually photosynthetic gametophyte of a pteridophyte called?",
+   "HI": "टेरिडोफाइट के छोटे, सामान्यतः प्रकाश-संश्लेषी युग्मकोद्भिद को क्या कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Nucellus",
+    "Prothallus",
+    "Endosperm",
+    "Protonema"
+   ],
+   "HI": [
+    "बीजांडकाय",
+    "प्रोथैलस",
+    "भ्रूणपोष",
+    "प्रोटोनीमा"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Spores germinate into a small multicellular gametophyte called the prothallus.",
+   "HI": "बीजाणु अंकुरित होकर प्रोथैलस नामक छोटा बहुकोशिकीय युग्मकोद्भिद बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A pteridophyte gametophyte is growing well but fertilisation fails when its surroundings dry out. Which event is most directly hindered?",
+   "HI": "टेरिडोफाइट युग्मकोद्भिद अच्छी तरह बढ़ रहा है, लेकिन आसपास सूखने पर निषेचन नहीं होता। कौन-सी घटना सीधे बाधित होती है?"
+  },
+  "options": {
+   "EN": [
+    "Release of seeds from fruits",
+    "Wind transport of pollen to a stigma",
+    "Transfer of antherozoids to the archegonium",
+    "Formation of a woody trunk"
+   ],
+   "HI": [
+    "फल से बीज निकलना",
+    "वर्तिकाग्र तक पराग का वायु द्वारा पहुँचना",
+    "पुमणुओं का स्त्रीधानी तक पहुँचना",
+    "काष्ठीय तने का बनना"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Water is needed for antherozoids to reach the archegonium in pteridophytes.",
+   "HI": "टेरिडोफाइट में पुमणुओं को स्त्रीधानी तक पहुँचने के लिए जल आवश्यक है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A pteridophyte produces only one kind of spore. It is described as:",
+   "HI": "एक टेरिडोफाइट केवल एक प्रकार के बीजाणु बनाता है। उसे क्या कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Dioecious by definition",
+    "Seed-bearing by definition",
+    "Homosporous",
+    "Heterosporous"
+   ],
+   "HI": [
+    "परिभाषा के अनुसार द्विगृही",
+    "परिभाषा के अनुसार बीजधारी",
+    "समबीजाणुक",
+    "विषमबीजाणुक"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Homosporous plants produce a single spore type; heterosporous plants produce microspores and megaspores.",
+   "HI": "समबीजाणुक पादप एक प्रकार के बीजाणु बनाते हैं; विषमबीजाणुक पादप लघुबीजाणु और गुरुबीजाणु बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which pair includes heterosporous pteridophytes?",
+   "HI": "किस जोड़ी में विषमबीजाणुक टेरिडोफाइट हैं?"
+  },
+  "options": {
+   "EN": [
+    "Selaginella and Salvinia",
+    "Pinus and Cedrus",
+    "Funaria and Sphagnum",
+    "Volvox and Ulothrix"
+   ],
+   "HI": [
+    "सिलेजिनेला और साल्वीनिया",
+    "पाइनस और सीड्रस",
+    "फ्यूनेरिया और स्फैग्नम",
+    "वॉल्वॉक्स और यूलोथ्रिक्स"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT cites Selaginella and Salvinia as heterosporous pteridophytes.",
+   "HI": "NCERT सिलेजिनेला और साल्वीनिया को विषमबीजाणुक टेरिडोफाइट के उदाहरण देती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In a heterosporous pteridophyte, which development is correct?",
+   "HI": "विषमबीजाणुक टेरिडोफाइट में कौन-सा विकास सही है?"
+  },
+  "options": {
+   "EN": [
+    "Both spores directly become diploid embryos",
+    "Megaspore → female gametophyte; microspore → male gametophyte",
+    "Both spores directly become fruits",
+    "Megaspore → male gametophyte; microspore → female gametophyte"
+   ],
+   "HI": [
+    "दोनों बीजाणु सीधे द्विगुणित भ्रूण बनते हैं",
+    "गुरुबीजाणु → मादा युग्मकोद्भिद; लघुबीजाणु → नर युग्मकोद्भिद",
+    "दोनों बीजाणु सीधे फल बनते हैं",
+    "गुरुबीजाणु → नर युग्मकोद्भिद; लघुबीजाणु → मादा युग्मकोद्भिद"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Megaspores and microspores form female and male gametophytes respectively.",
+   "HI": "गुरुबीजाणु और लघुबीजाणु क्रमशः मादा और नर युग्मकोद्भिद बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which event in heterosporous pteridophytes is a precursor to the seed habit?",
+   "HI": "विषमबीजाणुक टेरिडोफाइट में कौन-सी घटना बीज प्रवृत्ति की पूर्ववर्ती है?"
+  },
+  "options": {
+   "EN": [
+    "Retention of the female gametophyte and development of an embryo within it",
+    "Formation of fruits around the sporangia",
+    "Loss of both gametophytes before fertilisation",
+    "Immediate release of every egg into dry air"
+   ],
+   "HI": [
+    "मादा युग्मकोद्भिद का बने रहना और उसके भीतर भ्रूण का विकास",
+    "बीजाणुधानी के चारों ओर फल बनना",
+    "निषेचन से पहले दोनों युग्मकोद्भिदों का नष्ट होना",
+    "हर अंड का तुरंत शुष्क हवा में मुक्त होना"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The retained female gametophyte supports embryo development, anticipating aspects of the seed habit.",
+   "HI": "प्रतिधारित मादा युग्मकोद्भिद में भ्रूण विकास होता है, जो बीज प्रवृत्ति की कुछ विशेषताओं का पूर्वरूप है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which class–example pairing is correct in the NCERT classification of pteridophytes?",
+   "HI": "NCERT के टेरिडोफाइट वर्गीकरण में कौन-सा वर्ग–उदाहरण युग्म सही है?"
+  },
+  "options": {
+   "EN": [
+    "Lycopsida—Equisetum",
+    "Sphenopsida—Pteris",
+    "Psilopsida—Psilotum",
+    "Pteropsida—Lycopodium"
+   ],
+   "HI": [
+    "लाइकोप्सिडा—इक्वीसीटम",
+    "स्फीनॉप्सिडा—टेरिस",
+    "साइलॉप्सिडा—साइलोटम",
+    "टेरॉप्सिडा—लाइकोपोडियम"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Psilotum belongs to Psilopsida; Equisetum to Sphenopsida, Pteris to Pteropsida and Lycopodium to Lycopsida.",
+   "HI": "साइलोटम साइलॉप्सिडा में, इक्वीसीटम स्फीनॉप्सिडा में, टेरिस टेरॉप्सिडा में और लाइकोपोडियम लाइकोप्सिडा में है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which set contains only members placed in Pteropsida by NCERT?",
+   "HI": "NCERT के अनुसार किस समूह के सभी सदस्य टेरॉप्सिडा में हैं?"
+  },
+  "options": {
+   "EN": [
+    "Equisetum, Pinus and Cycas",
+    "Dryopteris, Pteris and Adiantum",
+    "Selaginella, Lycopodium and Psilotum",
+    "Funaria, Marchantia and Sphagnum"
+   ],
+   "HI": [
+    "इक्वीसीटम, पाइनस और साइकस",
+    "ड्रायॉप्टेरिस, टेरिस और एडिएन्टम",
+    "सिलेजिनेला, लाइकोपोडियम और साइलोटम",
+    "फ्यूनेरिया, मार्केन्शिया और स्फैग्नम"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Dryopteris, Pteris and Adiantum are the listed examples of Pteropsida.",
+   "HI": "ड्रायॉप्टेरिस, टेरिस और एडिएन्टम टेरॉप्सिडा के दिए गए उदाहरण हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A fern spore has 20 chromosomes. How many chromosomes are expected in an ordinary cell of the resulting sporophyte?",
+   "HI": "फर्न के एक बीजाणु में 20 गुणसूत्र हैं। उससे संबंधित बीजाणुद्भिद की सामान्य कोशिका में कितने गुणसूत्र अपेक्षित हैं?"
+  },
+  "options": {
+   "EN": [
+    "20",
+    "80",
+    "10",
+    "40"
+   ],
+   "HI": [
+    "20",
+    "80",
+    "10",
+    "40"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The spore is haploid (n = 20); after gamete fusion the sporophyte is diploid (2n = 40).",
+   "HI": "बीजाणु अगुणित है (n = 20); युग्मक संलयन के बाद बीजाणुद्भिद द्विगुणित होता है (2n = 40)।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which feature explains the term gymnosperm?",
+   "HI": "जिम्नोस्पर्म शब्द का आधार कौन-सा गुण है?"
+  },
+  "options": {
+   "EN": [
+    "All plants lack vascular tissue",
+    "Seeds develop inside fleshy fruits",
+    "Ovules are not enclosed by an ovary wall and seeds remain exposed",
+    "All spores are identical in size"
+   ],
+   "HI": [
+    "सभी पादपों में संवहनी ऊतक नहीं होते",
+    "बीज गूदेदार फलों के भीतर बनते हैं",
+    "बीजांड अंडाशय भित्ति में बंद नहीं होते और बीज अनावृत रहते हैं",
+    "सभी बीजाणु एक आकार के होते हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Gymnosperms have exposed ovules and naked seeds rather than seeds enclosed in fruits.",
+   "HI": "जिम्नोस्पर्म में अनावृत बीजांड और नग्न बीज होते हैं; बीज फल में बंद नहीं होते।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which gymnosperm is mentioned as one of the tallest tree species?",
+   "HI": "किस जिम्नोस्पर्म का सबसे ऊँची वृक्ष जातियों में उल्लेख है?"
+  },
+  "options": {
+   "EN": [
+    "Ginkgo",
+    "Sequoia",
+    "Cycas",
+    "Pinus only"
+   ],
+   "HI": [
+    "जिन्कगो",
+    "सिक्वॉया",
+    "साइकस",
+    "केवल पाइनस"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT names the giant redwood Sequoia among the tallest tree species.",
+   "HI": "NCERT विशाल रेडवुड सिक्वॉया को सबसे ऊँची वृक्ष जातियों में बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which root association is correctly matched?",
+   "HI": "जड़ के सहजीवी संबंध की कौन-सी जोड़ी सही है?"
+  },
+  "options": {
+   "EN": [
+    "Pinus—mycorrhiza; Cycas—nitrogen-fixing cyanobacteria",
+    "Pinus—lichens; Cycas—protozoans",
+    "Pinus—red algae; Cycas—diatoms",
+    "Pinus—nitrogen-fixing cyanobacteria; Cycas—mycorrhiza only"
+   ],
+   "HI": [
+    "पाइनस—कवकमूल; साइकस—नाइट्रोजन स्थिर करने वाले सायनोबैक्टीरिया",
+    "पाइनस—लाइकेन; साइकस—प्रोटोजोआ",
+    "पाइनस—लाल शैवाल; साइकस—डायटम",
+    "पाइनस—नाइट्रोजन स्थिर करने वाले सायनोबैक्टीरिया; साइकस—केवल कवकमूल"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Pinus roots may associate with fungi, while Cycas coralloid roots harbour nitrogen-fixing cyanobacteria.",
+   "HI": "पाइनस की जड़ों में कवकीय सहजीवन हो सकता है, जबकि साइकस की प्रवालाभ जड़ों में नाइट्रोजन स्थिर करने वाले सायनोबैक्टीरिया होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which gymnosperm normally has an unbranched stem in the NCERT comparison?",
+   "HI": "NCERT की तुलना में किस जिम्नोस्पर्म का तना सामान्यतः अशाखित होता है?"
+  },
+  "options": {
+   "EN": [
+    "Both Pinus and Cedrus",
+    "Cedrus",
+    "Cycas",
+    "Pinus"
+   ],
+   "HI": [
+    "पाइनस और सीड्रस दोनों",
+    "सीड्रस",
+    "साइकस",
+    "पाइनस"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Cycas has an unbranched stem, whereas Pinus and Cedrus have branched stems.",
+   "HI": "साइकस का तना अशाखित और पाइनस तथा सीड्रस के तने शाखित होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "How do needle-like leaves, a thick cuticle and sunken stomata help conifers?",
+   "HI": "सूईनुमा पत्तियाँ, मोटी उपत्वचा और धँसे रंध्र शंकुधारियों को कैसे लाभ देते हैं?"
+  },
+  "options": {
+   "EN": [
+    "They reduce water loss",
+    "They enclose seeds inside fruits",
+    "They produce motile spores",
+    "They eliminate the need for photosynthesis"
+   ],
+   "HI": [
+    "वे जल हानि कम करते हैं",
+    "वे बीजों को फल में बंद करते हैं",
+    "वे चल बीजाणु बनाते हैं",
+    "वे प्रकाश-संश्लेषण की आवश्यकता समाप्त करते हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Reduced leaf area, a thick cuticle and sunken stomata are adaptations that limit water loss.",
+   "HI": "कम पत्ती क्षेत्रफल, मोटी उपत्वचा और धँसे रंध्र जल हानि सीमित करने वाले अनुकूलन हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which statement applies to the spores of gymnosperms?",
+   "HI": "जिम्नोस्पर्म के बीजाणुओं पर कौन-सा कथन लागू होता है?"
+  },
+  "options": {
+   "EN": [
+    "They never produce spores",
+    "They form only one type of diploid spore",
+    "They produce only non-reproductive gemmae",
+    "They are heterosporous and form haploid microspores and megaspores"
+   ],
+   "HI": [
+    "वे कभी बीजाणु नहीं बनाते",
+    "वे केवल एक प्रकार के द्विगुणित बीजाणु बनाते हैं",
+    "वे केवल गैर-जनन जेमा बनाते हैं",
+    "वे विषमबीजाणुक हैं और अगुणित लघुबीजाणु तथा गुरुबीजाणु बनाते हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Gymnosperms produce two kinds of haploid spores: microspores and megaspores.",
+   "HI": "जिम्नोस्पर्म दो प्रकार के अगुणित बीजाणु बनाते हैं: लघुबीजाणु और गुरुबीजाणु।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What does a pollen grain represent in a gymnosperm?",
+   "HI": "जिम्नोस्पर्म में परागकण किसका प्रतिनिधित्व करता है?"
+  },
+  "options": {
+   "EN": [
+    "A complete female sporophyte",
+    "A young fruit",
+    "A diploid megaspore mother cell",
+    "A highly reduced male gametophyte"
+   ],
+   "HI": [
+    "पूर्ण मादा बीजाणुद्भिद",
+    "नवीन फल",
+    "द्विगुणित गुरुबीजाणु मातृकोशिका",
+    "अत्यधिक लघुकृत नर युग्मकोद्भिद"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The microspore develops into a reduced male gametophyte called the pollen grain.",
+   "HI": "लघुबीजाणु लघुकृत नर युग्मकोद्भिद बनता है जिसे परागकण कहते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A cone bears microsporophylls with microsporangia. It is a:",
+   "HI": "एक शंकु पर लघुबीजाणुधानियों वाले लघुबीजाणुपर्ण हैं। यह क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Moss capsule",
+    "Male strobilus",
+    "Liverwort gemma cup",
+    "Female strobilus"
+   ],
+   "HI": [
+    "मॉस की संपुटिका",
+    "नर शंकु",
+    "लिवरवर्ट का जेमा कप",
+    "मादा शंकु"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Microsporangiate strobili are male cones.",
+   "HI": "लघुबीजाणुधानी वाले शंकु नर शंकु हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which statement correctly compares the distribution of reproductive structures in Pinus and Cycas?",
+   "HI": "पाइनस और साइकस में जनन संरचनाओं के वितरण की सही तुलना कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Pinus always has separate male and female trees; Cycas always has both on one tree",
+    "Pinus may bear male and female cones on the same tree; Cycas bears male cones and megasporophylls on different trees",
+    "Neither produces microspores",
+    "Both always have all reproductive structures on one tree"
+   ],
+   "HI": [
+    "पाइनस में हमेशा अलग नर-मादा वृक्ष और साइकस में हमेशा एक ही वृक्ष होता है",
+    "पाइनस में नर-मादा शंकु एक वृक्ष पर हो सकते हैं; साइकस में नर शंकु और गुरुबीजाणुपर्ण अलग वृक्षों पर होते हैं",
+    "दोनों लघुबीजाणु नहीं बनाते",
+    "दोनों में हमेशा सभी जनन संरचनाएँ एक वृक्ष पर होती हैं"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT contrasts the same-tree arrangement in Pinus with separate trees bearing male cones and megasporophylls in Cycas.",
+   "HI": "NCERT पाइनस में एक वृक्ष पर व्यवस्था की तुलना साइकस में नर शंकु और गुरुबीजाणुपर्ण धारण करने वाले अलग वृक्षों से करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "From which tissue does a gymnosperm megaspore mother cell differentiate?",
+   "HI": "जिम्नोस्पर्म की गुरुबीजाणु मातृकोशिका किस ऊतक से विभेदित होती है?"
+  },
+  "options": {
+   "EN": [
+    "Nucellus",
+    "Pollen tube",
+    "Stipe",
+    "Gemma cup wall"
+   ],
+   "HI": [
+    "बीजांडकाय",
+    "परागनलिका",
+    "स्टाइप",
+    "जेमा कप की भित्ति"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "A cell of the nucellus differentiates into the megaspore mother cell.",
+   "HI": "बीजांडकाय की एक कोशिका गुरुबीजाणु मातृकोशिका में विभेदित होती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What is the immediate result of meiosis in a gymnosperm megaspore mother cell?",
+   "HI": "जिम्नोस्पर्म की गुरुबीजाणु मातृकोशिका में अर्धसूत्री विभाजन का तत्काल परिणाम क्या है?"
+  },
+  "options": {
+   "EN": [
+    "One triploid endosperm nucleus",
+    "Four pollen tubes",
+    "Four haploid megaspores",
+    "Two diploid embryos"
+   ],
+   "HI": [
+    "एक त्रिगुणित भ्रूणपोष केंद्रक",
+    "चार परागनलिकाएँ",
+    "चार अगुणित गुरुबीजाणु",
+    "दो द्विगुणित भ्रूण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The megaspore mother cell divides meiotically to produce four megaspores.",
+   "HI": "गुरुबीजाणु मातृकोशिका अर्धसूत्री विभाजन करके चार गुरुबीजाणु बनाती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Where is the multicellular female gametophyte retained in a gymnosperm?",
+   "HI": "जिम्नोस्पर्म में बहुकोशिकीय मादा युग्मकोद्भिद कहाँ प्रतिधारित रहता है?"
+  },
+  "options": {
+   "EN": [
+    "As an independent soil-growing prothallus",
+    "Within a moss antheridium",
+    "Inside a free-floating algal colony",
+    "Within the megasporangium"
+   ],
+   "HI": [
+    "मिट्टी में स्वतंत्र प्रोथैलस के रूप में",
+    "मॉस की पुंधानी के भीतर",
+    "स्वतंत्र तैरते शैवाल निवह में",
+    "गुरुबीजाणुधानी के भीतर"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The female gametophyte develops from a megaspore and remains within the megasporangium.",
+   "HI": "मादा युग्मकोद्भिद गुरुबीजाणु से विकसित होकर गुरुबीजाणुधानी के भीतर रहता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "How do gymnosperm pollen grains normally reach the opening of the ovule in the NCERT account?",
+   "HI": "NCERT के वर्णन में जिम्नोस्पर्म के परागकण सामान्यतः बीजांड के द्वार तक कैसे पहुँचते हैं?"
+  },
+  "options": {
+   "EN": [
+    "By growth of a moss protonema",
+    "By transport inside fruits",
+    "By air currents",
+    "By swimming with their own cilia"
+   ],
+   "HI": [
+    "मॉस प्रोटोनीमा की वृद्धि से",
+    "फलों के भीतर परिवहन से",
+    "वायु धाराओं से",
+    "अपने पक्ष्माभों से तैरकर"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Released pollen is carried by air currents to the ovular opening.",
+   "HI": "मुक्त परागकण वायु धाराओं द्वारा बीजांड के द्वार तक पहुँचते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Following fertilisation in a gymnosperm, which transformation is correct?",
+   "HI": "जिम्नोस्पर्म में निषेचन के बाद कौन-सा परिवर्तन सही है?"
+  },
+  "options": {
+   "EN": [
+    "Zygote → gemma; ovule → capsule",
+    "Zygote → pollen; ovule → fruit",
+    "Zygote → spore; ovary → naked seed",
+    "Zygote → embryo; ovule → naked seed"
+   ],
+   "HI": [
+    "युग्मनज → जेमा; बीजांड → संपुटिका",
+    "युग्मनज → पराग; बीजांड → फल",
+    "युग्मनज → बीजाणु; अंडाशय → नग्न बीज",
+    "युग्मनज → भ्रूण; बीजांड → नग्न बीज"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The zygote forms the embryo and the ovule becomes an exposed seed, not a fruit.",
+   "HI": "युग्मनज भ्रूण बनाता है और बीजांड अनावृत बीज बनता है, फल नहीं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Compare panels (a-i) and (a-ii). Which pairing correctly describes their visible body organisation?",
+   "HI": "भाग (a-i) और (a-ii) की तुलना करें। उनके दृश्य शारीरिक संगठन की सही जोड़ी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "(a-i) colonial; (a-ii) filamentous",
+    "(a-i) filamentous; (a-ii) colonial",
+    "Both are single unbranched cells",
+    "Both are woody sporophytes"
+   ],
+   "HI": [
+    "(a-i) निवही; (a-ii) तंतुमय",
+    "(a-i) तंतुमय; (a-ii) निवही",
+    "दोनों एक-एक अशाखित कोशिका हैं",
+    "दोनों काष्ठीय बीजाणुद्भिद हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The spherical Volvox colony is shown in (a-i); the chain of Ulothrix cells in (a-ii) is a filament.",
+   "HI": "(a-i) में गोल वॉल्वॉक्स निवह और (a-ii) में यूलोथ्रिक्स कोशिकाओं की तंतुमय शृंखला है।"
+  },
+  "image": "Chapter_03_Figure_3.1a_comparison.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "In panel (a-i), the smaller spherical structures are enclosed by a larger spherical structure. Which relationship does the figure depict?",
+   "HI": "भाग (a-i) में छोटी गोल संरचनाएँ बड़ी गोल संरचना के भीतर हैं। चित्र कौन-सा संबंध दिखाता है?"
+  },
+  "options": {
+   "EN": [
+    "Megaspores in a gymnosperm cone",
+    "Daughter colonies within a parent colony",
+    "Moss capsules within a protonema",
+    "Seeds enclosed by a fruit"
+   ],
+   "HI": [
+    "जिम्नोस्पर्म शंकु में गुरुबीजाणु",
+    "जनक निवह के भीतर संतति निवह",
+    "प्रोटोनीमा के भीतर मॉस संपुटिकाएँ",
+    "फल के भीतर बीज"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The small spheres are daughter colonies inside the parent Volvox colony.",
+   "HI": "छोटे गोले जनक वॉल्वॉक्स निवह के भीतर संतति निवह हैं।"
+  },
+  "image": "Chapter_03_Figure_3.1a_i.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which labelled panel shows a blade-like frond connected to a holdfast by a clearly marked stipe?",
+   "HI": "किस चिह्नित भाग में पट्टी जैसा फ्रॉन्ड स्पष्ट चिह्नित स्टाइप द्वारा स्थापनांग से जुड़ा है?"
+  },
+  "options": {
+   "EN": [
+    "Panel (b-ii)",
+    "Panel (b-iii)",
+    "Panel (b-i)",
+    "None of the panels"
+   ],
+   "HI": [
+    "भाग (b-ii)",
+    "भाग (b-iii)",
+    "भाग (b-i)",
+    "किसी भाग में नहीं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Panel (b-i), Laminaria, shows the frond, stipe and holdfast arranged in sequence.",
+   "HI": "भाग (b-i), लैमिनेरिया, में फ्रॉन्ड, स्टाइप और स्थापनांग क्रम से दिखते हैं।"
+  },
+  "image": "Chapter_03_Figure_3.1b_comparison.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "In the brown-algal figure, which panel explicitly shows both an air bladder and a midrib?",
+   "HI": "भूरे शैवालों के चित्र में किस भाग में वायुकोष और मध्यशिरा दोनों स्पष्ट दिखाए गए हैं?"
+  },
+  "options": {
+   "EN": [
+    "Panel (b-iii)",
+    "All three panels",
+    "Panel (b-i)",
+    "Panel (b-ii)"
+   ],
+   "HI": [
+    "भाग (b-iii)",
+    "तीनों भाग",
+    "भाग (b-i)",
+    "भाग (b-ii)"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The Fucus drawing in (b-ii) labels the air bladder and midrib; those labels are absent from the other panels.",
+   "HI": "(b-ii) के फ्यूकस चित्र में वायुकोष और मध्यशिरा चिह्नित हैं; दूसरे भागों में ये चिह्न नहीं हैं।"
+  },
+  "image": "Chapter_03_Figure_3.1b_comparison.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "In panel (c), the long stalk and terminal capsule arise from the leafy lower plant. Which statement correctly compares their ploidy?",
+   "HI": "भाग (c) में लंबा डंठल और शीर्ष संपुटिका नीचे के पर्णिल पादप से निकलते हैं। उनकी गुणिता की सही तुलना कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Stalk and capsule are haploid; leafy plant is diploid",
+    "Both are triploid",
+    "Stalk and capsule are diploid; leafy plant is haploid",
+    "Both are diploid"
+   ],
+   "HI": [
+    "डंठल और संपुटिका अगुणित; पर्णिल पादप द्विगुणित",
+    "दोनों त्रिगुणित",
+    "डंठल और संपुटिका द्विगुणित; पर्णिल पादप अगुणित",
+    "दोनों द्विगुणित"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "In Funaria, the seta and capsule belong to the diploid sporophyte attached to the haploid leafy gametophyte.",
+   "HI": "फ्यूनेरिया में सीटा और संपुटिका द्विगुणित बीजाणुद्भिद के भाग हैं, जो अगुणित पर्णिल युग्मकोद्भिद से जुड़ा है।"
+  },
+  "image": "Chapter_03_Figure_3.2c.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which two panels show cup-like receptacles on a flat thallus that are involved in asexual propagation?",
+   "HI": "कौन-से दो भाग चपटे थैलस पर कप जैसे पात्र दिखाते हैं जो अलैंगिक प्रवर्धन में भाग लेते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Panels (b) and (c)",
+    "Panels (a) and (d)",
+    "Panels (c) and (d)",
+    "Panels (a) and (b)"
+   ],
+   "HI": [
+    "भाग (b) और (c)",
+    "भाग (a) और (d)",
+    "भाग (c) और (d)",
+    "भाग (a) और (b)"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Both Marchantia thalli, (a) and (b), bear gemma cups. The moss panels show different body organisations.",
+   "HI": "मार्केन्शिया के दोनों थैलस, (a) और (b), में जेमा कप हैं। मॉस वाले भागों में अलग शारीरिक संगठन है।"
+  },
+  "image": "Chapter_03_Figure_3.2_comparison.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which panel shows a jointed upright axis with nodes, internodes and a terminal strobilus?",
+   "HI": "किस भाग में पर्वसंधियों (nodes), पर्वों (internodes) और शीर्ष शंकु वाला सीधा संधियुक्त अक्ष दिखता है?"
+  },
+  "options": {
+   "EN": [
+    "Panel (a), Selaginella",
+    "Neither panel contains a strobilus",
+    "Panel (b), Equisetum",
+    "Both panels show the same jointed axis"
+   ],
+   "HI": [
+    "भाग (a), सिलेजिनेला",
+    "किसी में शंकु नहीं है",
+    "भाग (b), इक्वीसीटम",
+    "दोनों में एक ही प्रकार का संधियुक्त अक्ष है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The Equisetum drawing in (b) shows a jointed axis with nodes, internodes and a terminal strobilus.",
+   "HI": "(b) के इक्वीसीटम चित्र में पर्वसंधियों, पर्वों और शीर्ष शंकु वाला संधियुक्त अक्ष दिखता है।"
+  },
+  "image": "Chapter_03_Figure_3.3ab_comparison.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "In panel (b), identify the horizontal structure near the base from which the upright axis arises.",
+   "HI": "भाग (b) में आधार के पास की उस क्षैतिज संरचना की पहचान करें जिससे सीधा अक्ष निकलता है।"
+  },
+  "options": {
+   "EN": [
+    "Rhizome",
+    "Frond",
+    "Archegonium",
+    "Gemma cup"
+   ],
+   "HI": [
+    "प्रकंद",
+    "फ्रॉन्ड",
+    "स्त्रीधानी",
+    "जेमा कप"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The horizontal basal stem from which the upright shoot arises is the rhizome.",
+   "HI": "आधार का वह क्षैतिज तना जिससे सीधा प्ररोह निकलता है, प्रकंद है।"
+  },
+  "image": "Chapter_03_Figure_3.3b.webp",
+  "subTopic": null,
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Identify the combination of body organisation and sexual reproduction associated with the spherical alga illustrated.",
+   "HI": "चित्रित गोलाकार शैवाल के शारीरिक संगठन और लैंगिक जनन का सही संयोजन पहचानिए।"
+  },
+  "options": {
+   "EN": [
+    "Leafy gametophyte and archegonia",
+    "Colonial organisation and oogamy",
+    "Woody sporophyte and pollen grains",
+    "Unbranched filament and conjugating non-motile isogametes"
+   ],
+   "HI": [
+    "पर्णिल युग्मकोद्भिद और स्त्रीधानियाँ",
+    "निवही संगठन और विषमयुग्मन (oogamy)",
+    "काष्ठीय बीजाणुद्भिद और परागकण",
+    "अशाखित तंतु और संयुग्मन करने वाले अचल समयुग्मक"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The spherical colony identifies Volvox. NCERT uses Volvox as an example of colonial organisation and oogamy; it is not a leafy land plant.",
+   "HI": "गोलाकार निवह वॉल्वॉक्स की पहचान है। NCERT इसे निवही संगठन और विषमयुग्मन का उदाहरण देती है; यह पर्णिल स्थलीय पादप नहीं है."
+  },
+  "image": "Chapter_03_Figure_3.1a_i.webp",
+  "subTopic": "Colonial green algae",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The illustrated unbranched green-algal filament is Ulothrix. Which wall-layer arrangement is expected for its class?",
+   "HI": "चित्रित अशाखित हरित शैवाल तंतु यूलोथ्रिक्स है। इसके वर्ग में कोशिका भित्ति की परतों की कौन-सी व्यवस्था अपेक्षित है?"
+  },
+  "options": {
+   "EN": [
+    "Inner silica and outer cellulose",
+    "Inner chitin and outer algin",
+    "Inner cellulose and outer pectose",
+    "Inner pectose and outer chitin"
+   ],
+   "HI": [
+    "भीतर सिलिका और बाहर सेल्यूलोज",
+    "भीतर काइटिन और बाहर एल्जिन",
+    "भीतर सेल्यूलोज और बाहर पेक्टोज",
+    "भीतर पेक्टोज और बाहर काइटिन"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Ulothrix is a green alga. NCERT describes the usual green-algal wall as an inner cellulose layer with an outer pectose layer.",
+   "HI": "यूलोथ्रिक्स हरित शैवाल है। NCERT हरित शैवालों की सामान्य भित्ति में भीतरी सेल्यूलोज तथा बाहरी पेक्टोज परत बताती है."
+  },
+  "image": "Chapter_03_Figure_3.1a_ii.webp",
+  "subTopic": "Filamentous green algae",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "A student calls the basal attachment of the illustrated alga a true root and its blade a true leaf. Which correction is appropriate?",
+   "HI": "एक छात्र चित्रित शैवाल के आधार के संलग्नक को वास्तविक जड़ और पट्टी जैसे भाग को वास्तविक पत्ती कहता है। उचित सुधार कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "They are a holdfast and frond of a thallus",
+    "They are a root and leaf of a vascular sporophyte",
+    "They are a rhizoid and moss capsule",
+    "They are a pollen cone and ovule"
+   ],
+   "HI": [
+    "ये थैलस के स्थापनांग और फ्रॉन्ड हैं",
+    "ये संवहनी बीजाणुद्भिद की जड़ और पत्ती हैं",
+    "ये मूलाभास और मॉस की संपुटिका हैं",
+    "ये पराग शंकु और बीजांड हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Laminaria has a differentiated thallus with holdfast, stipe and frond. Resemblance to a land-plant root or leaf does not make these true roots and leaves.",
+   "HI": "लैमिनेरिया के विभेदित थैलस में स्थापनांग, स्टाइप और फ्रॉन्ड होते हैं। स्थलीय पादप की जड़ या पत्ती से समानता इन्हें वास्तविक जड़ और पत्ती नहीं बनाती।"
+  },
+  "image": "Chapter_03_Figure_3.1b_i.webp",
+  "subTopic": "Brown-algal thallus",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The illustration shows Fucus with a flattened, branching thallus. Which stored-food pair belongs to its algal class?",
+   "HI": "चित्र में चपटा, शाखित थैलस वाला फ्यूकस है। इसके शैवाल वर्ग का संचित खाद्य-युग्म कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Cellulose and chitin as reserve foods",
+    "Laminarin and mannitol",
+    "Floridean starch and glycogen as the characteristic pair",
+    "Starch and pyrenoid protein as the brown-algal diagnostic pair"
+   ],
+   "HI": [
+    "संचित भोजन के रूप में सेल्यूलोज और काइटिन",
+    "लैमिनेरिन और मैनिटॉल",
+    "विशिष्ट युग्म के रूप में फ्लोरीडियन स्टार्च और ग्लाइकोजन",
+    "भूरे शैवालों की पहचान के रूप में स्टार्च और पाइरीनॉइड प्रोटीन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Fucus belongs to Phaeophyceae, whose characteristic reserve foods are laminarin and mannitol. Cellulose and chitin are structural materials.",
+   "HI": "फ्यूकस फियोफाइसी का सदस्य है, जिसका विशिष्ट संचित भोजन लैमिनेरिन और मैनिटॉल है। सेल्यूलोज और काइटिन संरचनात्मक पदार्थ हैं."
+  },
+  "image": "Chapter_03_Figure_3.1b_ii.webp",
+  "subTopic": "Brown-algal reserves",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which class-feature combination matches this repeatedly forked, ribbon-like Dictyota thallus?",
+   "HI": "बार-बार द्विशाखित, फीते जैसे इस डिक्टियोटा थैलस से कौन-सा वर्ग-लक्षण संयोजन मेल खाता है?"
+  },
+  "options": {
+   "EN": [
+    "Rhodophyceae; predominantly r-phycoerythrin",
+    "Bryophytes; a dominant leafy gametophyte",
+    "Chlorophyceae; chlorophyll a and b without fucoxanthin as the diagnostic pigment",
+    "Phaeophyceae; chlorophyll a and c with fucoxanthin"
+   ],
+   "HI": [
+    "रोडोफाइसी; मुख्यतः r-फाइकोएरिथ्रिन",
+    "ब्रायोफाइट; प्रमुख पर्णिल युग्मकोद्भिद",
+    "क्लोरोफाइसी; क्लोरोफिल a और b, पहचानकारी वर्णक के रूप में फ्यूकोजैंथिन नहीं",
+    "फियोफाइसी; क्लोरोफिल a और c तथा फ्यूकोजैंथिन"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Dictyota is a brown alga. Brown algae contain chlorophyll a and c and the xanthophyll fucoxanthin; the drawing is not a moss gametophyte.",
+   "HI": "डिक्टियोटा भूरा शैवाल है। भूरे शैवालों में क्लोरोफिल a और c तथा जैंथोफिल फ्यूकोजैंथिन होता है; चित्र मॉस का युग्मकोद्भिद नहीं है."
+  },
+  "image": "Chapter_03_Figure_3.1b_iii.webp",
+  "subTopic": "Dictyota class features",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The sheet-like red alga illustrated is Porphyra. Which use is specifically associated with it in NCERT?",
+   "HI": "चित्रित चादर जैसा लाल शैवाल पॉरफाइरा है। NCERT में इसका कौन-सा उपयोग विशेष रूप से दिया गया है?"
+  },
+  "options": {
+   "EN": [
+    "Formation of diatomaceous earth",
+    "Production of peat fuel",
+    "Production of penicillin",
+    "Use as food"
+   ],
+   "HI": [
+    "डायटमी मिट्टी का निर्माण",
+    "पीट ईंधन का उत्पादन",
+    "पेनिसिलिन का उत्पादन",
+    "भोजन के रूप में उपयोग"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Porphyra is among the marine algae consumed as food. Peat is associated with Sphagnum, penicillin with Penicillium, and diatomaceous earth with diatoms.",
+   "HI": "पॉरफाइरा भोजन के रूप में उपयोग किए जाने वाले समुद्री शैवालों में है। पीट स्फैग्नम से, पेनिसिलिन पेनिसिलियम से तथा डायटमी मिट्टी डायटम से संबंधित है."
+  },
+  "image": "Chapter_03_Figure_3.1c_i.webp",
+  "subTopic": "Porphyra economic use",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which comparison correctly describes the visible organisation of A and B?",
+   "HI": "A और B के दृश्यमान संगठन की सही तुलना कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "A is an unbranched filament; B has a branched thallus",
+    "A is a spherical colony; B is an unbranched filament",
+    "Both have true roots and vascular leaves",
+    "Both are moss sporophytes"
+   ],
+   "HI": [
+    "A अशाखित तंतु है; B का थैलस शाखित है",
+    "A गोलाकार निवह है; B अशाखित तंतु है",
+    "दोनों में वास्तविक जड़ें और संवहनी पत्तियाँ हैं",
+    "दोनों मॉस के बीजाणुद्भिद हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "A is Ulothrix, shown as a chain of cells. B is Polysiphonia with a visibly branched thallus. Neither has the true organs of a vascular land plant.",
+   "HI": "A यूलोथ्रिक्स है जो कोशिकाओं की शृंखला के रूप में दिखता है। B पॉलीसाइफोनिया का स्पष्ट शाखित थैलस है। इनमें संवहनी स्थलीय पादप के वास्तविक अंग नहीं होते।"
+  },
+  "image": "Chapter_03_Figure_3.1_AB_comparison.webp",
+  "subTopic": "Comparing algal organisation",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "In this Marchantia thallus, the elevated umbrella-like stalked structure and the cups on the flat thallus serve different roles. Which pairing is correct?",
+   "HI": "इस मार्केन्शिया थैलस में ऊपर उठी छाते जैसी सवृंत संरचना और चपटे थैलस पर स्थित कपों के कार्य अलग हैं। सही जोड़ी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Stalked structure: mushroom basidiocarp; cups: seed formation",
+    "Stalked structure: root; cups: vascular bundles",
+    "Stalked structure: archegoniophore; cups: asexual gemma formation",
+    "Stalked structure: antheridiophore; cups: pollen formation"
+   ],
+   "HI": [
+    "सवृंत संरचना: मशरूम बेसिडियोकार्प; कप: बीज निर्माण",
+    "सवृंत संरचना: जड़; कप: संवहन बंडल",
+    "सवृंत संरचना: स्त्रीधानीधर; कप: अलैंगिक जेमा निर्माण",
+    "सवृंत संरचना: पुंधानीधर; कप: पराग निर्माण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The female Marchantia thallus bears an archegoniophore. Gemma cups on the thallus form gemmae used in asexual reproduction, not pollen or seeds.",
+   "HI": "मादा मार्केन्शिया थैलस पर स्त्रीधानीधर होता है। थैलस के जेमा कपों में अलैंगिक जनन के लिए जेमा बनते हैं, पराग या बीज नहीं."
+  },
+  "image": "Chapter_03_Figure_3.2a.webp",
+  "subTopic": "Marchantia reproductive structures",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "In the illustrated moss, which visible region contains the cells that undergo meiosis to produce spores?",
+   "HI": "चित्रित मॉस के किस दृश्यमान भाग में बीजाणु बनाने के लिए अर्धसूत्री विभाजन करने वाली कोशिकाएँ होती हैं?"
+  },
+  "options": {
+   "EN": [
+    "The capsule at the tip of the long stalk",
+    "The rhizoids at the base",
+    "The green leaf-like structures alone",
+    "The entire stalk acts as a single spore"
+   ],
+   "HI": [
+    "लंबे डंठल के शीर्ष की संपुटिका",
+    "आधार के मूलाभास",
+    "केवल हरी पत्ती जैसी संरचनाएँ",
+    "पूरा डंठल एक बीजाणु की तरह कार्य करता है"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Funaria produces spores by meiosis in the sporophyte capsule. The rhizoids and leafy gametophyte are not sporangia.",
+   "HI": "फ्यूनेरिया में बीजाणुद्भिद की संपुटिका में अर्धसूत्री विभाजन से बीजाणु बनते हैं। मूलाभास और पर्णिल युग्मकोद्भिद बीजाणुधानियाँ नहीं हैं."
+  },
+  "image": "Chapter_03_Figure_3.2c.webp",
+  "subTopic": "Moss spore production",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The illustrated branched moss is Sphagnum. Which pair of uses belongs to this plant?",
+   "HI": "चित्रित शाखित मॉस स्फैग्नम है। इस पादप के उपयोगों की सही जोड़ी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Diatomaceous earth and red-tide formation",
+    "Peat as fuel and moist packing of living material",
+    "Silk production and nitrogen fixation in heterocysts",
+    "Agar preparation and antibiotic production"
+   ],
+   "HI": [
+    "डायटमी मिट्टी और लाल ज्वार निर्माण",
+    "पीट का ईंधन के रूप में उपयोग और जीवित सामग्री की नम पैकिंग",
+    "रेशम उत्पादन और हेटेरोसिस्ट में नाइट्रोजन स्थिरीकरण",
+    "अगर निर्माण और प्रतिजैविक उत्पादन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Sphagnum yields peat and retains much water, making it useful for packing living material during transport. The other uses belong to unrelated organisms.",
+   "HI": "स्फैग्नम पीट देता है और अधिक जल धारण करता है, इसलिए परिवहन में जीवित सामग्री की पैकिंग में उपयोगी है। अन्य विकल्प असंबंधित जीवों के कार्य हैं."
+  },
+  "image": "Chapter_03_Figure_3.2d.webp",
+  "subTopic": "Sphagnum uses",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The small-leaved vascular plant in the figure is Selaginella. Which spore-to-gametophyte relationship applies to it?",
+   "HI": "चित्र का छोटी पत्तियों वाला संवहनी पादप सिलेजिनेला है। इसमें बीजाणु और युग्मकोद्भिद का कौन-सा संबंध सही है?"
+  },
+  "options": {
+   "EN": [
+    "Seeds directly form male gametophytes",
+    "Both spore types are diploid embryos",
+    "Microspores form female and megaspores form male gametophytes",
+    "Microspores form male and megaspores form female gametophytes"
+   ],
+   "HI": [
+    "बीज सीधे नर युग्मकोद्भिद बनाते हैं",
+    "दोनों प्रकार के बीजाणु द्विगुणित भ्रूण हैं",
+    "लघुबीजाणु मादा और गुरुबीजाणु नर युग्मकोद्भिद बनाते हैं",
+    "लघुबीजाणु नर और गुरुबीजाणु मादा युग्मकोद्भिद बनाते हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Selaginella is heterosporous. Its smaller microspores and larger megaspores develop into male and female gametophytes, respectively.",
+   "HI": "सिलेजिनेला विषमबीजाणुक है। छोटे लघुबीजाणु और बड़े गुरुबीजाणु क्रमशः नर और मादा युग्मकोद्भिद बनाते हैं."
+  },
+  "image": "Chapter_03_Figure_3.3a.webp",
+  "subTopic": "Selaginella heterospory",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The compact terminal structure on this jointed Equisetum shoot is a strobilus. Which description best fits its role in this pteridophyte?",
+   "HI": "इस संधियुक्त इक्वीसीटम प्ररोह की सघन शीर्ष संरचना शंकु है। इस टेरिडोफाइट में इसका सबसे उपयुक्त वर्णन कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "A flower with an ovary",
+    "A compact arrangement of spore-bearing structures",
+    "A gemma cup on a gametophyte",
+    "A fruit enclosing seeds"
+   ],
+   "HI": [
+    "अंडाशय वाला पुष्प",
+    "बीजाणुधारी संरचनाओं की सघन व्यवस्था",
+    "युग्मकोद्भिद पर जेमा कप",
+    "बीजों को घेरने वाला फल"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Pteridophytes such as Equisetum have spore-bearing structures arranged in strobili. They reproduce through spores and do not form flowers or fruits.",
+   "HI": "इक्वीसीटम जैसे टेरिडोफाइट में बीजाणुधारी संरचनाएँ शंकु में व्यवस्थित होती हैं। इनमें बीजाणु बनते हैं, पुष्प या फल नहीं."
+  },
+  "image": "Chapter_03_Figure_3.3b.webp",
+  "subTopic": "Equisetum strobilus",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The large fern with developed fronds in the figure represents which generation?",
+   "HI": "चित्र में विकसित पर्णों वाला बड़ा फर्न किस पीढ़ी का प्रतिनिधित्व करता है?"
+  },
+  "options": {
+   "EN": [
+    "A moss protonema",
+    "The small haploid prothallus",
+    "A diploid gamete",
+    "The dominant diploid sporophyte"
+   ],
+   "HI": [
+    "मॉस का प्रोटोनीमा",
+    "छोटा अगुणित प्रोथैलस",
+    "द्विगुणित युग्मक",
+    "प्रमुख द्विगुणित बीजाणुद्भिद"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The familiar vascular fern plant is the sporophyte. Its gametophyte is a small prothallus, not the large frond-bearing plant shown.",
+   "HI": "सामान्यतः दिखने वाला संवहनी फर्न पादप बीजाणुद्भिद है। इसका युग्मकोद्भिद छोटा प्रोथैलस होता है, चित्र का बड़ा पर्णयुक्त पादप नहीं।"
+  },
+  "image": "Chapter_03_Figure_3.3c.webp",
+  "subTopic": "Fern dominant generation",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which combination correctly classifies the floating plant Salvinia illustrated here?",
+   "HI": "यहाँ चित्रित तैरने वाले पादप साल्वीनिया का सही वर्गीकरण कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "A vascular, heterosporous pteridophyte",
+    "A non-vascular moss producing seeds",
+    "A gymnosperm with enclosed ovules",
+    "A brown alga producing flowers"
+   ],
+   "HI": [
+    "संवहनी, विषमबीजाणुक टेरिडोफाइट",
+    "बीज बनाने वाला असंवहनी मॉस",
+    "आवृत बीजांड वाला जिम्नोस्पर्म",
+    "पुष्प बनाने वाला भूरा शैवाल"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Salvinia is an aquatic pteridophyte and an NCERT example of heterospory. An aquatic habitat alone does not make a plant an alga.",
+   "HI": "साल्वीनिया जलीय टेरिडोफाइट और विषमबीजाणुकता का NCERT उदाहरण है। केवल जलीय आवास होने से कोई पादप शैवाल नहीं हो जाता।"
+  },
+  "image": "Chapter_03_Figure_3.3d.webp",
+  "subTopic": "Aquatic pteridophyte",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The crown of pinnate leaves on an unbranched trunk identifies the illustrated Cycas. Which reproductive arrangement is described for it in NCERT?",
+   "HI": "अशाखित तने पर पिच्छाकार पत्तियों का मुकुट चित्रित साइकस की पहचान कराता है। NCERT में इसकी जनन संरचनाओं की कौन-सी व्यवस्था दी गई है?"
+  },
+  "options": {
+   "EN": [
+    "Ovules are enclosed in an ovary",
+    "Gemma cups produce its seeds",
+    "Male cones and megasporophylls are borne on different plants",
+    "Male cones and megasporophylls must occur on the same plant"
+   ],
+   "HI": [
+    "बीजांड अंडाशय में बंद होते हैं",
+    "जेमा कप इसके बीज बनाते हैं",
+    "नर शंकु और गुरुबीजाणुपर्ण अलग-अलग पादपों पर होते हैं",
+    "नर शंकु और गुरुबीजाणुपर्ण अनिवार्यतः एक ही पादप पर होते हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Cycas has separate male and female plants. NCERT contrasts this with Pinus, where male and female cones may occur on the same tree.",
+   "HI": "साइकस में नर और मादा पादप अलग होते हैं। NCERT इसकी तुलना पाइनस से करती है, जिसमें नर और मादा शंकु एक ही वृक्ष पर हो सकते हैं।"
+  },
+  "image": "Chapter_03_Figure_3.4a.webp",
+  "subTopic": "Cycas reproduction",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "The illustrated conifer has narrow needle-like leaves. Which accompanying features help reduce water loss in such plants?",
+   "HI": "चित्रित शंकुधारी में संकरी सूईनुमा पत्तियाँ हैं। ऐसे पादपों में कौन-से अन्य लक्षण जल हानि कम करने में सहायक हैं?"
+  },
+  "options": {
+   "EN": [
+    "Thin cuticle and permanently open stomata",
+    "Gemma cups and flagellated spores",
+    "Absence of epidermis and exposed vascular tissue",
+    "Thick cuticle and sunken stomata"
+   ],
+   "HI": [
+    "पतली उपत्वचा और स्थायी रूप से खुले रंध्र",
+    "जेमा कप और कशाभिकायुक्त बीजाणु",
+    "बाह्यत्वचा का अभाव और अनावृत संवहनी ऊतक",
+    "मोटी उपत्वचा और धँसे हुए रंध्र"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Conifer needles reduce surface area. A thick cuticle and sunken stomata further limit water loss; the leaves are not gametophyte gemma cups.",
+   "HI": "शंकुधारियों की सूईनुमा पत्तियाँ सतह क्षेत्र घटाती हैं। मोटी उपत्वचा और धँसे रंध्र जल हानि को और कम करते हैं; ये पत्तियाँ युग्मकोद्भिद के जेमा कप नहीं हैं।"
+  },
+  "image": "Chapter_03_Figure_3.4b.webp",
+  "subTopic": "Conifer leaf adaptations",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "This Ginkgo twig bears fan-shaped leaves and seed-bearing structures. Why should the seeds not be called seeds enclosed in a true fruit?",
+   "HI": "इस गिंको शाखा पर पंखे जैसी पत्तियाँ और बीजधारी संरचनाएँ हैं। बीजों को वास्तविक फल में बंद बीज क्यों नहीं कहना चाहिए?"
+  },
+  "options": {
+   "EN": [
+    "Every visible rounded structure is a pollen grain",
+    "Gymnosperms have ovaries but cannot form embryos",
+    "Ginkgo is a gymnosperm; its ovules are not enclosed by an ovary wall",
+    "All fan-shaped leaves belong to seedless plants"
+   ],
+   "HI": [
+    "हर दृश्यमान गोल संरचना परागकण है",
+    "जिम्नोस्पर्म में अंडाशय होते हैं पर भ्रूण नहीं बनते",
+    "गिंको जिम्नोस्पर्म है; इसके बीजांड अंडाशय भित्ति में बंद नहीं होते",
+    "पंखे जैसी सभी पत्तियाँ बीजरहित पादपों की होती हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Gymnosperms have unenclosed ovules and naked seeds in the botanical sense. An outer seed covering is not an ovary-derived fruit wall.",
+   "HI": "जिम्नोस्पर्म में बीजांड अंडाशय में बंद नहीं होते और बीज वानस्पतिक अर्थ में अनावृत होते हैं। बीज का बाहरी आवरण अंडाशय से बनी फलभित्ति नहीं है."
+  },
+  "image": "Chapter_03_Figure_3.4c.webp",
+  "subTopic": "Gymnosperm seeds",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Why can a system based mainly on leaf shape separate genuinely related plants?",
+   "HI": "मुख्यतः पत्ती की आकृति पर आधारित पद्धति संबंधित पादपों को अलग क्यों कर सकती है?"
+  },
+  "options": {
+   "EN": [
+    "It necessarily uses chromosome behaviour",
+    "It includes all internal and external characters",
+    "It relies on few characters, some strongly influenced by environment",
+    "Leaf shape directly reveals every ancestral relationship"
+   ],
+   "HI": [
+    "यह अनिवार्यतः गुणसूत्र व्यवहार उपयोग करती है",
+    "इसमें सभी आंतरिक और बाहरी लक्षण होते हैं",
+    "यह कम लक्षणों पर निर्भर है, जिनमें कुछ पर्यावरण से प्रभावित होते हैं",
+    "पत्ती की आकृति सभी पूर्वजी संबंध सीधे बताती है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Artificial systems use limited characters and can overlook natural affinities.",
+   "HI": "कृत्रिम पद्धतियाँ सीमित लक्षण उपयोग करके प्राकृतिक संबंधों को अनदेखा कर सकती हैं।"
+  },
+  "image": null,
+  "subTopic": "Artificial classification",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which evidence set best represents a natural classification approach?",
+   "HI": "कौन-सा साक्ष्य समूह प्राकृतिक वर्गीकरण को सबसे अच्छा दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "External form, anatomy, embryology and phytochemistry",
+    "Only number of stamens",
+    "Only economic use",
+    "Only flower colour"
+   ],
+   "HI": [
+    "बाहरी रूप, शारीरिकी, भ्रूणविज्ञान और पादप रसायन",
+    "केवल पुंकेसरों की संख्या",
+    "केवल आर्थिक उपयोग",
+    "केवल पुष्प का रंग"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Natural classification draws on multiple external and internal features.",
+   "HI": "प्राकृतिक वर्गीकरण अनेक बाहरी और आंतरिक लक्षणों पर आधारित होता है।"
+  },
+  "image": null,
+  "subTopic": "Natural classification",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair developed the natural classification of flowering plants cited in this chapter?",
+   "HI": "इस अध्याय में उल्लिखित पुष्पी पादपों का प्राकृतिक वर्गीकरण किस जोड़ी ने दिया?"
+  },
+  "options": {
+   "EN": [
+    "Bentham and Hooker",
+    "Darwin and Whittaker",
+    "Stanley and Diener",
+    "Ivanowsky and Beijerinck"
+   ],
+   "HI": [
+    "बेंथम और हूकर",
+    "डार्विन और व्हिटेकर",
+    "स्टैनले और डीनर",
+    "इवानोवस्की और बेइजेरिंक"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "George Bentham and Joseph Dalton Hooker are the cited authors.",
+   "HI": "जॉर्ज बेंथम और जोसेफ डाल्टन हूकर इस पद्धति के उल्लिखित वैज्ञानिक हैं।"
+  },
+  "image": null,
+  "subTopic": "Classification history",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A classification groups plants according to descent from common ancestors. What is its primary basis?",
+   "HI": "एक वर्गीकरण पादपों को समान पूर्वजों से वंशक्रम के अनुसार समूहित करता है। इसका प्रमुख आधार क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Alphabetical order",
+    "Evolutionary relationships",
+    "Commercial price",
+    "Cultivation location"
+   ],
+   "HI": [
+    "वर्णानुक्रम",
+    "विकासीय संबंध",
+    "व्यावसायिक मूल्य",
+    "खेती का स्थान"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Phylogenetic systems use evolutionary relationships rather than arbitrary convenience.",
+   "HI": "जातिवृत्तीय पद्धतियाँ मनमानी सुविधा के बजाय विकासीय संबंध उपयोग करती हैं।"
+  },
+  "image": null,
+  "subTopic": "Phylogenetic classification",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Hundreds of observable characters are coded and given equal importance in computer analysis. Which approach is being used?",
+   "HI": "सैकड़ों प्रेक्षणीय लक्षणों को कूटबद्ध करके कंप्यूटर विश्लेषण में समान महत्त्व दिया जाता है। यह कौन-सी पद्धति है?"
+  },
+  "options": {
+   "EN": [
+    "Classification by habitat alone",
+    "Only cytotaxonomy",
+    "Only chemotaxonomy",
+    "Numerical taxonomy"
+   ],
+   "HI": [
+    "केवल आवास द्वारा वर्गीकरण",
+    "केवल कोशिकावर्गिकी",
+    "केवल रसायनवर्गिकी",
+    "संख्यात्मक वर्गिकी"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Numerical taxonomy processes coded data from many observable characters.",
+   "HI": "संख्यात्मक वर्गिकी अनेक प्रेक्षणीय लक्षणों के कूटबद्ध आँकड़ों का विश्लेषण करती है।"
+  },
+  "image": null,
+  "subTopic": "Numerical taxonomy",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which investigation directly supplies cytotaxonomic evidence?",
+   "HI": "कौन-सा अध्ययन सीधे कोशिकावर्गिकी साक्ष्य देता है?"
+  },
+  "options": {
+   "EN": [
+    "Comparing chromosome number, structure and behaviour",
+    "Comparing market prices",
+    "Recording only petal colour",
+    "Listing common names"
+   ],
+   "HI": [
+    "गुणसूत्र संख्या, संरचना और व्यवहार की तुलना",
+    "बाजार मूल्यों की तुलना",
+    "केवल पंखुड़ी का रंग लिखना",
+    "सामान्य नामों की सूची"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Cytotaxonomy uses cytological information, especially chromosome features.",
+   "HI": "कोशिकावर्गिकी कोशिकीय जानकारी, विशेषकर गुणसूत्र लक्षणों का उपयोग करती है।"
+  },
+  "image": null,
+  "subTopic": "Cytotaxonomy",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Two plants look similar, but their chemical constituents differ consistently. Which method can use this evidence for classification?",
+   "HI": "दो पादप दिखने में समान हैं, पर उनके रासायनिक घटक लगातार भिन्न मिलते हैं। कौन-सी पद्धति यह साक्ष्य उपयोग कर सकती है?"
+  },
+  "options": {
+   "EN": [
+    "A key based only on leaf number",
+    "Classification by height alone",
+    "Chemotaxonomy",
+    "Grouping by season of sale"
+   ],
+   "HI": [
+    "केवल पत्ती संख्या पर आधारित कुंजी",
+    "केवल ऊँचाई से वर्गीकरण",
+    "रसायनवर्गिकी",
+    "बिक्री के मौसम से समूहकरण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Chemotaxonomy uses chemical constituents to help resolve taxonomic relationships.",
+   "HI": "रसायनवर्गिकी वर्गिकीय संबंध स्पष्ट करने में रासायनिक घटकों का उपयोग करती है।"
+  },
+  "image": null,
+  "subTopic": "Chemotaxonomy",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "If fossil evidence is unavailable, which conclusion about plant classification is appropriate?",
+   "HI": "यदि जीवाश्म साक्ष्य उपलब्ध न हों, तो पादप वर्गीकरण के बारे में सही निष्कर्ष क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Every plant must be placed in one species",
+    "Other evidence such as cytology and chemistry can still help",
+    "Only plant size can be considered",
+    "Classification becomes logically impossible"
+   ],
+   "HI": [
+    "हर पादप को एक जाति में रखना चाहिए",
+    "कोशिकाविज्ञान और रसायन जैसे अन्य साक्ष्य सहायक हो सकते हैं",
+    "केवल पादप का आकार देखा जा सकता है",
+    "वर्गीकरण तार्किक रूप से असंभव है"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT describes additional evidence sources as especially useful when fossil support is lacking.",
+   "HI": "NCERT जीवाश्म साक्ष्य के अभाव में अतिरिक्त साक्ष्य स्रोतों को विशेष उपयोगी बताती है।"
+  },
+  "image": null,
+  "subTopic": "Taxonomic evidence",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which immediate environmental change can active photosynthesis by algae produce?",
+   "HI": "शैवालों के सक्रिय प्रकाश-संश्लेषण से कौन-सा तात्कालिक पर्यावरणीय परिवर्तन हो सकता है?"
+  },
+  "options": {
+   "EN": [
+    "Elimination of all dissolved oxygen",
+    "Formation of vascular roots",
+    "Conversion of every consumer into a producer",
+    "Increase in dissolved oxygen nearby"
+   ],
+   "HI": [
+    "सारी घुलित ऑक्सीजन का समाप्त होना",
+    "संवहनी जड़ों का निर्माण",
+    "हर उपभोक्ता का उत्पादक बनना",
+    "आसपास घुलित ऑक्सीजन में वृद्धि"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Photosynthetic algae release oxygen and form energy-rich compounds.",
+   "HI": "प्रकाश-संश्लेषी शैवाल ऑक्सीजन मुक्त करते और ऊर्जा-समृद्ध यौगिक बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": "Algal primary production",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "According to the supplied NCERT chapter, algae account for at least approximately what fraction of total carbon dioxide fixation on Earth?",
+   "HI": "दी गई NCERT के अनुसार पृथ्वी पर कुल कार्बन डाइऑक्साइड स्थिरीकरण का कम-से-कम लगभग कितना भाग शैवाल करते हैं?"
+  },
+  "options": {
+   "EN": [
+    "None",
+    "One-hundredth",
+    "One-half",
+    "One-thousandth"
+   ],
+   "HI": [
+    "शून्य",
+    "सौवाँ भाग",
+    "आधा",
+    "हजारवाँ भाग"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The supplied text states at least half; this is a textbook statement, not a new global estimate.",
+   "HI": "दिए पाठ में कम-से-कम आधा लिखा है; यह पाठ्यपुस्तक का कथन है, नया वैश्विक अनुमान नहीं।"
+  },
+  "image": null,
+  "subTopic": "Algal carbon fixation",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which property explains why algin and carrageen are called hydrocolloids?",
+   "HI": "एल्जिन और कैरेजीन को हाइड्रोकोलॉइड क्यों कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Their ability to form pollen",
+    "Their role as nuclear membranes",
+    "Their capacity to hold water",
+    "Their ability to act as flagella"
+   ],
+   "HI": [
+    "पराग बनाने की क्षमता",
+    "केंद्रकीय झिल्ली की भूमिका",
+    "जल धारण करने की क्षमता",
+    "कशाभिका की तरह कार्य"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT describes hydrocolloids as water-holding substances.",
+   "HI": "NCERT हाइड्रोकोलॉइड को जल धारण करने वाले पदार्थ बताती है।"
+  },
+  "image": null,
+  "subTopic": "Hydrocolloids",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A motile algal cell germinates directly into a new thallus without fusion. Which role fits this observation?",
+   "HI": "शैवाल की एक चल कोशिका बिना संलयन सीधे नए थैलस में विकसित होती है। इसकी भूमिका क्या है?"
+  },
+  "options": {
+   "EN": [
+    "A gymnosperm embryo",
+    "A pollen grain",
+    "An egg requiring fertilisation",
+    "A zoospore in asexual reproduction"
+   ],
+   "HI": [
+    "जिम्नोस्पर्म भ्रूण",
+    "परागकण",
+    "निषेचन आवश्यक वाला अंड",
+    "अलैंगिक जनन का चलबीजाणु"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "A zoospore can establish a new plant without gamete fusion.",
+   "HI": "चलबीजाणु युग्मक संलयन के बिना नया पादप बना सकता है।"
+  },
+  "image": null,
+  "subTopic": "Spores versus gametes",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which contrast between motile cells of green and brown algae matches Table 3.1?",
+   "HI": "हरित और भूरे शैवालों की चल कोशिकाओं का कौन-सा अंतर तालिका 3.1 से मेल खाता है?"
+  },
+  "options": {
+   "EN": [
+    "Green: lateral unequal flagella; brown: apical equal flagella",
+    "Green: equal apical flagella; brown: unequal lateral flagella",
+    "Both: flagella always absent",
+    "Green: no flagella; brown: eight equal apical flagella"
+   ],
+   "HI": [
+    "हरित: असमान पार्श्वीय; भूरे: समान शीर्षस्थ",
+    "हरित: समान शीर्षस्थ कशाभिकाएँ; भूरे: असमान पार्श्वीय कशाभिकाएँ",
+    "दोनों: कशाभिकाएँ सदैव अनुपस्थित",
+    "हरित: कशाभिका नहीं; भूरे: आठ समान शीर्षस्थ कशाभिकाएँ"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The table distinguishes both insertion position and relative flagellar size.",
+   "HI": "तालिका कशाभिकाओं के जुड़ने के स्थान और सापेक्ष आकार दोनों में अंतर करती है।"
+  },
+  "image": null,
+  "subTopic": "Flagellar comparison",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What flagellar number range is listed for Chlorophyceae in Table 3.1?",
+   "HI": "तालिका 3.1 में क्लोरोफाइसी की कशाभिका संख्या का कौन-सा परास दिया है?"
+  },
+  "options": {
+   "EN": [
+    "Always exactly 1",
+    "2–8",
+    "Always exactly 16",
+    "Always 0"
+   ],
+   "HI": [
+    "सदैव ठीक 1",
+    "2–8",
+    "सदैव ठीक 16",
+    "सदैव 0"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The table lists 2–8 equal, apically inserted flagella for flagellated green-algal cells.",
+   "HI": "तालिका कशाभिकायुक्त हरित शैवाल कोशिकाओं में 2–8 समान शीर्षस्थ कशाभिकाएँ बताती है।"
+  },
+  "image": null,
+  "subTopic": "Green-algal flagella",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which wall composition is listed for Rhodophyceae?",
+   "HI": "रोडोफाइसी के लिए कौन-सा कोशिका भित्ति संघटन दिया है?"
+  },
+  "options": {
+   "EN": [
+    "Cellulose, pectin and polysulphate esters",
+    "Silica with two overlapping valves",
+    "Peptidoglycan without cellulose",
+    "Only chitin"
+   ],
+   "HI": [
+    "सेल्यूलोज, पेक्टिन और पॉलीसल्फेट एस्टर",
+    "दो अतिव्यापी कवचों वाली सिलिका",
+    "सेल्यूलोज रहित पेप्टिडोग्लाइकैन",
+    "केवल काइटिन"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "These wall components distinguish the red-algal entry in Table 3.1.",
+   "HI": "ये घटक तालिका 3.1 में लाल शैवालों की भित्ति के लिए दिए हैं।"
+  },
+  "image": null,
+  "subTopic": "Red-algal walls",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A student writes that brown algae can never occur in fresh water. How should the statement be corrected?",
+   "HI": "एक छात्र लिखता है कि भूरे शैवाल मीठे जल में कभी नहीं होते। सही सुधार क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Every brown alga is parasitic",
+    "They are mainly marine, but freshwater occurrence is rare rather than absent",
+    "They occur only on dry rock",
+    "They occur only in fresh water"
+   ],
+   "HI": [
+    "हर भूरा शैवाल परजीवी है",
+    "वे मुख्यतः समुद्री हैं, पर मीठे जल में दुर्लभ हैं, पूर्णतः अनुपस्थित नहीं",
+    "वे केवल सूखी चट्टान पर होते हैं",
+    "वे केवल मीठे जल में होते हैं"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Table 3.1 explicitly lists freshwater occurrence as rare for brown algae.",
+   "HI": "तालिका 3.1 भूरे शैवालों का मीठे जल में होना स्पष्टतः दुर्लभ बताती है।"
+  },
+  "image": null,
+  "subTopic": "Algal habitats",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which NCERT example has similar-sized flagellated gametes, unlike the non-motile isogametes of Spirogyra?",
+   "HI": "स्पाइरोगाइरा के अचल समयुग्मकों के विपरीत, NCERT का कौन-सा उदाहरण समान आकार के कशाभिकायुक्त युग्मक बनाता है?"
+  },
+  "options": {
+   "EN": [
+    "Cycas",
+    "Funaria",
+    "Pinus",
+    "Ulothrix"
+   ],
+   "HI": [
+    "साइकस",
+    "फ्यूनेरिया",
+    "पाइनस",
+    "यूलोथ्रिक्स"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Ulothrix illustrates isogamy with motile gametes; similarity in size does not imply immobility.",
+   "HI": "यूलोथ्रिक्स चल युग्मकों वाला समयुग्मन दर्शाता है; समान आकार का अर्थ अचल होना नहीं है।"
+  },
+  "image": null,
+  "subTopic": "Motile isogametes",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which statement avoids overgeneralising sexual reproduction in green algae?",
+   "HI": "हरित शैवालों के लैंगिक जनन के बारे में कौन-सा कथन अनुचित सामान्यीकरण से बचता है?"
+  },
+  "options": {
+   "EN": [
+    "No member produces gametes",
+    "Every member is exclusively oogamous",
+    "Different members can show isogamy, anisogamy or oogamy",
+    "All members reproduce only asexually"
+   ],
+   "HI": [
+    "कोई सदस्य युग्मक नहीं बनाता",
+    "हर सदस्य केवल विषमयुग्मनी है",
+    "अलग सदस्यों में समयुग्मन, असमयुग्मन या विषमयुग्मन हो सकता है",
+    "सभी केवल अलैंगिक जनन करते हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Chlorophyceae includes all three stated sexual patterns.",
+   "HI": "क्लोरोफाइसी में दिए गए तीनों लैंगिक जनन प्रकार मिलते हैं।"
+  },
+  "image": null,
+  "subTopic": "Sexual diversity",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Besides phycoerythrin, which chlorophyll pair is listed for red algae in the supplied table?",
+   "HI": "फाइकोएरिथ्रिन के अलावा, दी गई तालिका में लाल शैवालों के कौन-से क्लोरोफिल हैं?"
+  },
+  "options": {
+   "EN": [
+    "Chlorophyll a and d",
+    "Chlorophyll b and c only",
+    "Chlorophyll c and d only",
+    "No chlorophyll"
+   ],
+   "HI": [
+    "क्लोरोफिल a और d",
+    "केवल क्लोरोफिल b और c",
+    "केवल क्लोरोफिल c और d",
+    "क्लोरोफिल नहीं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The Rhodophyceae row lists chlorophyll a, d and phycoerythrin.",
+   "HI": "रोडोफाइसी की पंक्ति में क्लोरोफिल a, d और फाइकोएरिथ्रिन दिए हैं।"
+  },
+  "image": null,
+  "subTopic": "Red-algal chlorophyll",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which internal feature is described in vegetative cells of brown algae?",
+   "HI": "भूरे शैवालों की कायिक कोशिकाओं में कौन-सा आंतरिक लक्षण बताया गया है?"
+  },
+  "options": {
+   "EN": [
+    "A capsid surrounding the protoplast",
+    "A bacterial endospore replacing the nucleus",
+    "A nucleus and centrally located vacuole, in addition to plastids",
+    "No nucleus and only naked DNA"
+   ],
+   "HI": [
+    "जीवद्रव्यक को घेरता कैप्सिड",
+    "केंद्रक के स्थान पर जीवाणु अंतःबीजाणु",
+    "प्लास्टिड के अलावा केंद्रक और केंद्रीय रिक्तिका",
+    "केंद्रक नहीं, केवल अनावृत DNA"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Brown algae are eukaryotic; their cells include the stated nucleus, vacuole and plastids.",
+   "HI": "भूरे शैवाल यूकैरियोटी हैं; उनकी कोशिकाओं में केंद्रक, रिक्तिका और प्लास्टिड होते हैं।"
+  },
+  "image": null,
+  "subTopic": "Brown-algal cells",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which statement about green-algal chloroplasts follows NCERT?",
+   "HI": "हरित शैवालों के हरितलवकों के बारे में कौन-सा कथन NCERT के अनुरूप है?"
+  },
+  "options": {
+   "EN": [
+    "Shapes can include cup-like, spiral and reticulate forms",
+    "All are necessarily spherical",
+    "They occur only outside the cell",
+    "They lack photosynthetic pigments"
+   ],
+   "HI": [
+    "आकृतियाँ प्याले जैसी, सर्पिल और जालिकावत हो सकती हैं",
+    "सभी अनिवार्यतः गोलाकार हैं",
+    "वे केवल कोशिका के बाहर होते हैं",
+    "उनमें प्रकाश-संश्लेषी वर्णक नहीं होते"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT lists several chloroplast shapes in green algae.",
+   "HI": "NCERT हरित शैवालों में हरितलवक की कई आकृतियाँ बताती है।"
+  },
+  "image": null,
+  "subTopic": "Chloroplast diversity",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which observation is compatible with NCERT even though starch is the characteristic green-algal reserve?",
+   "HI": "स्टार्च हरित शैवालों का विशिष्ट संचय पदार्थ है; फिर भी कौन-सा अवलोकन NCERT के अनुरूप है?"
+  },
+  "options": {
+   "EN": [
+    "No green alga can contain oil",
+    "Some algae also store food as oil droplets",
+    "All green algae lack stored food",
+    "All green algae store only floridean starch"
+   ],
+   "HI": [
+    "किसी हरित शैवाल में तेल नहीं हो सकता",
+    "कुछ शैवाल तेल की बूँदों के रूप में भी भोजन संचित करते हैं",
+    "सभी में संचित भोजन नहीं होता",
+    "सभी केवल फ्लोरीडियन स्टार्च रखते हैं"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The text allows oil-droplet storage in some algae; a characteristic reserve is not necessarily the only reserve.",
+   "HI": "पाठ कुछ शैवालों में तेल-बूँद संचय बताता है; विशिष्ट संचय पदार्थ अनिवार्यतः एकमात्र नहीं होता।"
+  },
+  "image": null,
+  "subTopic": "Algal reserves qualification",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Ectocarpus and giant kelps illustrate which point about Phaeophyceae?",
+   "HI": "एक्टोकार्पस और विशाल केल्प फियोफाइसी का कौन-सा तथ्य दर्शाते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Every member has the same size",
+    "Large size necessarily means an angiosperm",
+    "Every member is unicellular",
+    "One class includes simple filaments and very large branched bodies"
+   ],
+   "HI": [
+    "हर सदस्य समान आकार का है",
+    "बड़ा आकार अनिवार्यतः आवृतबीजी होना है",
+    "हर सदस्य एककोशिकीय है",
+    "एक वर्ग में सरल तंतु और बहुत बड़े शाखित शरीर दोनों हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Brown algae vary greatly in size and body organisation.",
+   "HI": "भूरे शैवालों में आकार और शारीरिक संगठन की बहुत विविधता है।"
+  },
+  "image": null,
+  "subTopic": "Brown-algal size range",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which combination correctly describes red-algal sexual reproduction in NCERT?",
+   "HI": "NCERT में लाल शैवालों के लैंगिक जनन का सही संयोजन कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Seed formation inside fruits",
+    "Isogamy with eight apical flagella",
+    "Oogamous reproduction with non-motile gametes",
+    "Internal fertilisation using pollen tubes"
+   ],
+   "HI": [
+    "फलों में बीज निर्माण",
+    "आठ शीर्षस्थ कशाभिकाओं वाला समयुग्मन",
+    "अचल युग्मकों के साथ विषमयुग्मन",
+    "परागनलिका द्वारा आंतरिक निषेचन"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Red algae have non-motile gametes and oogamous sexual reproduction with post-fertilisation developments.",
+   "HI": "लाल शैवालों में अचल युग्मक, विषमयुग्मनी जनन और निषेचन-पश्चात विकास होते हैं।"
+  },
+  "image": null,
+  "subTopic": "Red-algal reproduction",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which observation would still be consistent with the description of algae as largely aquatic?",
+   "HI": "शैवालों को मुख्यतः जलीय बताने पर भी कौन-सा अवलोकन सही हो सकता है?"
+  },
+  "options": {
+   "EN": [
+    "Every alga possessing true vascular roots",
+    "Algae absent from every moist terrestrial surface",
+    "Every alga confined to the open ocean",
+    "Algae growing on moist stones, soil or wood"
+   ],
+   "HI": [
+    "हर शैवाल में वास्तविक संवहनी जड़ें होना",
+    "हर नम स्थलीय सतह पर शैवाल अनुपस्थित होना",
+    "हर शैवाल केवल खुले समुद्र में होना",
+    "नम पत्थरों, मिट्टी या लकड़ी पर शैवाल उगना"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Largely aquatic does not exclude the moist terrestrial substrates listed in NCERT.",
+   "HI": "मुख्यतः जलीय होने से NCERT में दिए नम स्थलीय आधारों पर शैवाल होने की संभावना समाप्त नहीं होती।"
+  },
+  "image": null,
+  "subTopic": "Non-aquatic algal habitats",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which feature correctly describes both antheridia and archegonia of bryophytes?",
+   "HI": "ब्रायोफाइट की पुंधानी और स्त्रीधानी दोनों का सही लक्षण कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "They are multicellular sex organs",
+    "They are diploid seeds",
+    "They are vascular roots",
+    "They are unicellular spores"
+   ],
+   "HI": [
+    "वे बहुकोशिकीय जननांग हैं",
+    "वे द्विगुणित बीज हैं",
+    "वे संवहनी जड़ें हैं",
+    "वे एककोशिकीय बीजाणु हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Bryophyte sex organs are multicellular and occur on the gametophyte.",
+   "HI": "ब्रायोफाइट के जननांग बहुकोशिकीय होते हैं और युग्मकोद्भिद पर पाए जाते हैं।"
+  },
+  "image": null,
+  "subTopic": "Bryophyte sex organs",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which sequence correctly follows fertilisation in a bryophyte?",
+   "HI": "ब्रायोफाइट में निषेचन के बाद सही क्रम कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Zygote → fruit → seed",
+    "Zygote → multicellular sporophyte → meiosis → spores",
+    "Zygote → gemma cup → ovary",
+    "Zygote → immediate meiosis → pollen"
+   ],
+   "HI": [
+    "युग्मनज → फल → बीज",
+    "युग्मनज → बहुकोशिकीय बीजाणुद्भिद → अर्धसूत्री विभाजन → बीजाणु",
+    "युग्मनज → जेमा कप → अंडाशय",
+    "युग्मनज → तत्काल अर्धसूत्री विभाजन → पराग"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The zygote first develops into a sporophyte; reduction division occurs later in spore production.",
+   "HI": "युग्मनज पहले बीजाणुद्भिद बनाता है; बीजाणु निर्माण में बाद में न्यूनकारी विभाजन होता है।"
+  },
+  "image": null,
+  "subTopic": "Bryophyte life-cycle order",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A bryophyte spore germinates successfully after dispersal. Which plant body develops from it?",
+   "HI": "प्रकीर्णन के बाद ब्रायोफाइट का बीजाणु अंकुरित होता है। इससे कौन-सा पादप शरीर बनता है?"
+  },
+  "options": {
+   "EN": [
+    "A gametophyte",
+    "A gymnosperm pollen cone",
+    "A diploid sporophyte directly",
+    "An ovary-bearing embryo"
+   ],
+   "HI": [
+    "युग्मकोद्भिद",
+    "जिम्नोस्पर्म पराग शंकु",
+    "सीधे द्विगुणित बीजाणुद्भिद",
+    "अंडाशय वाला भ्रूण"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Haploid spores establish gametophytes, whereas zygotes establish sporophytes.",
+   "HI": "अगुणित बीजाणु युग्मकोद्भिद बनाते हैं, जबकि युग्मनज बीजाणुद्भिद बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": "Bryophyte generation distinction",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A moss protonema and its leafy shoot look different. What is their generational relationship?",
+   "HI": "मॉस का प्रोटोनीमा और उसका पर्णिल प्ररोह अलग दिखते हैं। पीढ़ियों के संदर्भ में उनका संबंध क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Both are stages of the gametophyte",
+    "The protonema is the sporophyte and shoot the gametophyte",
+    "Both are embryos",
+    "The leafy shoot is a seed"
+   ],
+   "HI": [
+    "दोनों युग्मकोद्भिद की अवस्थाएँ हैं",
+    "प्रोटोनीमा बीजाणुद्भिद और प्ररोह युग्मकोद्भिद है",
+    "दोनों भ्रूण हैं",
+    "पर्णिल प्ररोह बीज है"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The protonema and leafy stage are two phases of the moss gametophyte.",
+   "HI": "प्रोटोनीमा और पर्णिल अवस्था मॉस के युग्मकोद्भिद की दो अवस्थाएँ हैं।"
+  },
+  "image": null,
+  "subTopic": "Moss generations",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which leaf-like arrangement is described for leafy liverworts and moss leafy shoots, respectively?",
+   "HI": "पर्णिल लिवरवर्ट और मॉस के पर्णिल प्ररोह में पत्ती जैसी संरचनाओं की क्रमशः कौन-सी व्यवस्था बताई गई है?"
+  },
+  "options": {
+   "EN": [
+    "Two rows; spiral arrangement",
+    "Both bear needle-like vascular leaves",
+    "Spiral arrangement; two rows",
+    "No appendages in either"
+   ],
+   "HI": [
+    "दो पंक्तियाँ; सर्पिल व्यवस्था",
+    "दोनों में सूईनुमा संवहनी पत्तियाँ",
+    "सर्पिल व्यवस्था; दो पंक्तियाँ",
+    "दोनों में उपांग नहीं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT contrasts two-row liverwort appendages with spirally arranged moss leaves.",
+   "HI": "NCERT लिवरवर्ट के दो-पंक्तीय उपांगों और मॉस की सर्पिल पत्ती व्यवस्था में अंतर बताती है।"
+  },
+  "image": null,
+  "subTopic": "Leaf arrangement comparison",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which set gives the three regions of a typical moss sporophyte?",
+   "HI": "सामान्य मॉस बीजाणुद्भिद के तीन भागों का सही समूह कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Rhizome, node, internode",
+    "Root, flower, fruit",
+    "Holdfast, stipe, frond",
+    "Foot, seta, capsule"
+   ],
+   "HI": [
+    "प्रकंद, पर्वसंधि, पर्व",
+    "जड़, पुष्प, फल",
+    "स्थापनांग, स्टाइप, फ्रॉन्ड",
+    "पाद, सीटा, संपुटिका"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The foot, seta and capsule belong to the sporophyte, not the leafy gametophyte.",
+   "HI": "पाद, सीटा और संपुटिका बीजाणुद्भिद के भाग हैं, पर्णिल युग्मकोद्भिद के नहीं।"
+  },
+  "image": null,
+  "subTopic": "Bryophyte sporophyte parts",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which comparison of gametophytes is correct?",
+   "HI": "युग्मकोद्भिदों की कौन-सी तुलना सही है?"
+  },
+  "options": {
+   "EN": [
+    "Gymnosperm gametophytes are the tall woody trees",
+    "Bryophyte gametophytes are free-living; gymnosperm gametophytes are retained in sporophyte structures",
+    "Both are always diploid",
+    "Both are always independent trees"
+   ],
+   "HI": [
+    "जिम्नोस्पर्म युग्मकोद्भिद ऊँचे काष्ठीय वृक्ष हैं",
+    "ब्रायोफाइट युग्मकोद्भिद स्वतंत्र हैं; जिम्नोस्पर्म युग्मकोद्भिद बीजाणुद्भिद की संरचनाओं में रहते हैं",
+    "दोनों सदैव द्विगुणित हैं",
+    "दोनों सदैव स्वतंत्र वृक्ष हैं"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Gymnosperm gametophytes are reduced and lack independent free-living existence.",
+   "HI": "जिम्नोस्पर्म युग्मकोद्भिद अत्यधिक ह्रासित हैं और स्वतंत्र जीवन नहीं जीते।"
+  },
+  "image": null,
+  "subTopic": "Gametophyte independence",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Mosses establish on bare rocks along with lichens. How does this assist later plant colonisation?",
+   "HI": "मॉस लाइकेन के साथ अनावृत चट्टानों पर बसते हैं। इससे बाद के पादपों का बसना कैसे आसान होता है?"
+  },
+  "options": {
+   "EN": [
+    "Rock decomposition helps create a suitable substrate",
+    "They immediately form flowers on bare rock",
+    "They prevent all soil formation",
+    "They turn rocks into seeds"
+   ],
+   "HI": [
+    "चट्टान अपघटन उपयुक्त आधार बनाने में मदद करता है",
+    "वे तुरंत चट्टान पर पुष्प बनाते हैं",
+    "वे मिट्टी बनना पूरी तरह रोकते हैं",
+    "वे चट्टानों को बीज बनाते हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "These pioneers help modify the substrate for subsequent vegetation.",
+   "HI": "ये अग्रगामी जीव बाद की वनस्पति के लिए आधार में परिवर्तन करते हैं।"
+  },
+  "image": null,
+  "subTopic": "Pioneer plants",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which difference distinguishes a Marchantia gemma from a meiotically produced bryophyte spore?",
+   "HI": "मार्केन्शिया के जेमा को अर्धसूत्री विभाजन से बने ब्रायोफाइट बीजाणु से कौन-सा अंतर अलग करता है?"
+  },
+  "options": {
+   "EN": [
+    "The spore is always diploid",
+    "Only the gemma can ever form a gametophyte",
+    "The gemma is a fertilised egg",
+    "The gemma is a multicellular asexual bud"
+   ],
+   "HI": [
+    "बीजाणु सदैव द्विगुणित है",
+    "केवल जेमा ही कभी युग्मकोद्भिद बना सकता है",
+    "जेमा निषेचित अंड है",
+    "जेमा बहुकोशिकीय अलैंगिक कलिका है"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "A gemma is a multicellular propagule; a meiotic spore is not a multicellular bud.",
+   "HI": "जेमा बहुकोशिकीय प्रवर्धक है; अर्धसूत्री बीजाणु बहुकोशिकीय कलिका नहीं है।"
+  },
+  "image": null,
+  "subTopic": "Gemma versus spore",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which statement about the distribution of liverwort sex organs is permitted by NCERT?",
+   "HI": "लिवरवर्ट के जननांगों की स्थिति के बारे में NCERT के अनुरूप कथन कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Neither is multicellular",
+    "They always occur inside a fruit",
+    "Male and female organs may occur on the same or different thalli",
+    "Both occur only on the sporophyte capsule"
+   ],
+   "HI": [
+    "दोनों में से कोई बहुकोशिकीय नहीं",
+    "वे सदैव फल के भीतर होते हैं",
+    "नर और मादा अंग एक या अलग थैलस पर हो सकते हैं",
+    "दोनों केवल बीजाणुद्भिद संपुटिका पर होते हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT allows both distributions; one pattern must not be imposed on all liverworts.",
+   "HI": "NCERT दोनों व्यवस्थाएँ बताती है; सभी लिवरवर्ट पर एक ही व्यवस्था लागू नहीं करनी चाहिए।"
+  },
+  "image": null,
+  "subTopic": "Liverwort sex distribution",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which moss structure can multiply vegetatively by fragmentation and budding?",
+   "HI": "मॉस की कौन-सी संरचना खंडन और मुकुलन द्वारा कायिक जनन कर सकती है?"
+  },
+  "options": {
+   "EN": [
+    "Fruit wall",
+    "Ovule integument",
+    "Pollen tube",
+    "Secondary protonema"
+   ],
+   "HI": [
+    "फलभित्ति",
+    "बीजांड अध्यावरण",
+    "परागनलिका",
+    "द्वितीयक प्रोटोनीमा"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT places fragmentation and budding in the secondary protonema.",
+   "HI": "NCERT द्वितीयक प्रोटोनीमा में खंडन और मुकुलन बताती है।"
+  },
+  "image": null,
+  "subTopic": "Moss vegetative propagation",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which comparison of sporophytes is stated in NCERT?",
+   "HI": "बीजाणुद्भिदों की कौन-सी तुलना NCERT में दी गई है?"
+  },
+  "options": {
+   "EN": [
+    "Mosses have no sporophyte",
+    "Both sporophytes are independent woody trees",
+    "Liverworts have seeds while mosses have fruits",
+    "The moss sporophyte is more elaborate than the liverwort sporophyte"
+   ],
+   "HI": [
+    "मॉस में बीजाणुद्भिद नहीं होता",
+    "दोनों स्वतंत्र काष्ठीय वृक्ष हैं",
+    "लिवरवर्ट में बीज और मॉस में फल हैं",
+    "मॉस का बीजाणुद्भिद लिवरवर्ट से अधिक विकसित है"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Both have sporophytes, but the moss sporophyte is described as more elaborate.",
+   "HI": "दोनों में बीजाणुद्भिद होते हैं, पर मॉस का बीजाणुद्भिद अधिक विकसित बताया गया है।"
+  },
+  "image": null,
+  "subTopic": "Moss versus liverwort sporophyte",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A moss gametophyte is haploid. Which division produces its gametes without reducing chromosome number further?",
+   "HI": "मॉस युग्मकोद्भिद अगुणित है। गुणसूत्र संख्या और घटाए बिना कौन-सा विभाजन इसके युग्मक बनाता है?"
+  },
+  "options": {
+   "EN": [
+    "Fertilisation",
+    "Karyogamy",
+    "Mitosis",
+    "Meiosis of diploid mother cells on that haploid body"
+   ],
+   "HI": [
+    "निषेचन",
+    "केंद्रक संलयन",
+    "समसूत्री विभाजन",
+    "उसी अगुणित शरीर पर द्विगुणित मातृ कोशिकाओं का अर्धसूत्री विभाजन"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Haploid gametophytes produce haploid gametes mitotically; meiosis belongs to spore formation in the sporophyte.",
+   "HI": "अगुणित युग्मकोद्भिद समसूत्री विभाजन से अगुणित युग्मक बनाते हैं; अर्धसूत्री विभाजन बीजाणुद्भिद में बीजाणु बनाता है।"
+  },
+  "image": null,
+  "subTopic": "Gamete production",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "If one diploid moss spore mother cell completes meiosis normally, how many haploid products result?",
+   "HI": "मॉस की एक द्विगुणित बीजाणु मातृ कोशिका सामान्य अर्धसूत्री विभाजन पूरा करे, तो कितने अगुणित उत्पाद बनेंगे?"
+  },
+  "options": {
+   "EN": [
+    "Two diploid products",
+    "Eight diploid products",
+    "One diploid product",
+    "Four"
+   ],
+   "HI": [
+    "दो द्विगुणित उत्पाद",
+    "आठ द्विगुणित उत्पाद",
+    "एक द्विगुणित उत्पाद",
+    "चार"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "One meiosis normally produces four haploid products from a diploid mother cell.",
+   "HI": "एक सामान्य अर्धसूत्री विभाजन द्विगुणित मातृ कोशिका से चार अगुणित उत्पाद बनाता है।"
+  },
+  "image": null,
+  "subTopic": "Spore formation arithmetic",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "In this figure, which visible part belongs to the gametophyte rather than the attached sporophyte?",
+   "HI": "इस चित्र में कौन-सा दृश्यमान भाग जुड़े बीजाणुद्भिद के बजाय युग्मकोद्भिद का है?"
+  },
+  "options": {
+   "EN": [
+    "The terminal capsule",
+    "The seta supporting the capsule",
+    "The leafy basal shoot",
+    "The foot of the sporophyte"
+   ],
+   "HI": [
+    "शीर्ष की संपुटिका",
+    "संपुटिका को थामने वाला सीटा",
+    "आधार का पर्णिल प्ररोह",
+    "बीजाणुद्भिद का पाद"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The leafy shoot is gametophytic; foot, seta and capsule are sporophytic parts.",
+   "HI": "पर्णिल प्ररोह युग्मकोद्भिद है; पाद, सीटा और संपुटिका बीजाणुद्भिद के भाग हैं।"
+  },
+  "image": "Chapter_03_Figure_3.2c.webp",
+  "subTopic": "Moss stage recognition",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "Which use set is explicitly associated with pteridophytes in NCERT?",
+   "HI": "NCERT में टेरिडोफाइट के कौन-से उपयोग दिए हैं?"
+  },
+  "options": {
+   "EN": [
+    "Medicinal uses, soil binding and ornamentals",
+    "Penicillin, curd and methane",
+    "Pearls, honey and wool",
+    "Milk production, silk and lac"
+   ],
+   "HI": [
+    "औषधीय उपयोग, मिट्टी बाँधना और सजावटी पादप",
+    "पेनिसिलिन, दही और मेथेन",
+    "मोती, शहद और ऊन",
+    "दूध, रेशम और लाख"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT lists these three uses of pteridophytes.",
+   "HI": "NCERT टेरिडोफाइट के ये तीन उपयोग बताती है।"
+  },
+  "image": null,
+  "subTopic": "Pteridophyte uses",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which statement correctly qualifies the usual damp, shady habitat of pteridophytes?",
+   "HI": "टेरिडोफाइट के सामान्य नम, छायादार आवास के बारे में कौन-सा कथन सही सीमा बताता है?"
+  },
+  "options": {
+   "EN": [
+    "Some can also flourish in sandy soils",
+    "None can grow on land",
+    "All are desert seed plants",
+    "All require permanent submergence in seawater"
+   ],
+   "HI": [
+    "कुछ रेतीली मिट्टी में भी अच्छी तरह उग सकते हैं",
+    "कोई स्थल पर नहीं उग सकता",
+    "सभी मरुस्थलीय बीजी पादप हैं",
+    "सभी को समुद्री जल में स्थायी डूबना चाहिए"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The chapter explicitly allows some pteridophytes to flourish in sandy-soil conditions.",
+   "HI": "अध्याय कुछ टेरिडोफाइट का रेतीली मिट्टी में अच्छी तरह उगना भी बताता है।"
+  },
+  "image": null,
+  "subTopic": "Pteridophyte habitats",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In Selaginella, does the word microphyll refer to a male spore?",
+   "HI": "सिलेजिनेला में माइक्रोफिल शब्द क्या नर बीजाणु को दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "Yes; it means a pollen tube",
+    "No; it is a large female spore",
+    "No; it refers to a small leaf",
+    "Yes; it is identical to microspore"
+   ],
+   "HI": [
+    "हाँ; इसका अर्थ परागनलिका है",
+    "नहीं; यह बड़ा मादा बीजाणु है",
+    "नहीं; यह छोटी पत्ती है",
+    "हाँ; यह लघुबीजाणु का समानार्थी है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Microphyll concerns leaf size; microspore concerns a reproductive spore category.",
+   "HI": "माइक्रोफिल पत्ती के आकार से संबंधित है; लघुबीजाणु जनन बीजाणु का प्रकार है।"
+  },
+  "image": null,
+  "subTopic": "Microphyll terminology",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which structural order is correct for spore production in a pteridophyte?",
+   "HI": "टेरिडोफाइट में बीजाणु उत्पादन का सही संरचनात्मक क्रम कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Sporophyte → sporangium → spore mother cell → spores",
+    "Spore → ovary → stamen → root",
+    "Gametophyte → fruit → pollen → seed",
+    "Gemma cup → pollen tube → embryo sac → seed"
+   ],
+   "HI": [
+    "बीजाणुद्भिद → बीजाणुधानी → बीजाणु मातृ कोशिका → बीजाणु",
+    "बीजाणु → अंडाशय → पुंकेसर → जड़",
+    "युग्मकोद्भिद → फल → पराग → बीज",
+    "जेमा कप → परागनलिका → भ्रूणकोष → बीज"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Sporangia on the sporophyte contain mother cells that undergo meiosis.",
+   "HI": "बीजाणुद्भिद की बीजाणुधानियों में मातृ कोशिकाएँ अर्धसूत्री विभाजन करती हैं।"
+  },
+  "image": null,
+  "subTopic": "Sporophyll hierarchy",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which distinction between a fern antheridium and sporangium is correct?",
+   "HI": "फर्न की पुंधानी और बीजाणुधानी में सही अंतर कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Antheridium produces gametes on the gametophyte; sporangium produces spores on the sporophyte",
+    "Both occur only inside pollen grains",
+    "Antheridium is an ovary; sporangium is a fruit",
+    "Both produce seeds"
+   ],
+   "HI": [
+    "पुंधानी युग्मकोद्भिद पर युग्मक बनाती है; बीजाणुधानी बीजाणुद्भिद पर बीजाणु बनाती है",
+    "दोनों केवल परागकणों में होते हैं",
+    "पुंधानी अंडाशय और बीजाणुधानी फल है",
+    "दोनों बीज बनाते हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "These structures belong to different generations and produce different reproductive cells.",
+   "HI": "ये संरचनाएँ अलग पीढ़ियों की हैं और अलग जनन कोशिकाएँ बनाती हैं।"
+  },
+  "image": null,
+  "subTopic": "Antheridium versus sporangium",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A plant produces two sizes of spores. Must the smaller spores be diploid and larger ones haploid?",
+   "HI": "एक पादप दो आकार के बीजाणु बनाता है। क्या छोटे द्विगुणित और बड़े अगुणित होना अनिवार्य है?"
+  },
+  "options": {
+   "EN": [
+    "Yes; size fixes chromosome number",
+    "No; both microspores and megaspores are haploid",
+    "Yes; all small cells are diploid",
+    "No; both must be fertilised eggs"
+   ],
+   "HI": [
+    "हाँ; आकार गुणसूत्र संख्या तय करता है",
+    "नहीं; लघुबीजाणु और गुरुबीजाणु दोनों अगुणित हैं",
+    "हाँ; सभी छोटी कोशिकाएँ द्विगुणित हैं",
+    "नहीं; दोनों निषेचित अंड होने चाहिए"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Spore size and ploidy are distinct; both spore types follow meiosis.",
+   "HI": "बीजाणु आकार और गुणिता अलग बातें हैं; दोनों बीजाणु प्रकार अर्धसूत्री विभाजन से बनते हैं।"
+  },
+  "image": null,
+  "subTopic": "Heterospory inference",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "In heterosporous pteridophytes, where does the young embryo develop after fertilisation?",
+   "HI": "विषमबीजाणुक टेरिडोफाइट में निषेचन के बाद युवा भ्रूण कहाँ विकसित होता है?"
+  },
+  "options": {
+   "EN": [
+    "Inside an ovary wall",
+    "Within a bacterial heterocyst",
+    "Within the female gametophyte",
+    "Inside an algal holdfast"
+   ],
+   "HI": [
+    "अंडाशय भित्ति के भीतर",
+    "जीवाणु हेटेरोसिस्ट में",
+    "मादा युग्मकोद्भिद के भीतर",
+    "शैवाल स्थापनांग में"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Embryo development within the retained female gametophyte is associated with the approach toward seed habit.",
+   "HI": "प्रतिधारित मादा युग्मकोद्भिद में भ्रूण विकास बीज स्वभाव की दिशा में महत्त्वपूर्ण है।"
+  },
+  "image": null,
+  "subTopic": "Embryo location",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair belongs to Lycopsida in the supplied NCERT classification?",
+   "HI": "दी गई NCERT के वर्गीकरण में लाइकोप्सिडा की जोड़ी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Equisetum and Psilotum",
+    "Selaginella and Lycopodium",
+    "Cycas and Adiantum",
+    "Dryopteris and Pinus"
+   ],
+   "HI": [
+    "इक्वीसीटम और साइलोटम",
+    "सिलेजिनेला और लाइकोपोडियम",
+    "साइकस और एडिएन्टम",
+    "ड्रायोप्टेरिस और पाइनस"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT places Selaginella and Lycopodium together in Lycopsida.",
+   "HI": "NCERT सिलेजिनेला और लाइकोपोडियम को लाइकोप्सिडा में रखती है।"
+  },
+  "image": null,
+  "subTopic": "Pteridophyte classes",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In this jointed shoot, what is the stem region between two successive nodes called?",
+   "HI": "इस संधियुक्त प्ररोह में दो क्रमिक पर्वसंधियों के बीच तने का भाग क्या कहलाता है?"
+  },
+  "options": {
+   "EN": [
+    "Capsule",
+    "Holdfast",
+    "Archegonium",
+    "Internode"
+   ],
+   "HI": [
+    "संपुटिका",
+    "स्थापनांग",
+    "स्त्रीधानी",
+    "पर्व"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "An internode is the stem interval between nodes in the Equisetum diagram.",
+   "HI": "इक्वीसीटम चित्र में पर्व दो पर्वसंधियों के बीच तने का भाग है।"
+  },
+  "image": "Chapter_03_Figure_3.3b.webp",
+  "subTopic": "Jointed axis interpretation",
+  "type": "diagram-based"
+ },
+ {
+  "question": {
+   "EN": "A fern specimen has well-developed vascular roots and fronds. Which alternative specimen would represent its gametophyte instead?",
+   "HI": "फर्न नमूने में विकसित संवहनी जड़ें और पर्ण हैं। इसके बजाय कौन-सा नमूना उसका युग्मकोद्भिद होगा?"
+  },
+  "options": {
+   "EN": [
+    "A detached mature frond",
+    "A small thalloid prothallus bearing sex organs",
+    "A seed inside a fruit",
+    "A woody cone-bearing tree"
+   ],
+   "HI": [
+    "पृथक परिपक्व पर्ण",
+    "जननांगों वाला छोटा थैलसी प्रोथैलस",
+    "फल में बंद बीज",
+    "काष्ठीय शंकुधारी वृक्ष"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "A prothallus is the gametophyte; a mature vascular frond is part of the sporophyte.",
+   "HI": "प्रोथैलस युग्मकोद्भिद है; परिपक्व संवहनी पर्ण बीजाणुद्भिद का भाग है।"
+  },
+  "image": null,
+  "subTopic": "Gametophyte versus sporophyte evidence",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "What is the general root-system type stated for gymnosperms?",
+   "HI": "जिम्नोस्पर्म के लिए सामान्यतः कौन-सा मूल तंत्र बताया गया है?"
+  },
+  "options": {
+   "EN": [
+    "Only gemma cups",
+    "No roots in any member",
+    "Only unicellular rhizoids",
+    "Tap root system"
+   ],
+   "HI": [
+    "केवल जेमा कप",
+    "किसी सदस्य में जड़ नहीं",
+    "केवल एककोशिकीय मूलाभास",
+    "मूसला मूल तंत्र"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Gymnosperms generally have tap roots; special symbioses occur in some genera.",
+   "HI": "जिम्नोस्पर्म में सामान्यतः मूसला मूल होता है; कुछ वंशों में विशेष सहजीवन मिलते हैं।"
+  },
+  "image": null,
+  "subTopic": "Gymnosperm root system",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which leaf feature is specifically described for Cycas?",
+   "HI": "साइकस के लिए कौन-सा पत्ती लक्षण विशेष रूप से दिया गया है?"
+  },
+  "options": {
+   "EN": [
+    "Pinnate leaves can persist for a few years",
+    "Leaves exist only for a few minutes",
+    "Leaves always bear enclosed ovaries",
+    "Leaves are always fungal hyphae"
+   ],
+   "HI": [
+    "पिच्छाकार पत्तियाँ कुछ वर्षों तक बनी रह सकती हैं",
+    "पत्तियाँ केवल कुछ मिनट रहती हैं",
+    "पत्तियों में सदैव बंद अंडाशय होते हैं",
+    "पत्तियाँ सदैव कवकतंतु हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT describes persistent pinnate leaves in Cycas.",
+   "HI": "NCERT साइकस में कुछ वर्षों तक बनी रहने वाली पिच्छाकार पत्तियाँ बताती है।"
+  },
+  "image": null,
+  "subTopic": "Leaf persistence",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "How are gymnosperm sporophylls arranged to form a strobilus?",
+   "HI": "जिम्नोस्पर्म के बीजाणुपर्ण शंकु बनाने के लिए कैसे व्यवस्थित होते हैं?"
+  },
+  "options": {
+   "EN": [
+    "As silica valves around a diatom",
+    "As comb plates on an animal",
+    "Only inside a fruit wall",
+    "Spirally along an axis"
+   ],
+   "HI": [
+    "डायटम के चारों ओर सिलिका कवच की तरह",
+    "प्राणी पर कंघी पट्टिकाओं की तरह",
+    "केवल फलभित्ति के भीतर",
+    "अक्ष पर सर्पिल क्रम में"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Spirally arranged sporophylls form lax or compact cones.",
+   "HI": "सर्पिल व्यवस्थित बीजाणुपर्ण ढीले या सघन शंकु बनाते हैं।"
+  },
+  "image": null,
+  "subTopic": "Cone organisation",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Where does gymnosperm pollen development take place before release?",
+   "HI": "मुक्त होने से पहले जिम्नोस्पर्म में पराग विकास कहाँ होता है?"
+  },
+  "options": {
+   "EN": [
+    "Within microsporangia",
+    "Within an ovary cavity",
+    "Inside the female archegonium",
+    "Inside a gemma cup"
+   ],
+   "HI": [
+    "लघुबीजाणुधानियों में",
+    "अंडाशय गुहा में",
+    "मादा स्त्रीधानी में",
+    "जेमा कप में"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Microspores develop into reduced male gametophytes within microsporangia.",
+   "HI": "लघुबीजाणु लघुबीजाणुधानियों में ह्रासित नर युग्मकोद्भिद बनते हैं।"
+  },
+  "image": null,
+  "subTopic": "Male gametophyte location",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In the gymnosperm account, what comprises the ovule?",
+   "HI": "जिम्नोस्पर्म के वर्णन में बीजांड किससे बनता है?"
+  },
+  "options": {
+   "EN": [
+    "A fruit wall and fleshy pericarp",
+    "Only a naked egg without surrounding tissue",
+    "Only a mature pollen grain",
+    "Nucellus together with its protective envelopes"
+   ],
+   "HI": [
+    "फलभित्ति और मांसल फलावरण",
+    "आसपास ऊतक के बिना केवल अनावृत अंड",
+    "केवल परिपक्व परागकण",
+    "बीजांडकाय और उसके सुरक्षात्मक आवरण"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The nucellus enclosed by protective envelopes forms the composite ovule structure.",
+   "HI": "सुरक्षात्मक आवरणों से घिरा बीजांडकाय मिलकर बीजांड संरचना बनाता है।"
+  },
+  "image": null,
+  "subTopic": "Ovule organisation",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "How many of the meiotic megaspores generally develop into the female gametophyte in the NCERT gymnosperm account?",
+   "HI": "NCERT के जिम्नोस्पर्म वर्णन में अर्धसूत्री विभाजन से बने कितने गुरुबीजाणु सामान्यतः मादा युग्मकोद्भिद बनाते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Eight",
+    "All four invariably",
+    "None",
+    "One"
+   ],
+   "HI": [
+    "आठ",
+    "सदैव चारों",
+    "कोई नहीं",
+    "एक"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "One megaspore develops into the multicellular female gametophyte retained in the ovule.",
+   "HI": "एक गुरुबीजाणु बीजांड में प्रतिधारित बहुकोशिकीय मादा युग्मकोद्भिद बनाता है।"
+  },
+  "image": null,
+  "subTopic": "Functional megaspore",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "What reproductive structures can the gymnosperm female gametophyte bear?",
+   "HI": "जिम्नोस्पर्म का मादा युग्मकोद्भिद कौन-सी जनन संरचनाएँ धारण कर सकता है?"
+  },
+  "options": {
+   "EN": [
+    "Two or more archegonia",
+    "Only conidiophores",
+    "Stamens and petals",
+    "Bacterial endospores"
+   ],
+   "HI": [
+    "दो या अधिक स्त्रीधानियाँ",
+    "केवल कोनिडियोफोर",
+    "पुंकेसर और पंखुड़ियाँ",
+    "जीवाणु अंतःबीजाणु"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT states that the multicellular female gametophyte bears two or more archegonia.",
+   "HI": "NCERT बहुकोशिकीय मादा युग्मकोद्भिद पर दो या अधिक स्त्रीधानियाँ बताती है।"
+  },
+  "image": null,
+  "subTopic": "Gymnosperm archegonia",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "What does the pollen tube accomplish in the gymnosperm fertilisation account?",
+   "HI": "जिम्नोस्पर्म के निषेचन वर्णन में परागनलिका क्या करती है?"
+  },
+  "options": {
+   "EN": [
+    "It converts the ovule into an ovary",
+    "It makes spores by meiosis",
+    "It becomes a green-algal holdfast",
+    "It carries male gametes toward archegonia and releases them near the opening"
+   ],
+   "HI": [
+    "यह बीजांड को अंडाशय बनाती है",
+    "यह अर्धसूत्री विभाजन से बीजाणु बनाती है",
+    "यह हरित शैवाल का स्थापनांग बनती है",
+    "यह नर युग्मकों को स्त्रीधानी की ओर ले जाकर उसके मुख के पास छोड़ती है"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The pollen tube delivers male gametes; it is not a fruit-forming structure.",
+   "HI": "परागनलिका नर युग्मकों को पहुँचाती है; यह फल बनाने वाली संरचना नहीं है।"
+  },
+  "image": null,
+  "subTopic": "Pollen-tube function",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which sequence keeps gametophyte and embryo identities distinct?",
+   "HI": "कौन-सा क्रम युग्मकोद्भिद और भ्रूण की पहचान सही रखता है?"
+  },
+  "options": {
+   "EN": [
+    "Microspore → fruit; zygote → pollen",
+    "Egg → cone without fertilisation; zygote → microspore",
+    "Microspore → male gametophyte; zygote → embryo",
+    "Pollen → ovary; megaspore → bark"
+   ],
+   "HI": [
+    "लघुबीजाणु → फल; युग्मनज → पराग",
+    "बिना निषेचन अंड → शंकु; युग्मनज → लघुबीजाणु",
+    "लघुबीजाणु → नर युग्मकोद्भिद; युग्मनज → भ्रूण",
+    "पराग → अंडाशय; गुरुबीजाणु → छाल"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "A gametophyte develops from a spore; an embryo develops from a zygote.",
+   "HI": "बीजाणु से युग्मकोद्भिद और युग्मनज से भ्रूण बनता है।"
+  },
+  "image": null,
+  "subTopic": "Pollen and seed comparison",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair combines vascular tissues and heterospory, but only the second member forms seeds?",
+   "HI": "किस जोड़ी में दोनों में संवहनी ऊतक और विषमबीजाणुकता हैं, पर केवल दूसरा सदस्य बीज बनाता है?"
+  },
+  "options": {
+   "EN": [
+    "Ulothrix and Volvox",
+    "Funaria and Marchantia",
+    "Pinus and Selaginella",
+    "Selaginella and Pinus"
+   ],
+   "HI": [
+    "यूलोथ्रिक्स और वॉल्वॉक्स",
+    "फ्यूनेरिया और मार्केन्शिया",
+    "पाइनस और सिलेजिनेला",
+    "सिलेजिनेला और पाइनस"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Selaginella is a heterosporous seedless vascular plant; Pinus is a heterosporous seed plant.",
+   "HI": "सिलेजिनेला विषमबीजाणुक बीजरहित संवहनी पादप है; पाइनस विषमबीजाणुक बीजी पादप है।"
+  },
+  "image": null,
+  "subTopic": "Plant-group comparison",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Bryophytes are called amphibians of the plant kingdom. Reason: They can live in soil but depend on water for sexual reproduction.",
+   "HI": "अभिकथन: ब्रायोफाइट्स को पादप जगत के उभयचर कहा जाता है। कारण: वे मिट्टी में रह सकते हैं परंतु लैंगिक जनन के लिए जल पर निर्भर होते हैं।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Both statements are true, and the reason correctly explains why NCERT gives bryophytes this name: they inhabit soil like other plants but need water, like amphibians, for fertilisation.",
+   "HI": "दोनों कथन सत्य हैं, और कारण सही व्याख्या करता है कि NCERT ब्रायोफाइट्स को यह नाम क्यों देता है: वे अन्य पौधों की तरह मिट्टी में रहते हैं परंतु निषेचन के लिए, उभयचरों की तरह, जल की आवश्यकता होती है।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Assertion: In pteridophytes, the gametophyte is the dominant phase of the life cycle. Reason: The pteridophyte gametophyte is a small, free-living prothallus.",
+   "HI": "अभिकथन: टेरिडोफाइट्स में, युग्मकोद्भिद जीवन चक्र की प्रमुख अवस्था है। कारण: टेरिडोफाइट का युग्मकोद्भिद एक छोटा, स्वतंत्र-जीवी प्रोथैलस होता है।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The assertion is false: in pteridophytes, the sporophyte (not the gametophyte) is the dominant, well-differentiated phase with true root, stem and leaves; the reason's description of the prothallus, though true in isolation, cannot support a false assertion here.",
+   "HI": "अभिकथन असत्य है: टेरिडोफाइट्स में, बीजाणुद्भिद (युग्मकोद्भिद नहीं) प्रमुख, सुविभेदित अवस्था है जिसमें सच्ची जड़, तना और पत्तियां होती हैं; कारण का प्रोथैलस वर्णन, यद्यपि स्वयं सत्य है, यहां एक असत्य अभिकथन का समर्थन नहीं कर सकता।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Selaginella is described as heterosporous. Reason: It produces two kinds of spores, macrospores and microspores, of similar size.",
+   "HI": "अभिकथन: सेलाजिनेला को विषमबीजाणुक कहा जाता है। कारण: यह समान आकार के दो प्रकार के बीजाणु, मेगास्पोर और माइक्रोस्पोर, उत्पन्न करता है।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The assertion is true, but the reason is false: heterosporous plants produce macro (large) and micro (small) spores of different sizes, not similar size.",
+   "HI": "अभिकथन सत्य है, परंतु कारण असत्य है: विषमबीजाणुक पौधे मेगा (बड़े) और माइक्रो (छोटे) बीजाणु भिन्न आकार में उत्पन्न करते हैं, समान आकार में नहीं।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Gymnosperms are called naked-seeded plants. Reason: In gymnosperms, the ovules are enclosed within an ovary wall that opens only after fertilisation.",
+   "HI": "अभिकथन: जिम्नोस्पर्म को नग्नबीजी पौधे कहा जाता है। कारण: जिम्नोस्पर्म में, बीजांड एक अंडाशय भित्ति में बंद होते हैं जो निषेचन के बाद ही खुलती है।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The assertion is true, but the reason is false: in gymnosperms the ovules are not enclosed by any ovary wall at all, remaining exposed both before and after fertilisation.",
+   "HI": "अभिकथन सत्य है, परंतु कारण असत्य है: जिम्नोस्पर्म में बीजांड किसी भी अंडाशय भित्ति से बंद नहीं होते, निषेचन से पहले और बाद दोनों में उजागर रहते हैं।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Which of the following correctly matches the plant group with its dominant phase in the life cycle?",
+   "HI": "निम्नलिखित में से कौन सा पादप समूह और उसके जीवन चक्र की प्रमुख अवस्था का सही मिलान है?"
+  },
+  "options": {
+   "EN": [
+    "Bryophyta — sporophyte dominant",
+    "Pteridophyta — gametophyte dominant",
+    "Bryophyta — gametophyte dominant",
+    "Angiosperm — gametophyte dominant and independent"
+   ],
+   "HI": [
+    "ब्रायोफाइटा — बीजाणुद्भिद प्रमुख",
+    "टेरिडोफाइटा — युग्मकोद्भिद प्रमुख",
+    "ब्रायोफाइटा — युग्मकोद्भिद प्रमुख",
+    "एंजियोस्पर्म — युग्मकोद्भिद प्रमुख और स्वतंत्र"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "In bryophytes the dominant, independent, photosynthetic phase is the haploid gametophyte, with the sporophyte dependent on it — the reverse of pteridophytes and seed plants.",
+   "HI": "ब्रायोफाइट्स में प्रमुख, स्वतंत्र, प्रकाश-संश्लेषी अवस्था अगुणित युग्मकोद्भिद है, जिस पर बीजाणुद्भिद निर्भर रहता है — यह टेरिडोफाइट्स और बीजीय पौधों के विपरीत है।"
+  },
+  "image": null,
+  "type": "previous-year-pattern",
+  "subTopic": "Mixed review"
+ }
+]
