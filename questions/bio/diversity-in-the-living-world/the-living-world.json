@@ -1,0 +1,1822 @@
+[
+ {
+  "question": {
+   "EN": "A student calls a sand mound 'living' because it has become larger. Which observation best challenges this conclusion?",
+   "HI": "एक छात्र रेत के टीले को बड़ा होने के कारण 'जीवित' कहता है। कौन-सा अवलोकन इस निष्कर्ष को सबसे अच्छी तरह चुनौती देता है?"
+  },
+  "options": {
+   "EN": [
+    "It contains many particles",
+    "Its shape changes with time",
+    "It is exposed to sunlight",
+    "Its increase occurs by deposition on its surface"
+   ],
+   "HI": [
+    "इसमें अनेक कण होते हैं",
+    "समय के साथ इसका आकार बदलता है",
+    "इस पर सूर्य का प्रकाश पड़ता है",
+    "इसकी वृद्धि सतह पर पदार्थ जमा होने से होती है"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT contrasts growth by external accumulation in non-living objects with growth from within in living organisms.",
+   "HI": "NCERT निर्जीव वस्तुओं में बाहरी जमाव से होने वाली वृद्धि और जीवों में भीतर से होने वाली वृद्धि में अंतर बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A tissue in an adult animal replaces lost cells even though the animal no longer grows in overall size. Which conclusion agrees with NCERT?",
+   "HI": "एक वयस्क प्राणी के ऊतक में खोई हुई कोशिकाएँ पुनः बनती हैं, यद्यपि प्राणी का समग्र आकार अब नहीं बढ़ता। कौन-सा निष्कर्ष NCERT के अनुरूप है?"
+  },
+  "options": {
+   "EN": [
+    "Cell division can continue in certain tissues after body growth stops",
+    "All cell division stops after adulthood",
+    "Replacement of cells is reproduction of the animal",
+    "Only plants replace lost cells"
+   ],
+   "HI": [
+    "शरीर की वृद्धि रुकने के बाद भी कुछ ऊतकों में कोशिका विभाजन जारी रह सकता है",
+    "वयस्क होने पर सभी कोशिका विभाजन रुक जाते हैं",
+    "कोशिकाओं का प्रतिस्थापन प्राणी का प्रजनन है",
+    "केवल पादप खोई हुई कोशिकाएँ प्रतिस्थापित करते हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT states that animal growth occurs up to a certain age, while cell division in some tissues replaces lost cells.",
+   "HI": "NCERT के अनुसार प्राणियों की वृद्धि एक निश्चित आयु तक होती है, लेकिन कुछ ऊतकों में कोशिका विभाजन खोई हुई कोशिकाओं की पूर्ति करता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "An isolated enzyme reaction converts one biomolecule to another in a test tube. How should this reaction be described using NCERT's distinction?",
+   "HI": "एक परखनली में पृथक एंजाइम अभिक्रिया एक जैव-अणु को दूसरे में बदलती है। NCERT के भेद के अनुसार इस अभिक्रिया का वर्णन कैसे करेंगे?"
+  },
+  "options": {
+   "EN": [
+    "A process that cannot be metabolic",
+    "A living reaction occurring outside a living organism",
+    "A complete living organism",
+    "Proof that the test tube has cellular organisation"
+   ],
+   "HI": [
+    "ऐसी प्रक्रिया जो उपापचयी नहीं हो सकती",
+    "जीवित जीव के बाहर होने वाली जीवित अभिक्रिया",
+    "एक पूर्ण जीवित जीव",
+    "इस बात का प्रमाण कि परखनली में कोशिकीय संगठन है"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT calls isolated metabolic reactions in vitro living reactions, but does not call them living things.",
+   "HI": "NCERT जीव के शरीर के बाहर, कोशिका-मुक्त तंत्र में होने वाली पृथक उपापचयी अभिक्रियाओं को जीवित अभिक्रियाएँ कहती है; ऐसा पृथक तंत्र स्वयं जीवित जीव नहीं है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Why does finding a sterile worker bee not disprove that it is a living organism?",
+   "HI": "बाँझ श्रमिक मधुमक्खी मिलने से उसके जीवित होने का खंडन क्यों नहीं होता?"
+  },
+  "options": {
+   "EN": [
+    "Reproduction and growth are identical in every animal",
+    "Sterility prevents metabolism",
+    "Reproduction is not an all-inclusive criterion for life",
+    "Every worker bee reproduces eventually"
+   ],
+   "HI": [
+    "हर प्राणी में प्रजनन और वृद्धि एक ही हैं",
+    "बाँझपन उपापचय को रोकता है",
+    "प्रजनन जीवन की सर्वसमावेशी कसौटी नहीं है",
+    "प्रत्येक श्रमिक मधुमक्खी अंततः प्रजनन करती है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT gives sterile worker bees as an example showing that an individual can be living without reproducing.",
+   "HI": "NCERT बाँझ श्रमिक मधुमक्खियों को ऐसे उदाहरण के रूप में देती है जिनसे स्पष्ट है कि कोई जीव प्रजनन किए बिना भी जीवित हो सकता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A plant changes its response when the duration of light changes. Which broader property does this observation illustrate?",
+   "HI": "प्रकाश की अवधि बदलने पर एक पादप अपनी प्रतिक्रिया बदलता है। यह अवलोकन किस व्यापक गुण को दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "Self-consciousness identical to that of humans",
+    "Growth solely by surface deposition",
+    "Absence of cellular organisation",
+    "Ability to sense and respond to environmental cues"
+   ],
+   "HI": [
+    "मनुष्यों जैसी आत्म-चेतना",
+    "केवल सतही जमाव से वृद्धि",
+    "कोशिकीय संगठन का अभाव",
+    "पर्यावरणीय संकेतों को महसूस करने और उन पर प्रतिक्रिया करने की क्षमता"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT describes responses to light and photoperiod as examples of sensing environmental conditions.",
+   "HI": "NCERT प्रकाश और प्रकाश-अवधि के प्रति प्रतिक्रियाओं को पर्यावरणीय दशाओं को महसूस करने के उदाहरण के रूप में बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Two organisms share a family but belong to different genera. Which statement follows from their placement?",
+   "HI": "दो जीव एक ही कुल के हैं, पर अलग-अलग वंशों में रखे गए हैं। इस वर्गीकरण से कौन-सा कथन निकलता है?"
+  },
+  "options": {
+   "EN": [
+    "They share family-level characters but are not placed in the same genus",
+    "They must belong to different orders",
+    "They have identical specific epithets",
+    "They must be members of the same species"
+   ],
+   "HI": [
+    "उनमें कुल-स्तर के लक्षण समान हैं, पर वे एक ही वंश में नहीं रखे गए हैं",
+    "वे अनिवार्य रूप से अलग गणों में होंगे",
+    "उनके जाति-संकेतक अनिवार्य रूप से एक जैसे होंगे",
+    "वे अनिवार्य रूप से एक ही जाति के होंगे"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "A family groups related genera; sharing a family does not establish that two organisms share a genus or species.",
+   "HI": "एक कुल संबंधित वंशों को समाहित करता है; समान कुल होने से समान वंश या जाति सिद्ध नहीं होती।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "In a comparison of two species from the same genus and two species from different genera of one family, which pair should generally show more shared characters?",
+   "HI": "एक ही वंश की दो जातियों तथा एक कुल के अलग-अलग वंशों की दो जातियों की तुलना में सामान्यतः किस जोड़ी में अधिक समान लक्षण होंगे?"
+  },
+  "options": {
+   "EN": [
+    "No comparison is possible within a family",
+    "The pair from the same genus",
+    "The pair from different genera",
+    "Both pairs must share exactly the same number"
+   ],
+   "HI": [
+    "एक कुल के भीतर तुलना संभव नहीं है",
+    "एक ही वंश वाली जोड़ी में",
+    "अलग-अलग वंशों वाली जोड़ी में",
+    "दोनों जोड़ियों में समान लक्षणों की संख्या बिल्कुल बराबर होगी"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The genus is a lower rank than family, and lower taxa generally have more shared characteristics.",
+   "HI": "वंश कुल से निम्न श्रेणी है और निम्न वर्गकों के सदस्यों में सामान्यतः अधिक समान लक्षण होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A plant's vegetative characters are recorded, but its reproductive characters are ignored while assigning its family. What important NCERT criterion has been missed?",
+   "HI": "किसी पादप का कुल निर्धारित करते समय उसके वर्धी लक्षण दर्ज किए गए, लेकिन जनन लक्षण छोड़ दिए गए। NCERT का कौन-सा महत्त्वपूर्ण मानदंड छूट गया?"
+  },
+  "options": {
+   "EN": [
+    "A family always contains one genus",
+    "Only the common name determines family",
+    "Plant families are characterised using both vegetative and reproductive features",
+    "A family is identified only by habitat"
+   ],
+   "HI": [
+    "एक कुल में हमेशा एक ही वंश होता है",
+    "केवल सामान्य नाम कुल निर्धारित करता है",
+    "पादप कुलों का निर्धारण वर्धी और जनन, दोनों प्रकार के लक्षणों से होता है",
+    "कुल की पहचान केवल आवास से होती है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT explicitly uses both vegetative and reproductive features to characterise plant families.",
+   "HI": "NCERT पादप कुलों के निर्धारण के लिए वर्धी और जनन, दोनों लक्षणों का स्पष्ट उल्लेख करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A classifier groups Convolvulaceae and Solanaceae in one order. Which characters are mainly used in the NCERT example?",
+   "HI": "एक वर्गिकीविद् कॉन्वॉल्वुलेसी और सोलैनेसी को एक ही गण में रखता है। NCERT के उदाहरण में मुख्यतः कौन-से लक्षण उपयोग किए जाते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Food habits",
+    "Type of skeleton",
+    "Size of the organism",
+    "Floral characters"
+   ],
+   "HI": [
+    "आहार संबंधी आदतें",
+    "कंकाल का प्रकार",
+    "जीव का आकार",
+    "पुष्पीय लक्षण"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT places these families in the order Polymoniales mainly on floral characters.",
+   "HI": "NCERT इन कुलों को मुख्यतः पुष्पीय लक्षणों के आधार पर पॉलीमोनिएलीज़ गण में रखती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A newly collected plant specimen must remain available for future comparison, together with its collection locality and collector's name. What is the appropriate preparation?",
+   "HI": "एक नया संग्रहित पादप नमूना भविष्य की तुलना के लिए, संग्रह स्थान और संग्राहक के नाम सहित, सुरक्षित रखना है। उपयुक्त तैयारी क्या है?"
+  },
+  "options": {
+   "EN": [
+    "Dry and press it on a labelled herbarium sheet",
+    "Keep only its common name in a notebook",
+    "Release it into a zoological park",
+    "Store only a photograph without specimen details"
+   ],
+   "HI": [
+    "उसे सुखाकर लेबलयुक्त हरबेरियम शीट पर दबाकर सुरक्षित रखें",
+    "केवल उसका सामान्य नाम कॉपी में लिखें",
+    "उसे प्राणि उद्यान में छोड़ दें",
+    "नमूने के विवरण के बिना केवल तस्वीर रखें"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Herbarium sheets preserve dried, pressed plant specimens and carry collection details.",
+   "HI": "हरबेरियम शीट पर सूखे, दबाए गए पादप नमूने तथा संग्रह से संबंधित विवरण सुरक्षित रहते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A museum needs to retain the body plan of a large bird for study. Which preservation method is described in NCERT?",
+   "HI": "एक संग्रहालय अध्ययन के लिए बड़े पक्षी की शारीरिक बनावट सुरक्षित रखना चाहता है। NCERT में संरक्षण की कौन-सी विधि बताई गई है?"
+  },
+  "options": {
+   "EN": [
+    "Pressing it on a herbarium sheet",
+    "Stuffing and preserving the specimen",
+    "Pinning it in an insect box",
+    "Planting it in a botanical garden"
+   ],
+   "HI": [
+    "उसे हरबेरियम शीट पर दबाना",
+    "नमूने में भराव करके उसे सुरक्षित रखना",
+    "उसे कीट-पेटिका में पिन लगाकर रखना",
+    "उसे वनस्पति उद्यान में रोपना"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT says larger animals such as birds and mammals are usually stuffed and preserved in museums.",
+   "HI": "NCERT के अनुसार पक्षियों और स्तनधारियों जैसे बड़े प्राणियों को संग्रहालयों में सामान्यतः भराव करके सुरक्षित रखा जाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "While using a taxonomic key, a specimen matches one member of a pair of contrasting characters. What should the user do next?",
+   "HI": "वर्गिकी कुंजी का उपयोग करते समय कोई नमूना विरोधी लक्षणों की एक जोड़ी में से एक विकल्प से मेल खाता है। आगे क्या करना चाहिए?"
+  },
+  "options": {
+   "EN": [
+    "Ignore the observed character",
+    "Assign the specimen directly to a kingdom without further identification",
+    "Accept the matching lead and reject the other",
+    "Accept both leads simultaneously"
+   ],
+   "HI": [
+    "देखे गए लक्षण को अनदेखा करें",
+    "आगे पहचान किए बिना नमूने को सीधे जगत में रख दें",
+    "मेल खाने वाले संकेत को स्वीकार और दूसरे को अस्वीकार करें",
+    "दोनों संकेत एक साथ स्वीकार करें"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "A key presents opposite alternatives in a couplet; identification proceeds by accepting one lead and rejecting the other.",
+   "HI": "वर्गिकी कुंजी में विपरीत लक्षणों के युग्म (couplets) होते हैं। पहचान के प्रत्येक चरण में एक कथन स्वीकार और दूसरा अस्वीकार किया जाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A field worker knows the genus of a specimen but needs to distinguish between closely related species. Which resource best fits this identification step?",
+   "HI": "एक क्षेत्रीय शोधकर्ता नमूने का वंश जानता है, पर निकट संबंधी जातियों में भेद करना चाहता है। पहचान के इस चरण के लिए कौन-सा साधन सबसे उपयुक्त है?"
+  },
+  "options": {
+   "EN": [
+    "A list of only kingdom names",
+    "A zoo photograph without characters",
+    "A record of rainfall alone",
+    "A key prepared for species identification"
+   ],
+   "HI": [
+    "केवल जगतों के नामों की सूची",
+    "लक्षणों के बिना चिड़ियाघर की तस्वीर",
+    "केवल वर्षा का अभिलेख",
+    "जाति की पहचान के लिए तैयार की गई वर्गिकी कुंजी"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT states that separate keys are required for taxonomic categories including species.",
+   "HI": "NCERT के अनुसार जाति सहित विभिन्न वर्गिकी श्रेणियों की पहचान के लिए अलग-अलग कुंजियाँ चाहिए।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A biologist studies both an organism's classification and its evolutionary relationship to others. Which term best names this broader study?",
+   "HI": "एक जीवविज्ञानी किसी जीव के वर्गीकरण के साथ अन्य जीवों से उसके विकासीय संबंध का भी अध्ययन करता है। इस व्यापक अध्ययन को क्या कहते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Systematics",
+    "Only nomenclature",
+    "Only preservation",
+    "Only specimen mounting"
+   ],
+   "HI": [
+    "वर्गीकरण पद्धति (सिस्टेमैटिक्स)",
+    "केवल नामकरण",
+    "केवल संरक्षण",
+    "केवल नमूना आरोपण"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT describes systematics as encompassing identification, nomenclature and classification while considering evolutionary relationships.",
+   "HI": "NCERT के अनुसार वर्गीकरण पद्धति (सिस्टेमैटिक्स) में पहचान, नाम-पद्धति और वर्गीकरण के साथ जीवों के विकासीय संबंधों का भी अध्ययन किया जाता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A scientist has identified an organism correctly but finds that its local name varies between regions. What is the purpose of assigning a scientific name?",
+   "HI": "एक वैज्ञानिक ने जीव की सही पहचान कर ली है, लेकिन उसका स्थानीय नाम क्षेत्रों के अनुसार बदलता है। वैज्ञानिक नाम देने का उद्देश्य क्या है?"
+  },
+  "options": {
+   "EN": [
+    "To place all organisms in the same species",
+    "To provide a standard name understood across regions",
+    "To change the organism's characteristics",
+    "To eliminate the need to describe it"
+   ],
+   "HI": [
+    "सभी जीवों को एक ही जाति में रखना",
+    "विभिन्न क्षेत्रों में मान्य एक मानकीकृत नाम देना",
+    "जीव के लक्षण बदलना",
+    "उसके वर्णन की आवश्यकता समाप्त करना"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT explains that varying local names create confusion and scientific nomenclature standardises reference to organisms.",
+   "HI": "NCERT बताती है कि बदलते स्थानीय नाम भ्रम पैदा करते हैं और वैज्ञानिक नामकरण जीवों के संदर्भ को मानकीकृत करता है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A taxonomist can study an organism's external structure, cell structure, development and ecology. What is the role of these observations in NCERT's account of taxonomy?",
+   "HI": "एक वर्गिकीविद् किसी जीव की बाह्य संरचना, कोशिका-संरचना, विकास और पारिस्थितिकी का अध्ययन करता है। NCERT के अनुसार वर्गिकी में इन अवलोकनों की क्या भूमिका है?"
+  },
+  "options": {
+   "EN": [
+    "Only external appearance is relevant",
+    "They replace the need for identification",
+    "Only ecological data can establish a scientific name",
+    "They form the basis of modern taxonomic studies"
+   ],
+   "HI": [
+    "केवल बाह्य रूप प्रासंगिक है",
+    "ये पहचान की आवश्यकता समाप्त कर देते हैं",
+    "केवल पारिस्थितिक जानकारी वैज्ञानिक नाम निर्धारित कर सकती है",
+    "ये आधुनिक वर्गिकी अध्ययन का आधार हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT lists external and internal structure, cell structure, development and ecological information as essential to modern taxonomy.",
+   "HI": "NCERT बाह्य और आंतरिक संरचना, कोशिका-संरचना, विकास तथा पारिस्थितिक जानकारी को आधुनिक वर्गिकी के लिए आवश्यक बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A collected specimen is difficult to identify because its characters were never recorded. Which fundamental requirement for placing it in a taxonomic category is missing?",
+   "HI": "किसी संग्रहित नमूने की पहचान कठिन है क्योंकि उसके लक्षण दर्ज नहीं किए गए। उसे वर्गिकी श्रेणी में रखने की कौन-सी मूल आवश्यकता अधूरी है?"
+  },
+  "options": {
+   "EN": [
+    "Knowledge of the characters of the organism",
+    "Knowledge of its market price",
+    "A photograph of an unrelated organism",
+    "Its local name alone"
+   ],
+   "HI": [
+    "जीव के लक्षणों का ज्ञान",
+    "उसका बाजार मूल्य",
+    "किसी असंबंधित जीव की तस्वीर",
+    "केवल उसका स्थानीय नाम"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT says placement in categories first requires knowledge of characters to identify similarities and differences.",
+   "HI": "NCERT के अनुसार श्रेणियों में स्थान निर्धारण के लिए पहले लक्षणों का ज्ञान चाहिए ताकि समानता और भिन्नता पहचानी जा सके।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A researcher wants to examine a preserved animal skeleton for comparison. Which taxonomical aid may contain such a specimen?",
+   "HI": "एक शोधकर्ता तुलना के लिए सुरक्षित प्राणी कंकाल देखना चाहता है। किस वर्गिकी साधन में ऐसा नमूना मिल सकता है?"
+  },
+  "options": {
+   "EN": [
+    "Living plant collection",
+    "Biological museum",
+    "Botanical garden",
+    "Herbarium sheet"
+   ],
+   "HI": [
+    "जीवित पादप संग्रह",
+    "जैविक संग्रहालय",
+    "वनस्पति उद्यान",
+    "हरबेरियम शीट"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT specifically notes that biological museums often include collections of animal skeletons.",
+   "HI": "NCERT विशेष रूप से बताती है कि जैविक संग्रहालयों में प्रायः प्राणियों के कंकालों के संग्रह होते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which pair of places is named in NCERT as locations of botanical gardens in India?",
+   "HI": "NCERT में भारत के किन दो स्थानों को वनस्पति उद्यानों के स्थान के रूप में बताया गया है?"
+  },
+  "options": {
+   "EN": [
+    "Kew and Lucknow",
+    "Howrah and London",
+    "Howrah and Lucknow",
+    "Kew and Howrah"
+   ],
+   "HI": [
+    "क्यू और लखनऊ",
+    "हावड़ा और लंदन",
+    "हावड़ा और लखनऊ",
+    "क्यू और हावड़ा"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT names the Indian Botanical Garden at Howrah and the National Botanical Research Institute at Lucknow; Kew is in England.",
+   "HI": "NCERT हावड़ा के भारतीय वनस्पति उद्यान और लखनऊ के राष्ट्रीय वनस्पति अनुसंधान संस्थान का उल्लेख करती है; क्यू इंग्लैंड में है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A labelled museum jar contains an animal preserved in solution. Which conclusion is best supported by NCERT?",
+   "HI": "संग्रहालय के एक लेबलयुक्त पात्र में प्राणी को परिरक्षक विलयन में रखा गया है। NCERT के अनुसार कौन-सा निष्कर्ष उचित है?"
+  },
+  "options": {
+   "EN": [
+    "Every museum specimen must be stuffed",
+    "A jar of solution is a botanical garden",
+    "Preserved specimens cannot aid identification",
+    "Museums may preserve specimens in containers with preservative solutions"
+   ],
+   "HI": [
+    "हर संग्रहालय नमूने में भराव करना अनिवार्य है",
+    "विलयन वाला पात्र वनस्पति उद्यान है",
+    "सुरक्षित नमूने पहचान में सहायक नहीं हो सकते",
+    "संग्रहालय परिरक्षक विलयन वाले पात्रों में नमूने रख सकते हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT describes preservation of museum specimens in jars or containers with preservative solutions.",
+   "HI": "NCERT संग्रहालय के नमूनों को पात्रों या जारों में परिरक्षक विलयन के साथ रखने का वर्णन करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Two scientists independently examine the same described organism. What condition should a scientific naming system help satisfy?",
+   "HI": "दो वैज्ञानिक स्वतंत्र रूप से उसी वर्णित जीव का परीक्षण करते हैं। वैज्ञानिक नामकरण व्यवस्था को किस शर्त को पूरा करने में सहायता करनी चाहिए?"
+  },
+  "options": {
+   "EN": [
+    "They should arrive at the same name for that organism",
+    "They should invent different local names",
+    "They should assign a name already used for another organism",
+    "They should omit identification altogether"
+   ],
+   "HI": [
+    "उन्हें उस जीव के लिए एक ही नाम तक पहुँचना चाहिए",
+    "उन्हें अलग-अलग स्थानीय नाम गढ़ने चाहिए",
+    "उन्हें दूसरे जीव के लिए प्रयुक्त नाम ही देना चाहिए",
+    "उन्हें पहचान को पूरी तरह छोड़ देना चाहिए"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT says adequate description and naming rules should allow people anywhere to arrive at the same name.",
+   "HI": "NCERT के अनुसार पर्याप्त वर्णन और नामकरण नियमों से किसी भी स्थान के वैज्ञानिक उसी नाम तक पहुँच सकें।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A student uses a single example of similarity to put two organisms in the same species, without checking differences from related species. What has the student overlooked?",
+   "HI": "एक छात्र संबंधित जातियों से भिन्नताओं की जाँच किए बिना एक समानता के आधार पर दो जीवों को एक ही जाति में रख देता है। उसने क्या छोड़ा है?"
+  },
+  "options": {
+   "EN": [
+    "Using local names as the sole test",
+    "Distinguishing closely related species by their morphological differences",
+    "Assigning every organism to a different kingdom",
+    "Counting only the number of habitats"
+   ],
+   "HI": [
+    "स्थानीय नामों को एकमात्र कसौटी बनाना",
+    "निकट संबंधी जातियों में आकारिकीय भिन्नताओं के आधार पर भेद करना",
+    "हर जीव को अलग जगत में रखना",
+    "केवल आवासों की संख्या गिनना"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT describes fundamental similarities within a species and distinct morphological differences between closely related species.",
+   "HI": "NCERT जाति के भीतर मूलभूत समानताओं और निकट संबंधी जातियों के बीच स्पष्ट आकारिकीय भिन्नताओं का उल्लेख करती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A classifier places two plant families in the same order but assumes that they must share as many characters as two genera in one family. Which statement corrects this?",
+   "HI": "एक वर्गिकीविद् दो पादप कुलों को एक ही गण में रखता है, पर मानता है कि उनमें एक कुल के दो वंशों जितने ही समान लक्षण होंगे। इसे कौन-सा कथन सुधारता है?"
+  },
+  "options": {
+   "EN": [
+    "An order is lower than a family",
+    "Different families cannot share an order",
+    "Families in one order generally share fewer characters than genera in one family",
+    "All taxonomic ranks have identical similarity"
+   ],
+   "HI": [
+    "गण, कुल से निचली श्रेणी है",
+    "अलग कुल एक गण में नहीं हो सकते",
+    "एक गण के कुलों में सामान्यतः एक कुल के वंशों की अपेक्षा कम समान लक्षण होते हैं",
+    "सभी वर्गिकी श्रेणियों में समानता एक-सी होती है"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT notes that an order groups families on fewer shared characters than the genera grouped within a family.",
+   "HI": "NCERT के अनुसार एक गण में रखे कुलों के समान लक्षणों की संख्या, एक कुल के वंशों के समान लक्षणों से कम होती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A course asks why specimen collections matter beyond merely naming organisms. Which use is explicitly mentioned by NCERT?",
+   "HI": "एक पाठ्यक्रम पूछता है कि नमूना-संग्रह जीवों के नामकरण से आगे क्यों उपयोगी हैं। NCERT में किस उपयोग का स्पष्ट उल्लेख है?"
+  },
+  "options": {
+   "EN": [
+    "Replacing all field and laboratory studies",
+    "Preventing discovery of new organisms",
+    "Measuring only atmospheric temperature",
+    "Training in systematics and reference for classification"
+   ],
+   "HI": [
+    "सभी क्षेत्रीय और प्रयोगशाला अध्ययनों का स्थान लेना",
+    "नए जीवों की खोज रोकना",
+    "केवल वायुमंडलीय ताप मापना",
+    "सिस्टेमैटिक्स का प्रशिक्षण और वर्गीकरण हेतु संदर्भ"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT calls actual specimens a prime source for taxonomic studies and fundamental for training in systematics.",
+   "HI": "NCERT वास्तविक नमूनों को वर्गिकी अध्ययन का प्रमुख स्रोत और सिस्टेमैटिक्स में प्रशिक्षण के लिए आधारभूत बताती है।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "A taxonomist adds an intermediate sub-category within the usual hierarchy. What is NCERT's stated reason for such sub-categories?",
+   "HI": "एक वर्गिकीविद् सामान्य पदानुक्रम में एक मध्यवर्ती उपश्रेणी जोड़ता है। NCERT के अनुसार ऐसी उपश्रेणियों का उद्देश्य क्या है?"
+  },
+  "options": {
+   "EN": [
+    "More sound and scientific placement of taxa",
+    "Abolishing the species category",
+    "Ensuring every kingdom has one species",
+    "Replacing scientific names with local names"
+   ],
+   "HI": [
+    "वर्गकों को अधिक उचित और वैज्ञानिक ढंग से स्थान देना",
+    "जाति श्रेणी समाप्त करना",
+    "हर जगत में केवल एक जाति रखना",
+    "वैज्ञानिक नामों की जगह स्थानीय नाम देना"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT says taxonomists develop sub-categories for more sound and scientific placement of taxa.",
+   "HI": "NCERT के अनुसार वर्गिकीविद् वर्गकों के अधिक उचित और वैज्ञानिक स्थान निर्धारण के लिए उपश्रेणियाँ विकसित करते हैं।"
+  },
+  "image": null,
+  "subTopic": null,
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In Mangifera indica, which term is the specific epithet?",
+   "HI": "Mangifera indica में जाति विशेषण कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Both words separately denote genera",
+    "Mangifera",
+    "indica",
+    "Neither word"
+   ],
+   "HI": [
+    "दोनों शब्द अलग-अलग वंश हैं",
+    "Mangifera",
+    "indica",
+    "कोई शब्द नहीं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Mangifera is the genus; indica is the specific epithet.",
+   "HI": "Mangifera वंश है और indica जाति विशेषण है।"
+  },
+  "image": null,
+  "subTopic": "Binomial components",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which name has the correct capitalisation for a human scientific name?",
+   "HI": "मानव के वैज्ञानिक नाम में बड़े और छोटे अक्षरों का सही प्रयोग किसमें है?"
+  },
+  "options": {
+   "EN": [
+    "homo Sapiens",
+    "Homo sapiens",
+    "homo sapiens",
+    "Homo Sapiens"
+   ],
+   "HI": [
+    "homo Sapiens",
+    "Homo sapiens",
+    "homo sapiens",
+    "Homo Sapiens"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The genus begins with a capital letter and the specific epithet with a lowercase letter.",
+   "HI": "वंश का पहला अक्षर बड़ा और जाति विशेषण का पहला अक्षर छोटा होता है।"
+  },
+  "image": null,
+  "subTopic": "Capitalisation",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "How should the two words of a handwritten binomial be underlined?",
+   "HI": "हाथ से लिखे द्विपद नाम के दोनों शब्दों को कैसे रेखांकित करना चाहिए?"
+  },
+  "options": {
+   "EN": [
+    "Only the specific epithet",
+    "Each word separately",
+    "Neither word",
+    "Only the genus"
+   ],
+   "HI": [
+    "केवल जाति विशेषण",
+    "प्रत्येक शब्द अलग-अलग",
+    "कोई शब्द नहीं",
+    "केवल वंश"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Separate underlining substitutes for italics in handwritten scientific names.",
+   "HI": "हस्तलिखित वैज्ञानिक नामों में तिरछे अक्षरों के स्थान पर दोनों शब्द अलग-अलग रेखांकित होते हैं।"
+  },
+  "image": null,
+  "subTopic": "Handwritten names",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "What does Linn. indicate after Mangifera indica?",
+   "HI": "Mangifera indica के बाद Linn. क्या दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "The describing author's abbreviated name",
+    "A family",
+    "A subspecies",
+    "The collection locality"
+   ],
+   "HI": [
+    "वर्णनकर्ता का संक्षिप्त नाम",
+    "कुल",
+    "उपजाति",
+    "संग्रह का स्थान"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Linn. refers to Linnaeus, the author credited with describing the species in this example.",
+   "HI": "इस उदाहरण में Linn. जाति का वर्णन करने वाले लिनियस का संक्षिप्त नाम है।"
+  },
+  "image": null,
+  "subTopic": "Author citation",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A scientific name originates from a language other than Latin. Which treatment follows binomial conventions?",
+   "HI": "वैज्ञानिक नाम की उत्पत्ति लैटिन के अलावा किसी भाषा से हुई है। द्विपद पद्धति में क्या किया जाता है?"
+  },
+  "options": {
+   "EN": [
+    "Its genus must be lowercase",
+    "It must remain a local common name",
+    "It must contain three generic names",
+    "It is Latinised"
+   ],
+   "HI": [
+    "उसका वंश छोटे अक्षर से शुरू होगा",
+    "वह केवल स्थानीय सामान्य नाम रहेगा",
+    "उसमें तीन वंश नाम अनिवार्य हैं",
+    "उसे लैटिनीकृत किया जाता है"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Biological names are Latin or Latinised regardless of their linguistic origin.",
+   "HI": "जैविक नाम मूल भाषा चाहे जो हो, लैटिन या लैटिनीकृत होते हैं।"
+  },
+  "image": null,
+  "subTopic": "Latinisation",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Who is associated with the binomial naming system described in NCERT?",
+   "HI": "NCERT में वर्णित द्विपद नामकरण पद्धति किससे संबंधित है?"
+  },
+  "options": {
+   "EN": [
+    "R. H. Whittaker",
+    "Carolus Linnaeus",
+    "W. M. Stanley",
+    "T. O. Diener"
+   ],
+   "HI": [
+    "आर. एच. व्हिटेकर",
+    "कैरोलस लिनियस",
+    "डब्ल्यू. एम. स्टैनले",
+    "टी. ओ. डीनर"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Linnaeus is associated with the two-component naming system.",
+   "HI": "लिनियस दो घटकों वाली नामकरण पद्धति से संबंधित हैं।"
+  },
+  "image": null,
+  "subTopic": "Binomial system",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which code abbreviation is associated with zoological nomenclature?",
+   "HI": "प्राणी नामकरण से संबंधित संहिता का संक्षिप्त रूप कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "ICBN",
+    "ICZN",
+    "IUCN",
+    "NTA"
+   ],
+   "HI": [
+    "ICBN",
+    "ICZN",
+    "IUCN",
+    "NTA"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "ICZN stands for International Code of Zoological Nomenclature.",
+   "HI": "ICZN अंतरराष्ट्रीय प्राणी नामकरण संहिता का संक्षिप्त रूप है।"
+  },
+  "image": null,
+  "subTopic": "Nomenclature codes",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which operation attaches an established name to a specimen after recognising its identity?",
+   "HI": "नमूने की पहचान स्पष्ट होने के बाद उसे स्थापित नाम देने की प्रक्रिया कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Metabolism",
+    "Nomenclature",
+    "Fragmentation",
+    "Fertilisation"
+   ],
+   "HI": [
+    "उपापचय",
+    "नामकरण",
+    "खंडन",
+    "निषेचन"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Nomenclature assigns names; identification establishes which organism is being named.",
+   "HI": "नामकरण नाम देता है; पहचान निर्धारित करती है कि किस जीव को नाम दिया जा रहा है।"
+  },
+  "image": null,
+  "subTopic": "Taxonomic sequence",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which is a complete binomial rather than a specific epithet alone?",
+   "HI": "केवल जाति विशेषण के बजाय पूर्ण द्विपद नाम कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "indica",
+    "tigris",
+    "Panthera leo",
+    "leo"
+   ],
+   "HI": [
+    "indica",
+    "tigris",
+    "Panthera leo",
+    "leo"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "A binomial includes both the genus and the specific epithet.",
+   "HI": "द्विपद नाम में वंश और जाति विशेषण दोनों होते हैं।"
+  },
+  "image": null,
+  "subTopic": "Species names",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Solanum tuberosum and Solanum melongena must share which of the following?",
+   "HI": "Solanum tuberosum और Solanum melongena में निम्न में से क्या समान होना चाहिए?"
+  },
+  "options": {
+   "EN": [
+    "Neither genus nor family",
+    "Only kingdom and no lower category",
+    "Specific epithet, but not genus",
+    "Genus, but not species"
+   ],
+   "HI": [
+    "न वंश, न कुल",
+    "केवल जगत, कोई निम्न श्रेणी नहीं",
+    "जाति विशेषण, पर वंश नहीं",
+    "वंश, पर जाति नहीं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Both belong to Solanum but have different specific epithets and represent different species.",
+   "HI": "दोनों Solanum वंश के हैं, पर भिन्न जाति विशेषण अलग जातियाँ दर्शाते हैं।"
+  },
+  "image": null,
+  "subTopic": "Shared genus",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair consists of two genera placed in Felidae in the NCERT example?",
+   "HI": "NCERT के उदाहरण में फेलिडी कुल के दो वंशों की जोड़ी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Panthera and Felis",
+    "Felidae and Canidae",
+    "Panthera and Canidae",
+    "Felis and Carnivora"
+   ],
+   "HI": [
+    "Panthera और Felis",
+    "Felidae और Canidae",
+    "Panthera और Canidae",
+    "Felis और Carnivora"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Panthera and Felis are genera; Felidae is their family in this example.",
+   "HI": "Panthera और Felis वंश हैं; इस उदाहरण में उनका कुल Felidae है।"
+  },
+  "image": null,
+  "subTopic": "Genus and family",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which set contains only genera assigned to Solanaceae in NCERT?",
+   "HI": "किस समूह में केवल NCERT के सोलेनेसी कुल के वंश हैं?"
+  },
+  "options": {
+   "EN": [
+    "Petunia, Homo, Datura",
+    "Solanum, Mangifera, Triticum",
+    "Solanum, Petunia, Datura",
+    "Datura, Panthera, Musca"
+   ],
+   "HI": [
+    "Petunia, Homo, Datura",
+    "Solanum, Mangifera, Triticum",
+    "Solanum, Petunia, Datura",
+    "Datura, Panthera, Musca"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Solanum, Petunia and Datura are the three cited genera of Solanaceae.",
+   "HI": "Solanum, Petunia और Datura सोलेनेसी के दिए गए तीन वंश हैं।"
+  },
+  "image": null,
+  "subTopic": "Plant family",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "At which rank are Felidae and Canidae grouped together as Carnivora?",
+   "HI": "Felidae और Canidae को Carnivora के अंतर्गत किस स्तर पर रखा जाता है?"
+  },
+  "options": {
+   "EN": [
+    "Family",
+    "Order",
+    "Species",
+    "Genus"
+   ],
+   "HI": [
+    "कुल",
+    "गण",
+    "जाति",
+    "वंश"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Carnivora is an order containing these distinct families.",
+   "HI": "Carnivora एक गण है जिसमें ये अलग-अलग कुल शामिल हैं।"
+  },
+  "image": null,
+  "subTopic": "Order membership",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Primata and Carnivora are grouped together at which named category?",
+   "HI": "Primata और Carnivora किस नामित श्रेणी में एक साथ आते हैं?"
+  },
+  "options": {
+   "EN": [
+    "Canidae",
+    "Homo",
+    "Felidae",
+    "Mammalia"
+   ],
+   "HI": [
+    "Canidae",
+    "Homo",
+    "Felidae",
+    "Mammalia"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Mammalia is the class containing both orders in NCERT.",
+   "HI": "NCERT में Mammalia वह वर्ग है जिसमें दोनों गण शामिल हैं।"
+  },
+  "image": null,
+  "subTopic": "Class membership",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which plant taxonomic rank corresponds to phylum in the hierarchy presented in NCERT?",
+   "HI": "NCERT के पदानुक्रम में प्राणियों के संघ के अनुरूप पादप श्रेणी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Family",
+    "Genus",
+    "Division",
+    "Order"
+   ],
+   "HI": [
+    "कुल",
+    "वंश",
+    "विभाग",
+    "गण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "NCERT uses division for the plant rank corresponding to phylum.",
+   "HI": "NCERT पादपों में संघ के अनुरूप स्तर के लिए विभाग शब्द उपयोग करती है।"
+  },
+  "image": null,
+  "subTopic": "Plant ranks",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Select the ascending sequence of the four ranks.",
+   "HI": "चार श्रेणियों का आरोही क्रम चुनिए।"
+  },
+  "options": {
+   "EN": [
+    "Genus → species → order → family",
+    "Order → family → genus → species",
+    "Species → genus → family → order",
+    "Family → genus → species → order"
+   ],
+   "HI": [
+    "वंश → जाति → गण → कुल",
+    "गण → कुल → वंश → जाति",
+    "जाति → वंश → कुल → गण",
+    "कुल → वंश → जाति → गण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Ascending order moves from a narrower category to broader categories.",
+   "HI": "आरोही क्रम संकीर्ण श्रेणी से व्यापक श्रेणियों की ओर जाता है।"
+  },
+  "image": null,
+  "subTopic": "Hierarchy",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which rank completes species → genus → ___ → order?",
+   "HI": "जाति → वंश → ___ → गण में रिक्त श्रेणी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Family",
+    "Kingdom",
+    "Phylum",
+    "Class"
+   ],
+   "HI": [
+    "कुल",
+    "जगत",
+    "संघ",
+    "वर्ग"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Family lies between genus and order in the standard hierarchy.",
+   "HI": "मानक पदानुक्रम में कुल, वंश और गण के बीच होता है।"
+  },
+  "image": null,
+  "subTopic": "Missing rank",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which pair correctly matches a rank with a named taxon at that rank?",
+   "HI": "कौन-सी जोड़ी श्रेणी और उस स्तर के नामित वर्गक का सही मिलान है?"
+  },
+  "options": {
+   "EN": [
+    "Family — Panthera",
+    "Order — sapiens",
+    "Genus — Chordata",
+    "Class — Mammalia"
+   ],
+   "HI": [
+    "कुल — Panthera",
+    "गण — sapiens",
+    "वंश — Chordata",
+    "वर्ग — Mammalia"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Mammalia is a taxon at class rank; Panthera is a genus and Chordata a phylum.",
+   "HI": "Mammalia वर्ग स्तर का वर्गक है; Panthera वंश और Chordata संघ है।"
+  },
+  "image": null,
+  "subTopic": "Rank versus taxon",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Two organisms are assigned to different orders of the same class. Which shared rank is still guaranteed?",
+   "HI": "दो जीव एक ही वर्ग के अलग-अलग गणों में हैं। कौन-सा स्तर फिर भी समान होना निश्चित है?"
+  },
+  "options": {
+   "EN": [
+    "Genus",
+    "Species",
+    "Family",
+    "Phylum"
+   ],
+   "HI": [
+    "वंश",
+    "जाति",
+    "कुल",
+    "संघ"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Members of one class share its higher phylum; different orders do not share a family in this hierarchy.",
+   "HI": "एक वर्ग के सदस्य उसका उच्चतर संघ साझा करते हैं; इस पदानुक्रम में अलग गणों का कुल समान नहीं होता।"
+  },
+  "image": null,
+  "subTopic": "Hierarchy implications",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which family–order pair is assigned to humans in NCERT Table 1.1?",
+   "HI": "NCERT तालिका 1.1 में मानव का कुल–गण युग्म कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Hominidae — Primata",
+    "Felidae — Carnivora",
+    "Muscidae — Diptera",
+    "Poaceae — Poales"
+   ],
+   "HI": [
+    "Hominidae — Primata",
+    "Felidae — Carnivora",
+    "Muscidae — Diptera",
+    "Poaceae — Poales"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "The human entry places Homo sapiens in Hominidae and Primata.",
+   "HI": "मानव की प्रविष्टि Homo sapiens को Hominidae कुल और Primata गण में रखती है।"
+  },
+  "image": null,
+  "subTopic": "Taxonomic table",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which row correctly classifies Musca domestica?",
+   "HI": "Musca domestica का सही वर्गीकरण कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Poaceae; Poales; Monocotyledonae",
+    "Felidae; Carnivora; Mammalia",
+    "Muscidae; Diptera; Insecta",
+    "Hominidae; Primata; Mammalia"
+   ],
+   "HI": [
+    "Poaceae; Poales; Monocotyledonae",
+    "Felidae; Carnivora; Mammalia",
+    "Muscidae; Diptera; Insecta",
+    "Hominidae; Primata; Mammalia"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Housefly belongs to family Muscidae, order Diptera and class Insecta.",
+   "HI": "घरेलू मक्खी Muscidae कुल, Diptera गण और Insecta वर्ग की है।"
+  },
+  "image": null,
+  "subTopic": "Housefly classification",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which family–order pair belongs to mango in the supplied NCERT table?",
+   "HI": "दी गई NCERT तालिका में आम का कुल–गण युग्म कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Solanaceae — Poales",
+    "Poaceae — Sapindales",
+    "Muscidae — Diptera",
+    "Anacardiaceae — Sapindales"
+   ],
+   "HI": [
+    "Solanaceae — Poales",
+    "Poaceae — Sapindales",
+    "Muscidae — Diptera",
+    "Anacardiaceae — Sapindales"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Mangifera indica is listed under Anacardiaceae and Sapindales.",
+   "HI": "Mangifera indica को Anacardiaceae और Sapindales में रखा गया है।"
+  },
+  "image": null,
+  "subTopic": "Mango classification",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which binomial and family are correctly paired for wheat?",
+   "HI": "गेहूँ के लिए सही द्विपद नाम और कुल की जोड़ी कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Triticum aestivum — Poaceae",
+    "Solanum tuberosum — Anacardiaceae",
+    "Mangifera indica — Poaceae",
+    "Triticum aestivum — Solanaceae"
+   ],
+   "HI": [
+    "Triticum aestivum — Poaceae",
+    "Solanum tuberosum — Anacardiaceae",
+    "Mangifera indica — Poaceae",
+    "Triticum aestivum — Solanaceae"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "NCERT lists wheat as Triticum aestivum of family Poaceae.",
+   "HI": "NCERT गेहूँ को Poaceae कुल का Triticum aestivum बताती है।"
+  },
+  "image": null,
+  "subTopic": "Wheat classification",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "In Table 1.1, mango and wheat have different classes but share which division?",
+   "HI": "तालिका 1.1 में आम और गेहूँ के वर्ग अलग हैं, पर कौन-सा विभाग समान है?"
+  },
+  "options": {
+   "EN": [
+    "Mammalia",
+    "Angiospermae",
+    "Chordata",
+    "Arthropoda"
+   ],
+   "HI": [
+    "Mammalia",
+    "Angiospermae",
+    "Chordata",
+    "Arthropoda"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "The table assigns both plants to Angiospermae, despite their different classes.",
+   "HI": "तालिका में वर्ग अलग होने पर भी दोनों पादप Angiospermae विभाग में हैं।"
+  },
+  "image": null,
+  "subTopic": "Comparing plant categories",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which set contains all four basic processes of taxonomy listed in NCERT?",
+   "HI": "NCERT में दी गई वर्गिकी की चार मूल प्रक्रियाओं का पूरा समूह कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Respiration, digestion, excretion, circulation",
+    "Growth, budding, fission, fragmentation",
+    "Pollination, fertilisation, germination, dispersal",
+    "Characterisation, identification, classification, nomenclature"
+   ],
+   "HI": [
+    "श्वसन, पाचन, उत्सर्जन, परिसंचरण",
+    "वृद्धि, मुकुलन, विखंडन, खंडन",
+    "परागण, निषेचन, अंकुरण, प्रकीर्णन",
+    "लक्षण-वर्णन, पहचान, वर्गीकरण, नामकरण"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "These four taxonomic processes describe, recognise, group and name organisms.",
+   "HI": "ये चार प्रक्रियाएँ जीवों का वर्णन, पहचान, समूहकरण और नामकरण करती हैं।"
+  },
+  "image": null,
+  "subTopic": "Taxonomic operations",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "The earliest human groupings of organisms were largely based on which consideration?",
+   "HI": "मनुष्यों द्वारा जीवों का प्रारंभिक समूहकरण मुख्यतः किस आधार पर था?"
+  },
+  "options": {
+   "EN": [
+    "Their uses for human needs",
+    "Molecular clocks",
+    "DNA sequence similarity",
+    "Chromosome banding"
+   ],
+   "HI": [
+    "मानव आवश्यकताओं में उनके उपयोग",
+    "आणविक घड़ियाँ",
+    "DNA अनुक्रम की समानता",
+    "गुणसूत्र पट्टन"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Early groupings reflected uses such as food, clothing and shelter.",
+   "HI": "प्रारंभिक समूहकरण भोजन, वस्त्र और आश्रय जैसे उपयोगों पर आधारित था।"
+  },
+  "image": null,
+  "subTopic": "Early classification",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Systema Naturae is associated with which scientist?",
+   "HI": "Systema Naturae किस वैज्ञानिक की कृति है?"
+  },
+  "options": {
+   "EN": [
+    "Whittaker",
+    "Linnaeus",
+    "Darwin",
+    "Diener"
+   ],
+   "HI": [
+    "व्हिटेकर",
+    "लिनियस",
+    "डार्विन",
+    "डीनर"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Linnaeus used Systema Naturae as the title of his publication.",
+   "HI": "लिनियस ने अपनी कृति का शीर्षक Systema Naturae रखा था।"
+  },
+  "image": null,
+  "subTopic": "Systematics history",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A unicellular alga divides into two independent cells. Why do growth and reproduction coincide here?",
+   "HI": "एक एककोशिकीय शैवाल दो स्वतंत्र कोशिकाओं में विभाजित होता है। यहाँ वृद्धि और जनन साथ क्यों होते हैं?"
+  },
+  "options": {
+   "EN": [
+    "No new individual forms",
+    "Only body mass increases",
+    "An increase in cell number also increases organism number",
+    "Division requires a multicellular embryo"
+   ],
+   "HI": [
+    "नया जीव नहीं बनता",
+    "केवल शरीर का द्रव्यमान बढ़ता है",
+    "कोशिका संख्या बढ़ने से जीवों की संख्या भी बढ़ती है",
+    "विभाजन के लिए बहुकोशिकीय भ्रूण चाहिए"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "In unicellular organisms, each independent cell is an organism.",
+   "HI": "एककोशिकीय जीवों में प्रत्येक स्वतंत्र कोशिका एक जीव होती है।"
+  },
+  "image": null,
+  "subTopic": "Unicellular growth",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which pair can multiply by budding in the NCERT examples?",
+   "HI": "NCERT के उदाहरणों में कौन-सी जोड़ी मुकुलन द्वारा संख्या बढ़ा सकती है?"
+  },
+  "options": {
+   "EN": [
+    "Tiger and lion",
+    "Yeast and Hydra",
+    "Diatomaceous earth and sand",
+    "Mango and wheat"
+   ],
+   "HI": [
+    "बाघ और सिंह",
+    "यीस्ट और हाइड्रा",
+    "डायटमी मिट्टी और रेत",
+    "आम और गेहूँ"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "Yeast and Hydra illustrate budding; the other pairs do not fit this example.",
+   "HI": "यीस्ट और हाइड्रा मुकुलन के उदाहरण हैं; अन्य जोड़ियाँ इस उदाहरण से मेल नहीं खातीं।"
+  },
+  "image": null,
+  "subTopic": "Reproductive modes",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A Planaria fragment restores missing parts and becomes a complete individual. What does this example demonstrate?",
+   "HI": "प्लेनेरिया का खंड खोए भाग बनाकर पूर्ण जीव बन जाता है। यह क्या दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "Formation of a viral capsid",
+    "Surface accumulation of inert matter",
+    "Pollination",
+    "Regeneration producing a new individual"
+   ],
+   "HI": [
+    "विषाणु कैप्सिड का निर्माण",
+    "निर्जीव पदार्थ का सतही संचय",
+    "परागण",
+    "नया जीव बनाने वाला पुनर्जनन"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "NCERT uses Planaria to illustrate regeneration into a new organism.",
+   "HI": "NCERT प्लेनेरिया द्वारा नए जीव के रूप में पुनर्जनन का उदाहरण देती है।"
+  },
+  "image": null,
+  "subTopic": "Regeneration",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which description includes the full meaning of metabolism?",
+   "HI": "उपापचय का संपूर्ण अर्थ कौन-सा है?"
+  },
+  "options": {
+   "EN": [
+    "Only energy-releasing reactions",
+    "Only digestion of food",
+    "The sum of chemical reactions in an organism",
+    "Only synthesis of proteins"
+   ],
+   "HI": [
+    "केवल ऊर्जा मुक्त करने वाली अभिक्रियाएँ",
+    "केवल भोजन का पाचन",
+    "जीव में होने वाली सभी रासायनिक अभिक्रियाओं का योग",
+    "केवल प्रोटीन संश्लेषण"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "Metabolism includes all chemical conversions, not a single process or reaction class.",
+   "HI": "उपापचय में सभी रासायनिक परिवर्तन शामिल हैं, केवल एक प्रक्रिया या अभिक्रिया प्रकार नहीं।"
+  },
+  "image": null,
+  "subTopic": "Metabolic scope",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "A tissue exhibits a property absent from its isolated constituent cells. Which explanation fits NCERT?",
+   "HI": "ऊतक में ऐसा गुण मिलता है जो उसकी पृथक कोशिकाओं में नहीं मिलता। उचित व्याख्या कौन-सी है?"
+  },
+  "options": {
+   "EN": [
+    "Interactions among cells generate an emergent property",
+    "The property must come from a non-living surface deposit",
+    "All cellular interactions have ceased",
+    "The tissue contains no cells"
+   ],
+   "HI": [
+    "कोशिकीय अंतःक्रियाओं से नया गुण उभरता है",
+    "गुण निर्जीव सतही जमाव से ही आता है",
+    "सभी कोशिकीय अंतःक्रियाएँ रुक गई हैं",
+    "ऊतक में कोशिकाएँ नहीं हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Higher organisational properties can arise from interactions among components.",
+   "HI": "उच्च संगठन स्तर के गुण घटकों की अंतःक्रियाओं से उभर सकते हैं।"
+  },
+  "image": null,
+  "subTopic": "Emergent properties",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Which statement is consistent with the breadth of environmental responses described in NCERT?",
+   "HI": "NCERT में वर्णित पर्यावरणीय प्रतिक्रियाओं की व्यापकता से कौन-सा कथन मेल खाता है?"
+  },
+  "options": {
+   "EN": [
+    "Plants cannot respond to chemicals",
+    "Only multicellular organisms respond",
+    "Only animals with brains respond",
+    "Both prokaryotes and eukaryotes can respond to environmental cues"
+   ],
+   "HI": [
+    "पादप रसायनों पर प्रतिक्रिया नहीं कर सकते",
+    "केवल बहुकोशिकीय जीव प्रतिक्रिया करते हैं",
+    "केवल मस्तिष्क वाले प्राणी प्रतिक्रिया करते हैं",
+    "प्रोकैरियोट और यूकैरियोट दोनों पर्यावरणीय संकेतों पर प्रतिक्रिया कर सकते हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Sensing and responding are not restricted to organisms with nervous systems.",
+   "HI": "संवेदन और प्रतिक्रिया केवल तंत्रिका तंत्र वाले जीवों तक सीमित नहीं हैं।"
+  },
+  "image": null,
+  "subTopic": "Responses to stimuli",
+  "type": "ncert-recall"
+ },
+ {
+  "question": {
+   "EN": "Which comparison of growth by cell division is stated for plants and animals?",
+   "HI": "पादपों और प्राणियों में कोशिका विभाजन द्वारा वृद्धि की कौन-सी तुलना दी गई है?"
+  },
+  "options": {
+   "EN": [
+    "Both stop all cell division after birth",
+    "Plants can grow throughout life; overall animal growth is generally limited to a certain age",
+    "Animals grow throughout life but plants never grow",
+    "Neither can replace cells"
+   ],
+   "HI": [
+    "दोनों जन्म के बाद सभी कोशिका विभाजन रोक देते हैं",
+    "पादप जीवनभर बढ़ सकते हैं; प्राणियों की समग्र वृद्धि सामान्यतः एक आयु तक सीमित है",
+    "प्राणी जीवनभर बढ़ते हैं, पादप कभी नहीं",
+    "दोनों कोशिकाएँ प्रतिस्थापित नहीं कर सकते"
+   ]
+  },
+  "correct": 1,
+  "explanation": {
+   "EN": "NCERT distinguishes continuing plant growth from age-limited overall animal growth; tissue replacement can still continue in animals.",
+   "HI": "NCERT सतत पादप वृद्धि और आयु-सीमित समग्र प्राणी वृद्धि में अंतर बताती है; प्राणियों में ऊतक प्रतिस्थापन फिर भी जारी रह सकता है।"
+  },
+  "image": null,
+  "subTopic": "Growth patterns",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "If two specimens belong to the same species, which sequence of shared higher ranks follows?",
+   "HI": "यदि दो नमूने एक ही जाति के हैं, तो कौन-सी उच्चतर श्रेणियाँ भी समान होंगी?"
+  },
+  "options": {
+   "EN": [
+    "Only family, never order",
+    "Only order, never genus",
+    "No higher rank is necessarily shared",
+    "Genus, family and order"
+   ],
+   "HI": [
+    "केवल कुल, गण कभी नहीं",
+    "केवल गण, वंश कभी नहीं",
+    "कोई उच्चतर श्रेणी अनिवार्यतः समान नहीं",
+    "वंश, कुल और गण"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "Within the hierarchy, a species is nested within a genus, family and order.",
+   "HI": "पदानुक्रम में जाति एक वंश, कुल और गण के अंतर्गत आती है।"
+  },
+  "image": null,
+  "subTopic": "Taxonomic inclusiveness",
+  "type": "application"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Growth is a defining property exclusive to living organisms. Reason: Non-living objects such as mountains and boulders can also increase in mass.",
+   "HI": "अभिकथन: वृद्धि केवल सजीवों की परिभाषित विशेषता है। कारण: पर्वत और शिलाखंड जैसी निर्जीव वस्तुएं भी द्रव्यमान में वृद्धि कर सकती हैं।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 3,
+  "explanation": {
+   "EN": "The assertion is false: NCERT explicitly states growth cannot be taken as a defining property since non-living objects also grow (by surface deposition); the reason is true on its own but cannot explain a false assertion.",
+   "HI": "अभिकथन असत्य है: NCERT स्पष्ट रूप से कहता है कि वृद्धि को परिभाषित गुण नहीं माना जा सकता क्योंकि निर्जीव वस्तुएं भी बढ़ती हैं (सतह पर निक्षेपण द्वारा); कारण स्वयं सत्य है परंतु असत्य अभिकथन की व्याख्या नहीं कर सकता।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Reproduction cannot be an all-inclusive defining feature of living organisms. Reason: Mules and sterile worker bees do not reproduce.",
+   "HI": "अभिकथन: जनन सजीवों की एक सर्वसमावेशी परिभाषित विशेषता नहीं हो सकती। कारण: खच्चर और बांझ श्रमिक मधुमक्खियां जनन नहीं करतीं।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 0,
+  "explanation": {
+   "EN": "Both are true, and NCERT uses exactly this example to show reproduction is not all-inclusive, since some living organisms do not reproduce.",
+   "HI": "दोनों सत्य हैं, और NCERT ठीक इसी उदाहरण से दिखाता है कि जनन सर्वसमावेशी नहीं है, क्योंकि कुछ सजीव जनन नहीं करते।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Metabolism is considered a defining feature of all living organisms. Reason: Isolated metabolic reactions performed in a test tube outside the body are themselves considered living.",
+   "HI": "अभिकथन: उपापचय को सभी सजीवों की एक परिभाषित विशेषता माना जाता है। कारण: शरीर के बाहर परखनली में की गई पृथक उपापचयी अभिक्रियाएं स्वयं सजीव मानी जाती हैं।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The assertion is true, but the reason is false: NCERT states isolated metabolic reactions in vitro are 'not living things but surely living reactions'.",
+   "HI": "अभिकथन सत्य है, परंतु कारण असत्य है: NCERT कहता है कि पृथक उपापचयी अभिक्रियाएं 'सजीव वस्तुएं नहीं हैं परंतु निश्चित रूप से सजीव अभिक्रियाएं हैं'।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Assertion: Taxonomic categories such as kingdom, phylum and species together constitute the taxonomic hierarchy. Reason: As one moves from species to kingdom, the number of common characteristics shared by members increases.",
+   "HI": "अभिकथन: जगत, संघ और जाति जैसी वर्गीकरण श्रेणियां मिलकर वर्गीकरण पदानुक्रम बनाती हैं। कारण: जाति से जगत की ओर बढ़ने पर, सदस्यों में साझा सामान्य लक्षणों की संख्या बढ़ती है।"
+  },
+  "options": {
+   "EN": [
+    "Both assertion and reason are true, and reason is the correct explanation",
+    "Both assertion and reason are true, but reason is not the correct explanation",
+    "Assertion is true, but reason is false",
+    "Both assertion and reason are false"
+   ],
+   "HI": [
+    "अभिकथन और कारण दोनों सत्य हैं, और कारण सही व्याख्या है",
+    "अभिकथन और कारण दोनों सत्य हैं, परंतु कारण सही व्याख्या नहीं है",
+    "अभिकथन सत्य है, परंतु कारण असत्य है",
+    "अभिकथन और कारण दोनों असत्य हैं"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The assertion is true, but the reason is false: NCERT states the number of common characteristics goes on decreasing as one moves from species to kingdom, not increasing.",
+   "HI": "अभिकथन सत्य है, परंतु कारण असत्य है: NCERT कहता है कि जाति से जगत की ओर बढ़ने पर साझा सामान्य लक्षणों की संख्या घटती है, बढ़ती नहीं।"
+  },
+  "image": null,
+  "type": "assertion-reason",
+  "subTopic": "Mixed review"
+ },
+ {
+  "question": {
+   "EN": "Which of the following represents the correct ascending order of taxonomic categories?",
+   "HI": "निम्नलिखित में से कौन सा वर्गीकरण श्रेणियों का सही आरोही क्रम दर्शाता है?"
+  },
+  "options": {
+   "EN": [
+    "Species → Order → Phylum → Kingdom",
+    "Genus → Species → Order → Kingdom",
+    "Species → Genus → Family → Phylum",
+    "Order → Family → Genus → Species"
+   ],
+   "HI": [
+    "जाति → गण → संघ → जगत",
+    "वंश → जाति → गण → जगत",
+    "जाति → वंश → कुल → संघ",
+    "गण → कुल → वंश → जाति"
+   ]
+  },
+  "correct": 2,
+  "explanation": {
+   "EN": "The correct ascending hierarchy is species, genus, family, order, class, phylum, kingdom; option 3 correctly follows this partial sequence.",
+   "HI": "सही आरोही पदानुक्रम है जाति, वंश, कुल, गण, वर्ग, संघ, जगत; विकल्प 3 इस आंशिक क्रम का सही पालन करता है।"
+  },
+  "image": null,
+  "type": "previous-year-pattern",
+  "subTopic": "Mixed review"
+ }
+]
